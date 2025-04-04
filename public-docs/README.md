@@ -24,7 +24,7 @@ layout:
 
 
 
-check out dev docs [Setup Guide]([main/dev-docs/getting-started/setup-guide.md](https://github.com/john-gitbook/sections-monorepo/blob/main/dev-docs/getting-started/setup-guide.md)) - update 1
+check out dev docs [Setup Guide](https://github.com/john-gitbook/sections-monorepo/blob/main/dev-docs/getting-started/setup-guide.md) - update 2
 
 check out dev docs [Setup Guide](https://app.gitbook.com/s/XFH6cpzE2ZjZpRFhVpSn/getting-started/setup-guide) - written in UI linking to other space
 
