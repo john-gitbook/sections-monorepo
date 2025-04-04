@@ -17,11 +17,30 @@ layout:
 ---
 
 # Welcome
+
+
+
+
+
+
+
 check out dev docs [Setup Guide](dev-docs/getting-started/setup-guide.md)
 
+check out dev docs [Setup Guide](https://app.gitbook.com/s/XFH6cpzE2ZjZpRFhVpSn/getting-started/setup-guide) - written in UI linking to other space
+
+check out dev docs [Setup Guide](https://app.gitbook.com/s/XFH6cpzE2ZjZpRFhVpSn/getting-started/setup-guide) - written in UI linking directly to page's GitBook app url
+
+check out dev docs [Setup Guide](https://john-example.gitbook.io/john-example-docs/getting-started/setup-guide) - written in UI linking to published URL
+
+
+
+
+
+
+
+
+
 We want to help **teams to work more efficiently** with a simple but powerful platform that helps them **share their knowledge**.
-
-
 
 ### Discover GitBook
 
