@@ -17,6 +17,7 @@ layout:
 ---
 
 # Welcome
+check out dev docs [Setup Guide](dev-docs/getting-started/setup-guide.md)
 
 We want to help **teams to work more efficiently** with a simple but powerful platform that helps them **share their knowledge**.
 
