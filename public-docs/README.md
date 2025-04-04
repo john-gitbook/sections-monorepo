@@ -24,7 +24,7 @@ layout:
 
 
 
-check out dev docs [Setup Guide](dev-docs/getting-started/setup-guide.md)
+check out dev docs [Setup Guide](main/dev-docs/getting-started/setup-guide.md)
 
 check out dev docs [Setup Guide](https://app.gitbook.com/s/XFH6cpzE2ZjZpRFhVpSn/getting-started/setup-guide) - written in UI linking to other space
 
