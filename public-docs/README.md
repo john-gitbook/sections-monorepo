@@ -24,7 +24,7 @@ layout:
 
 
 
-check out dev docs [Setup Guide](../dev-docs/getting-started/setup-guide.md) - written in GitHub linking to other space in the monorepo
+check out dev docs [Setup Guide](../dev-docs/getting-started/setup-guide.md) - written in GitHub linking to other space in the monorepo..
 
 check out dev docs [Setup Guide](https://app.gitbook.com/s/XFH6cpzE2ZjZpRFhVpSn/getting-started/setup-guide) - written in UI linking to other space
 
