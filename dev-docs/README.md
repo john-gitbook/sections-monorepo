@@ -7,7 +7,7 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
-The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
+`The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.`
 
 Hello world! This is a new line
 

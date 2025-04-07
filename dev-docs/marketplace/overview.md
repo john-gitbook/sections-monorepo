@@ -9,7 +9,7 @@ When using GitBook, you're able to search through a [library of public integrati
 
 From embedded sites, to analytic tools, to enhanced ways to display data, our library of integrations is always growing.&#x20;
 
-You're able to access any public integration from our [website](https://www.gitbook.com/integrations), or directly in the app when writing a new page.
+`You're able to access any public integration from our` [`website`](https://www.gitbook.com/integrations)`, or directly in the app when writing a new page.`
 
 <figure><img src="broken-reference" alt=""><figcaption><p>The integration marketplace in GitBook</p></figcaption></figure>
 
