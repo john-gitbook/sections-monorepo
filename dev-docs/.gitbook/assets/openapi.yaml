@@ -39,7 +39,7 @@ paths:
   /search:
     get:
       operationId: searchContent
-      summary: Search content across spaces that is accessible by the currently authenticated target. Hello World!
+      summary: Search content across spaces that is accessible by the currently authenticated target. Hi there!
       tags:
         - search
       security:
