@@ -32,6 +32,15 @@ links:
 * [link on a bullet](https://linear.app/gitbook-x/issue/RND-5414/next-image-route-can-be-used-for-ssrf#comment-f5f92546)
 * [Broken link](broken-reference "mention")&#x20;
 
+<details>
+
+<summary>hello</summary>
+
+1. [#getting-started](./#getting-started "mention")
+2. [setup-guide.md](getting-started/setup-guide.md "mention")
+
+</details>
+
 
 
 1. [#getting-started](./#getting-started "mention")
