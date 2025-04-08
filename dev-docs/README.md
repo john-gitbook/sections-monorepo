@@ -25,6 +25,17 @@ links:
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
+<details>
+
+<summary>Links</summary>
+
+[linear](https://linear.app)&#x20;
+
+* [#api-endpoint](gitbook-api/overview.md#api-endpoint "mention")
+* [Quickstart](https://app.gitbook.com/s/ReQrbahl4t0FhE2uFK1z/getting-started/quickstart "mention")
+
+</details>
+
 
 
 [Link 1](https://linear.app/gitbook-x/issue/RND-5414/next-image-route-can-be-used-for-ssrf#comment-f5f92546)
