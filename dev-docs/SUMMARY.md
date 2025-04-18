@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Developer Documentation](README.md)
+* [Developer Docs](README.md)
 * [Setup Guide](getting-started/setup-guide.md)
 * [Concepts](getting-started/concepts.md)
 * [Development](getting-started/development.md)
