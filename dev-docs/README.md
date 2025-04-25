@@ -5,7 +5,7 @@ description: >-
 icon: truck-monster
 ---
 
-# Developer Documentation 123
+# Developer Documentation
 
 `The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.`
 
