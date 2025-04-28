@@ -24,7 +24,7 @@ links:
 
 This documentation provides all the information needed to start using the **GitBook API**, start building **Custom Blocks** and **Integrations** or learn more about **Visitor Authentication**.
 
-Dive into our [Setup guide](getting-started/rename-2.md) to begin exploring what you can build.
+Dive into our [Setup guide](gitbook-api/rename-2.md) to begin exploring what you can build.
 
 
 
@@ -36,4 +36,4 @@ Dive into our [Setup guide](getting-started/rename-2.md) to begin exploring what
 
 ### Getting started
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Setup Guide</strong></td><td>Start building your first integration in just a few minutes.</td><td><a href=".gitbook/assets/Setup.svg">Setup.svg</a></td><td><a href="getting-started/rename-2.md">rename-2.md</a></td></tr><tr><td><strong>GitBook Concepts</strong></td><td>Learn about specific concepts when developing GitBook integrations.</td><td><a href=".gitbook/assets/Concepts.svg">Concepts.svg</a></td><td><a href="getting-started/concepts.md">concepts.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Setup Guide</strong></td><td>Start building your first integration in just a few minutes.</td><td><a href=".gitbook/assets/Setup.svg">Setup.svg</a></td><td><a href="gitbook-api/rename-2.md">rename-2.md</a></td></tr><tr><td><strong>GitBook Concepts</strong></td><td>Learn about specific concepts when developing GitBook integrations.</td><td><a href=".gitbook/assets/Concepts.svg">Concepts.svg</a></td><td><a href="getting-started/concepts.md">concepts.md</a></td></tr></tbody></table>

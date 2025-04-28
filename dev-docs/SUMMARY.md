@@ -3,7 +3,6 @@
 ## Getting Started
 
 * [Developer Docs](README.md)
-* [Setup Guide](getting-started/rename-2.md)
 * [Concepts](getting-started/concepts.md)
 * [Development](getting-started/development.md)
 * [Publishing](getting-started/publishing.md)
@@ -15,6 +14,7 @@
 
 ## GitBook API
 
+* [Setup Guide](gitbook-api/rename-2.md)
 * [Overview](gitbook-api/overview.md)
 * [Authentication](gitbook-api/authentication.md)
 * [Rate Limiting](gitbook-api/rate-limiting.md)

@@ -21,7 +21,7 @@ Before you can submit an integration, you'll need to build one! Every great inte
 
 If you're looking for inspiration on what to build next, head to our [community](https://github.com/GitbookIO/community) or explore some already [existing integrations](https://www.gitbook.com/integrations) to spark some creativity.
 
-If you're ready to start building, you can follow our [Setup Guide](../getting-started/rename-2.md) to get started.
+If you're ready to start building, you can follow our [Setup Guide](../gitbook-api/rename-2.md) to get started.
 
 ### Publish your integration
 
