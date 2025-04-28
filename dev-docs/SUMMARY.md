@@ -3,7 +3,7 @@
 ## Getting Started
 
 * [Developer Docs](README.md)
-* [Setup Guide](getting-started/setup-guide.md)
+* [Setup Guide](getting-started/rename-1.md)
 * [Concepts](getting-started/concepts.md)
 * [Development](getting-started/development.md)
 * [Publishing](getting-started/publishing.md)
