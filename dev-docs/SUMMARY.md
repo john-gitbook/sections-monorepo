@@ -101,3 +101,6 @@
 
 * [Page 1](page-1/README.md)
   * [Page 2](page-1/page-2.md)
+* [Page 4](page-4.md)
+* [Parent Page](parent-page/README.md)
+  * [This is a subpage](parent-page/this-is-a-subpage.md)
