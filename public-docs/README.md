@@ -1,31 +1,16 @@
 ---
-description: >-
-  GitBook is a platform for capturing and documenting technical knowledge — from
-  product docs, to internal knowledge bases and APIs.
-icon: hand-wave
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+description: Publish and share your content with internal or external audiences.
+icon: bullseye-arrow
 ---
 
-# Welcome
+# Overview
 
-We want to help **teams to work more efficiently** with a simple but powerful platform that helps them **share their knowledge**.
+When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
-### Discover GitBook
+Below we’ll explain how to publish your content as a docs site, and invite teammates and users to collaborate on editing your content.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Content editor</strong></td><td>Edit pages, collections, content, and more in GitBook.</td><td></td><td><a href=".gitbook/assets/content-editor.png">content-editor.png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Snippets &#x26; insights</strong></td><td>Learn about capturing and refining knowledge in GitBook.</td><td></td><td><a href=".gitbook/assets/snippets-and-insights (2).png">snippets-and-insights (2).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Integrations</strong></td><td>Learn about the tools and workflows you can integrate with.</td><td></td><td><a href=".gitbook/assets/integrations (4).png">integrations (4).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Published documentation</strong></td><td>Discover how to share and customize your content publicly or privately.</td><td></td><td><a href=".gitbook/assets/published-documentation (1).png">published-documentation (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Collaboration</strong></td><td>Learn how to invite and collaborate with your team.</td><td></td><td><a href=".gitbook/assets/collaboration (1).png">collaboration (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Account management</strong></td><td>Manage your organization, account, and billing.</td><td></td><td><a href=".gitbook/assets/account-management (1).png">account-management (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr></tbody></table>
+<figure><img src=".gitbook/assets/public-content.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
 
-### GitBook Product Demo
+### Learn more
 
-{% embed url="https://www.youtube.com/playlist?list=PLZAlnWDc6FDsodH14aMS3eNRoTYMbua6U" %}
-GitBook Product Demo
-{% endembed %}
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Publish a docs site</strong></td><td>Publish your content to the web.</td><td><a href="published-documentation/publish-a-docs-site/">publish-a-docs-site</a></td><td><a href=".gitbook/assets/11.png">11.png</a></td></tr><tr><td><strong>Share your content</strong></td><td>Share your edits or invite others to collaborate.</td><td><a href="collaboration/share/">share</a></td><td><a href=".gitbook/assets/5 (1).png">5 (1).png</a></td></tr><tr><td><strong>Customization</strong></td><td>Customize the look and feel of your published content.</td><td><a href="published-documentation/customization/">customization</a></td><td><a href=".gitbook/assets/9 (1).png">9 (1).png</a></td></tr><tr><td><strong>Set a custom domain</strong></td><td>Set up a custom domain for your published content.</td><td><a href="published-documentation/custom-domain/">custom-domain</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr></tbody></table>
