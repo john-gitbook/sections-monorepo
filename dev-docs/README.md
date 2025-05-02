@@ -9,6 +9,22 @@ icon: rectangle-terminal
 
 The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
 
+{% stepper %}
+{% step %}
+###
+
+info
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+{% endstepper %}
+
 Hello world!
 
 This documentation provides all the information needed to start using the **GitBook API**, start building **Custom Blocks** and **Integrations** or learn more about **Visitor Authentication**.
