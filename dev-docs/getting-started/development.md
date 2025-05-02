@@ -47,7 +47,7 @@ Running this command will generate a `gitbook-dev.yaml` file that contains the `
 
 After successfully starting the development server, you can add your integration to a page in your development GitBook space.
 
-#### Step 3: yes
+#### Step 3: Testing your app during development
 
 In a page within the space you connected your development server to, you should be able to insert your integration from the integrations panel, or from the quick insert menu (⌘ + /).&#x20;
 

@@ -2,7 +2,8 @@
 
 ## Getting Started
 
-* [Developer Docs](README.md)
+* [Developer Documentation](README.md)
+* [Setup Guide](getting-started/setup-guide.md)
 * [Concepts](getting-started/concepts.md)
 * [Development](getting-started/development.md)
 * [Publishing](getting-started/publishing.md)
@@ -14,7 +15,6 @@
 
 ## GitBook API
 
-* [Setup Guide](gitbook-api/rename-2.md)
 * [Overview](gitbook-api/overview.md)
 * [Authentication](gitbook-api/authentication.md)
 * [Rate Limiting](gitbook-api/rate-limiting.md)
@@ -96,11 +96,3 @@
 ## Changelogs
 
 * [API](changelogs/api.md)
-
-***
-
-* [Page 1](page-1/README.md)
-  * [Page 2](page-1/page-2.md)
-* [Page 4](page-4.md)
-* [Parent Page](parent-page/README.md)
-  * [This is a subpage](parent-page/this-is-a-subpage.md)

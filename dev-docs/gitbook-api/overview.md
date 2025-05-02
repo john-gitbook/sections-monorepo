@@ -3,17 +3,6 @@ description: >-
   Leverage the power of GitBook's API to create powerful integrations with your
   favorite tools and services.
 icon: bullseye-arrow
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Overview
