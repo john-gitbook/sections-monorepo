@@ -7,112 +7,12 @@ updatedAt: 2025-05-07T10:30:17.256Z
 
 Multi-source Company data is designed to be used for **s****ales tech, m****arket research, investment, and risk assessment**.
 
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Key | Value |
+|-----|-------|
 | **Save engineering resources** | Our Multi-source company data is cleaned, enriched, filtered, and ready to use. |
-
-
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Comprehensive multi-source dataset** | Multiple sources are integrated to provide a complete company overview. |
-
-
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Optimized file sizes and formats ** | JSONL, Parquet, and CSV formats and smaller file sizes for faster download. |
-
-
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Leverage historical data** | Track changes in company metrics over time with aggregated historical data. |
-
-
-***
-
-## Summary
-
-| Feature            | Details                                                  |
-| ------------------ | -------------------------------------------------------- |
-| Record count       | 39,417,865+                                              |
-| Available via      | Flat files/API                                           |
-| Available formats  | Parquet, JSONL, and CSV                                  |
-| Delivery frequency | Monthly and quarterly                                    |
-| Delivery methods   | Direct download link or file upload to a cloud server.\* |
-
-\* We can provide a link and credentials for you to download the dataset, or we can upload the data directly to your cloud server (S3, Azure, Google Cloud, etc.).
-
-***
-
-## Data overview
-
-The Multi-source Companies dataset contains information from various sources organized into different sections. Here's an overview of what's included in each section:
-
-{% hint style="info" %}
-The data points might differ depending on your chosen data format (API or flat file data).
-{% endhint %}
-
-## Aggregated data: Multi-source company dataset
-
-Currently, we offer one aggregated dataset: the <a href="https://docs.coresignal.com/source-documentation/multi-source-company-dataset" target="_blank">**Multi-source company dataset**</a>. It contains comprehensive profiles of about 35 million global companies.
-
-You can find all the relevant information by following the links below:
-
-::::LinkArray
-:::LinkArrayItem{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/MGWNg74I8iHIMOnqORYtE-k8VdDP_7MiqngxP4-T9yz-20240909-141237.png"}
-### [Data dictionary](https://docs.coresignal.com/source-documentation/multi-source-company-data-dictionary)
-
-Review all data points, their descriptions, and data types
-:::
-
-:::LinkArrayItem{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/MGWNg74I8iHIMOnqORYtE-Lt0n4qDyX3mK7vS1cEzTD-20240909-141247.png"}
-### [Data sample](https://docs.coresignal.com/source-documentation/multi-source-company-data-sample)
-
-Take a closer look at the data sample – review it as a JSON file
-:::
-::::
-
-# Database APIs
-
-Database APIs are an umbrella term for our endpoint clusters, which retrieve Professional Network Employee, Company, and Job posting data.
-
-More information on our APIs:
-
-::::LinkArray
-:::LinkArrayItem{headerImage headerColor}
-### [General information on  Database API](https://docs.coresignal.com/api/database-apis-overview-page)
-:::
-
-:::LinkArrayItem{headerImage headerColor}
-### [General information on Employee API](https://docs.coresignal.com/api/employee-api-overview-page)
-:::
-::::
-
-:::::ExpandableHeading
-## Employee API endpoints
-
-Use Employee API to collect the Professional Network Employee. Follow the links to read about Employee API endpoints:
-
-::::LinkArray
-:::LinkArrayItem{headerImage headerColor}
-### [Search filters endpoint](https://docs.coresignal.com/api/employee-api-search-filters-endpoint)
-:::
-
-:::LinkArrayItem{headerImage headerColor}
-### [Elasticsearch endpoint](https://docs.coresignal.com/api/employee-api-esdsl-endpoint)
-:::
-::::
-:::::
-
-:{% hint style="success" %}
-**Try out the data for free**
-
-Our data speaks for itself, and we are excited to show it to you. 
-
-Once you create your account, you will have 14 days to explore the data.
-{% endhint %}CtaButton{url="https://dashboard.coresignal.com/sign-up" label="Start now"}
-
-:::
-::::
-
-
-
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
 | ## Certified by Ethical Web Data Collection Initiative
 
 Coresignal is a founding member of the Ethical Web Data Collection Initiative (EWDCI), an organization that advocates for responsible web data collection and protection of personal data.
