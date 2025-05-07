@@ -5,15 +5,17 @@ createdAt: 2025-05-05T10:21:54.153Z
 updatedAt: 2025-05-07T10:30:17.256Z
 ---
 
-Multi-source Company data is designed to be used for **s****ales tech, m****arket research, investment, and risk assessment**.
+# Sample
 
-| Key | Value |
-|-----|-------|
-| **Save engineering resources** | Our Multi-source company data is cleaned, enriched, filtered, and ready to use. |
-| **Comprehensive multi-source dataset** | Multiple sources are integrated to provide a complete company overview. |
-| **Optimized file sizes and formats ** | JSONL, Parquet, and CSV formats and smaller file sizes for faster download. |
-| **Leverage historical data** | Track changes in company metrics over time with aggregated historical data. |
-| ## Certified by Ethical Web Data Collection Initiative
+Multi-source Company data is designed to be used for **sales tech, market research, investment, and risk assessment**.
+
+| Key                                                    | Value                                                                           |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| **Save engineering resources**                         | Our Multi-source company data is cleaned, enriched, filtered, and ready to use. |
+| **Comprehensive multi-source dataset**                 | Multiple sources are integrated to provide a complete company overview.         |
+| \*\*Optimized file sizes and formats \*\*              | JSONL, Parquet, and CSV formats and smaller file sizes for faster download.     |
+| **Leverage historical data**                           | Track changes in company metrics over time with aggregated historical data.     |
+| ## Certified by Ethical Web Data Collection Initiative |                                                                                 |
 
 Coresignal is a founding member of the Ethical Web Data Collection Initiative (EWDCI), an organization that advocates for responsible web data collection and protection of personal data.
 
@@ -21,53 +23,52 @@ Coresignal has undergone an accreditation process to confirm that we follow the 
 
 These principles guide Coresignal through every step of data collection – from the data we gather to the partnerships we form with our clients. | ![](https://archbee-image-uploads.s3.amazonaws.com/ncD4eDm2Dzj39qqKM85f5-52bg9Ph4hYhgykRfMiy8b-20241105-115723.png) |
 
-
-::::Tabs
+::::Tabs\
 :::Tab{title="01. Legality"}
 
-
-We only collect publicly available data that companies and individuals disclose to the general public to facilitate their business and profession-related interests. We strive to ensure our employees are well-informed about personal data protection and the latest developments in privacy regulations. We are supported by legal counsels, who provide expert advice on a range of complex legal matters, including privacy.
+We only collect publicly available data that companies and individuals disclose to the general public to facilitate their business and profession-related interests. We strive to ensure our employees are well-informed about personal data protection and the latest developments in privacy regulations. We are supported by legal counsels, who provide expert advice on a range of complex legal matters, including privacy.\
 :::
 
-:::Tab{title="02. Ethics"}
-We follow a strict ethical framework, including ethical principles related to websites, customers, proxies, and data.
+:::Tab{title="02. Ethics"}\
+We follow a strict ethical framework, including ethical principles related to websites, customers, proxies, and data.\
 :::
 
-:::Tab{title="03. Ecosystem"}
-We are in a symbiotic relationship with the free and open Internet ecosystem and strive to engage it collaboratively openly and communicatively.
+:::Tab{title="03. Ecosystem"}\
+We are in a symbiotic relationship with the free and open Internet ecosystem and strive to engage it collaboratively openly and communicatively.\
 :::
 
-:::Tab{title="04. Responsibility"}
-We pledge to support and collaborate with civil society and governmental organizations for societal benefit.
-:::
+:::Tab{title="04. Responsibility"}\
+We pledge to support and collaborate with civil society and governmental organizations for societal benefit.\
+:::\
 ::::
 
-# Overview
+## Overview
 
 Welcome to our dataset documentation. Coresignal offers three main data categories:
 
-- **Company data** – comprehensive global company profiles for sales tech, industry research, investment, or lead enrichment
-- **Employee data **– Up-to-date** **and full** **profiles for recruitment, HR tech, investment, and trend research.
-- **Job posting data **– freshly collected jobs for competitive intelligence and market research.
+* **Company data** – comprehensive global company profiles for sales tech, industry research, investment, or lead enrichment
+* \*\*Employee data **– Up-to-date** **and full** \*\*profiles for recruitment, HR tech, investment, and trend research.
+* \*\*Job posting data \*\*– freshly collected jobs for competitive intelligence and market research.
 
-Contains explanations and examples of all data fields available in the **Glassdoor**** ****Salaries**** **dataset.
+Contains explanations and examples of all data fields available in the **Glassdoor**\*\* **Salaries** \*\*dataset.
 
 {% hint style="info" %}
 All personal/company information mentioned within this context is entirely fictional and is solely intended for illustrative purposes.
 {% endhint %}
 
-::::Tabs
+::::Tabs\
 :::Tab{title="Data points by category"}
-1. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)&#x20;
-2. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)&#x20;
-3. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)&#x20;
-4. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)&#x20;
-:::
-::::
 
-# Metadata
+1. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)
+2. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)
+3. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)
+4. [Data Dictionary](docId:05VpOD4noloTMTpAz0g6K)\
+   :::\
+   ::::
 
-## Record metadata
+## Metadata
+
+### Record metadata
 
 | Data point             | Description                                          | Data type                  |
 | ---------------------- | ---------------------------------------------------- | -------------------------- |
@@ -76,9 +77,9 @@ All personal/company information mentioned within this context is entirely ficti
 | `created_at_timestamp` | Unix timestamp for when the record was first scraped | Float                      |
 | `updated_at_date`      | Date when the record was last updated                | Array of numbers (integer) |
 
-### **See a snippet of the dataset for reference:**
+#### **See a snippet of the dataset for reference:**
 
-:::CodeblockTabs
+:::CodeblockTabs\
 Meta fields
 
 ```json
@@ -101,10 +102,12 @@ Meta fields
 			"is_deleted": false
 		},
 ```
+
 :::
 
 :::ExpandableHeading
-## Record metadata
+
+### Record metadata
 
 | Data point             | Description                                          | Data type                  |
 | ---------------------- | ---------------------------------------------------- | -------------------------- |
@@ -112,34 +115,35 @@ Meta fields
 | `created_at_date`      | Date when the record was initially scraped           | Array of numbers (integer) |
 | `created_at_timestamp` | Unix timestamp for when the record was first scraped | Float                      |
 | `updated_at_date`      | Date when the record was last updated                | Array of numbers (integer) |
-:::
+| :::                    |                                                      |                            |
 
-
-
-- [ ] `updated_at_timestamp`
-- [ ] updated\_at\_timestamp
-
-[](https://archbee-doc-uploads.s3.amazonaws.com/AohZQYiaoDRifcp3U9eJu-EFunz1BloxO0GIBrelOTF-20250506-114205.json)
+* [ ] `updated_at_timestamp`
+* [ ] updated\_at\_timestamp
 
 ***
 
-::::WorkflowBlock
-:::WorkflowBlockItem
+::::WorkflowBlock\
+:::WorkflowBlockItem\
 1st step
 
-Description 123456789
+Description 123456789\
 :::
 
-:::WorkflowBlockItem
+:::WorkflowBlockItem\
 2nd step
 
-Description 2 123456789
-:::
+Description 2 123456789\
+:::\
 ::::
 
-::Image[]{src="https://archbee-image-uploads.s3.amazonaws.com/AohZQYiaoDRifcp3U9eJu-Pon0gl-9b6xCsd-vUhSu4-20250403-093315.svg" signedSrc size="16" width="140" height="140" position="center" caption}
+::Image\[]{src="https://archbee-image-uploads.s3.amazonaws.com/AohZQYiaoDRifcp3U9eJu-Pon0gl-9b6xCsd-vUhSu4-20250403-093315.svg" signedSrc size="16" width="140" height="140" position="center" caption}
 
-## Video
+<figure><img src="https://archbee-image-uploads.s3.amazonaws.com/AohZQYiaoDRifcp3U9eJu-Pon0gl-9b6xCsd-vUhSu4-20250403-093315.svg" alt=""><figcaption></figcaption></figure>
 
-::embed[]{url="https://www.youtube.com/watch?v=ZSJ-lYB5E-M"}
 
+
+### Video
+
+::embed\[]{url="https://www.youtube.com/watch?v=ZSJ-lYB5E-M"}
+
+{% embed url="https://www.youtube.com/watch?index=2&list=PLZAlnWDc6FDuI98mM5SfKi33_B1W1mP93&v=eahJblVAZ30" %}
