@@ -3,6 +3,7 @@
 ## Getting Started
 
 * [Developer Documentation](README.md)
+* [Sample](Sample-for-GitBook.md)
 * [Setup Guide](getting-started/setup-guide.md)
 * [Concepts](getting-started/concepts.md)
 * [Development](getting-started/development.md)
