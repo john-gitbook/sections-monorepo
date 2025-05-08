@@ -9,6 +9,22 @@ icon: rectangle-terminal
 
 The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
 
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+hello world
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
 {% stepper %}
 {% step %}
 ###
