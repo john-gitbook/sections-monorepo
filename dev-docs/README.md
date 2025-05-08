@@ -1,10 +1,3 @@
----
-description: >-
-  Use GitBook’s API, SDK, and developer tools to build custom integrations,
-  streamline workflows, and create tailored solutions for your docs.
-icon: rectangle-terminal
----
-
 # Developer Documentation
 
 {% tabs %}
