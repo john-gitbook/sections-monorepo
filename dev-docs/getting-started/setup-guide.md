@@ -1,9 +1,13 @@
 
 # Out-of-band Interoperation
 
-The preferred way of making changes in the network is to perform all changes through NSO, which keeps the NSO copy of device configurations up-to-date (in sync) at all times. This approach has many benefits, as it allows NSO to:
+The preferred way of making changes in the network is to perform all changes through NSO  <br/> 
+which keeps the NSO copy of device configurations up-to-date (in sync) at all times. 
+\n
+<This approach has many benefits, as it allows NSO to:
 
-- Avoid making provisioning decisions based on stale data  
+- Avoid making provisioning decisions based on stale data
+-  
 - Provide a single pane of glass to network configuration  
 - Act as a network source of truth  
 - Better aid in troubleshooting scenarios  
