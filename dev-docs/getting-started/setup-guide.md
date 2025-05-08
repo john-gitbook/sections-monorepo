@@ -5,12 +5,12 @@ The preferred way of making changes in the network is to perform all changes
 through NSO, which keeps the NSO copy of device configurations up-to-date (in
 sync) at all times.  This approach has many benefits as it allows NSO to:
 
-  - avoid making provisioning decisions based on stale data,
-  - provide a single pane of glass to network configuration,
-  - act as a network source of truth,
-  - better aid in troubleshooting scenarios,
-  - provide improved performance, and
-  - expose advanced compliance and reporting capabilities.
+* avoid making provisioning decisions based on stale data,
+* provide a single pane of glass to network configuration,
+* act as a network source of truth,
+* better aid in troubleshooting scenarios,
+* provide improved performance, and
+* expose advanced compliance and reporting capabilities.
 
 However, in some situations, such setup is undesirable or not possible due to
 historic, organizational, or other reasons.  While an organization may decide to
