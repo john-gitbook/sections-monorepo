@@ -8,8 +8,22 @@ Before you can use the GitBook Integration Platform, you'll need to make sure yo
 
 
 
-```mermaid
+pragraph
+
+{% include "../.gitbook/includes/reusable-paragraph.md" %}
+
+{% hint style="info" %}
+not in reusable content
+{% endhint %}
+
+{% include "../.gitbook/includes/this-is-a-hint-block-in-reu....md" %}
+
 ```
+// code not in reusable content
+
+```
+
+{% include "../.gitbook/includes/code-in-reusable-content.md" %}
 
 ### Personal Access Token
 
