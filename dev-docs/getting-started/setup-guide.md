@@ -25,6 +25,10 @@ not in reusable content
 
 {% include "../.gitbook/includes/code-in-reusable-content.md" %}
 
+{% include "../.gitbook/includes/here-is-a-block-of-reusable....md" %}
+
+This a paragraph
+
 ### Personal Access Token
 
 In order to use the GitBook Integration Platform, you'll need to first create a personal access token in your [developer settings](https://app.gitbook.com/account/developer).
