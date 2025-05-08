@@ -4,6 +4,12 @@
 The preferred way of making changes in the network is to perform all changes through NSO  <br/> 
 which keeps the NSO copy of device configurations up-to-date (in sync) at all times. This approach has many benefits, as it allows NSO to:
 
+hello world <br/>
+how is it going two spaces <br/>
+no space<br/>
+Some line break in the middle of a line <br/> here it is 
+
+
 - Avoid making provisioning decisions based on stale data
 -  
 - Provide a single pane of glass to network configuration  
