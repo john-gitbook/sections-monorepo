@@ -34,7 +34,7 @@ Please ensure at least one connection is enabled for your Auth0 application.
 \
 Navigate to the Integrations tab in a site and locate the Auth0 integration or navigate directly to this [https://app.gitbook.com/integrations/VA-Auth0](https://app.gitbook.com/integrations/VA-Auth0).
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 Install the integration on your site.
 
@@ -42,7 +42,7 @@ Install the integration on your site.
 
 Upon installation on site, you will see a modal asking you enter the Client ID, Auth0 Domain, and Client Secret.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.22.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 For Client ID and Client Secret, paste in the value you copied from Auth0 Dashboard. For Auth0 Domain, enter the Domain copied from Auth0 (make sure to prefix it with `https://`) .
 

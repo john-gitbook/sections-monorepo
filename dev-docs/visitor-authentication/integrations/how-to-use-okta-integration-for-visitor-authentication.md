@@ -29,7 +29,7 @@ We will need these values to configure the Okta Integration.
 \
 Navigate to the Integrations tab in the site you want to publish and locate the Okta integration or navigate directly to this [https://app.gitbook.com/integrations/VA-Okta](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/).
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 Install the integration on your site.
 

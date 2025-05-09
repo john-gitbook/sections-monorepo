@@ -49,13 +49,13 @@ We will need these to configure our Azure Visitor Authentication Integration.
 \
 Navigate to the Integrations tab in a site and locate the Azure integration or navigate directly to this [https://app.gitbook.com/integrations/VA-Azure](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/).
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 Install the integration on your site.
 
 Upon installation on site, you will see a screen asking you enter the Client ID, Tenant ID, and Client Secret.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.30.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 
 

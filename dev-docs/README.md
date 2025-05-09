@@ -34,8 +34,6 @@ hello world
 ###
 
 info
-
-<figure><img src=".gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
