@@ -5,7 +5,13 @@ icon: bullseye-arrow
 
 # Overview
 
-When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
+When you’re ready to share your work, you’re able to publish your content so others can view and
+
+<figure><img src="https://www.gitbook.com/cdn-cgi/image/dpr=2,width=1168,onerror=redirect,format=auto/https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FXFH6cpzE2ZjZpRFhVpSn%2Fblobs%2FP3fxKrio3Vn6hU71ck0p%2FScreen%20Shot%202024-12-13%20at%203.21.30%20PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+&#x20;interact with the things you’ve created.
 
 <figure><img src="https://www.gitbook.com/cdn-cgi/image/dpr=2,width=1168,onerror=redirect,format=auto/https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FXFH6cpzE2ZjZpRFhVpSn%2Fblobs%2FP3fxKrio3Vn6hU71ck0p%2FScreen%20Shot%202024-12-13%20at%203.21.30%20PM.png" alt=""><figcaption><p>second</p></figcaption></figure>
 
