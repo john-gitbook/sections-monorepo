@@ -11,7 +11,7 @@ description: >-
 
 # Base Company Data
 
-Base Company Data is designed to be used for **investment**\*\*, HR intelligence\*\*\*\*, and market research.\*\*
+Base Company Data is designed to be used for **investment, HR intelligence, and market research**.
 
 | **See the full company picture**     | Group and target companies by size, industry, category, and age.                                 |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------ |
@@ -43,8 +43,7 @@ Base Company Data is designed to be used for **investment**\*\*, HR intelligence
 
 The dataset contains information from various sources organized into different sections. Here's an overview of what's included in each section:
 
-::::Tabs\
-:::Tab{title="Data collections"}
+### Data collections
 
 1. [Company information](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
 2. [Affiliated](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
@@ -57,9 +56,7 @@ The dataset contains information from various sources organized into different s
 9. [Similar companies](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
 10. [Specialties](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
 11. [Stock info](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
-12. [Company updates](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)\
-    :::\
-    ::::
+12. [Company updates](Base%20Company%20Data/Dictionary_%20Base%20Company%20Data.md)
 
 {% hint style="info" %}
 The data points might differ depending on your chosen data format (API or flat file data).
