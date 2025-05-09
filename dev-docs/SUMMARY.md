@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Base Company Data](README.md)
+* [Developer Documentation](README.md)
 * [Sample](Sample-for-GitBook.md)
 * [Setup Guide](getting-started/setup-guide.md)
 * [Concepts](getting-started/concepts.md)
