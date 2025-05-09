@@ -1,40 +1,62 @@
 ---
-description: >-
-  Use GitBook’s API, SDK, and developer tools to build custom integrations,
-  streamline workflows, and create tailored solutions for your docs.
-icon: rectangle-terminal
+title: Base Company Data
+slug: professional-network-companies-dataset
+description: Access comprehensive company profiles sourced from Base Company data, featuring firmographic details for investment, market research applications and more.
+createdAt: Thu Apr 11 2024 11:20:06 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 30 2025 06:03:46 GMT+0000 (Coordinated Universal Time)
 ---
 
-# Developer Documentation
+Base Company Data is designed to be used for **investment****, HR intelligence****, and market research.**
 
-The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
-
-{% stepper %}
-{% step %}
-###
-
-info
-
-<figure><img src=".gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-###
+| Key | Value |
+|-----|-------|
+| **See the full company picture** | Group and target companies by size, industry, category, and age. |
+| **Map company locations** | Map and target companies located in relevant areas. |
+| **Dig deep into company structures** | Understand specific relationships between different companies to inform your business decisions. |
 
 
-{% endstep %}
-{% endstepper %}
+***
 
-Hello world!
+## Summary
 
-This documentation provides all the information needed to start using the **GitBook API**, start building **Custom Blocks** and **Integrations** or learn more about **Visitor Authentication**.
+| Feature           | Details                                                  |
+| ----------------- | -------------------------------------------------------- |
+| Data record count | 72,783,751+                                              |
+| Database refresh  | Monthly                                                  |
+| Scraping since    | 2016-07                                                  |
+| Available via     | Flat files/API                                           |
+| Delivery methods  | Direct download link or file upload to a cloud server.\* |
 
-Dive into our [Setup guide](getting-started/setup-guide.md) to begin exploring what you can build.
+\* We can provide a link and credentials for you to download the dataset, or we can upload the data directly to your cloud server (S3, Azure, Google Cloud, etc.).
 
-### Discover the platform
+### Related links:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>GitBook API</strong></td><td>Explore our API reference to learn about the GitBook API.</td><td><a href=".gitbook/assets/GitBook API.svg">GitBook API.svg</a></td><td><a href="gitbook-api/overview.md">overview.md</a></td></tr><tr><td><strong>Integrations</strong></td><td>Learn more about building your own custom blocks and integrations in GitBook.</td><td><a href=".gitbook/assets/Integrations.svg">Integrations.svg</a></td><td><a href="integrations/integrations.md">integrations.md</a></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Build dynamic documentation and customized access.</td><td><a href=".gitbook/assets/Visitor Authentication.svg">Visitor Authentication.svg</a></td><td><a href="https://docs.gitbook.com/advanced-guides/advanced-sharing-and-security/visitor-authentication">https://docs.gitbook.com/advanced-guides/advanced-sharing-and-security/visitor-authentication</a></td></tr></tbody></table>
+- [Dictionary: Base Company Data](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+- [Sample: Base Employee Data](<./../Employee Data/Base Employee Data/Sample_ Base Employee Data.md>)&#x20;
 
-### Getting started
+***
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Setup Guide</strong></td><td>Start building your first integration in just a few minutes.</td><td><a href=".gitbook/assets/Setup.svg">Setup.svg</a></td><td><a href="getting-started/setup-guide.md">setup-guide.md</a></td></tr><tr><td><strong>GitBook Concepts</strong></td><td>Learn about specific concepts when developing GitBook integrations.</td><td><a href=".gitbook/assets/Concepts.svg">Concepts.svg</a></td><td><a href="getting-started/concepts.md">concepts.md</a></td></tr></tbody></table>
+## Data overview
+
+The dataset contains information from various sources organized into different sections. Here's an overview of what's included in each section:
+
+::::Tabs
+:::Tab{title="Data collections"}
+1. [Company information](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+2. [Affiliated](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+3. [Also viewed](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+4. [Financial website info](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+5. [Featured employees](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+6. [Investors](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+7. [Funding rounds](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+8. [Locations](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+9. [Similar companies](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+10. [Specialties](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+11. [Stock info](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+12. [Company updates](<./Base Company Data/Dictionary_ Base Company Data.md>)&#x20;
+:::
+::::
+
+{% hint style="info" %}
+The data points might differ depending on your chosen data format (API or flat file data).
+{% endhint %}
