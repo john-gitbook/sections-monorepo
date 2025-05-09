@@ -7,6 +7,8 @@ icon: bullseye-arrow
 
 When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
+<figure><img src="https://www.gitbook.com/cdn-cgi/image/dpr=2,width=1168,onerror=redirect,format=auto/https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FXFH6cpzE2ZjZpRFhVpSn%2Fblobs%2FP3fxKrio3Vn6hU71ck0p%2FScreen%20Shot%202024-12-13%20at%203.21.30%20PM.png" alt=""><figcaption></figcaption></figure>
+
 Below we’ll explain how to publish your content as a docs site, and invite teammates and users to collaborate on editing your content.
 
 <figure><img src=".gitbook/assets/public-content.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
