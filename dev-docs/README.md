@@ -13,7 +13,21 @@ icon: rectangle-terminal
 
 The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
 
+[hello world](./#first-tab)
 
+[page link](getting-started/development.md)
+
+
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
+
+|                                          |   |   |
+| ---------------------------------------- | - | - |
+| hello world                              |   |   |
+| hi [api.md](changelogs/api.md "mention") |   |   |
+|                                          |   |   |
 
 ```mermaid
 graph TD;
