@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Page 2](README.md)
+* [Overview](overview.md)
+
 ## Published Documentation
 
-* [Overview](README.md)
 * [Publish a docs site](published-documentation/publish-a-docs-site/README.md)
   * [Public publishing](published-documentation/publish-a-docs-site/public-publishing.md)
   * [Private publishing with share links](published-documentation/publish-a-docs-site/share-links.md)
@@ -33,7 +35,7 @@
 * [Version control](published-documentation/activity-history.md)
 * [Welcome](<README (1).md>)
 * [Import](import.md)
-* [Overview](overview.md)
+* [Overview](published-documentation/overview.md)
 * [Editor](editor/README.md)
   * [Navigation](editor/navigation.md)
   * [Content structure](editor/content-structure/README.md)
@@ -77,7 +79,7 @@
 
 ## Published Documentation
 
-* [Overview](README.md)
+* [Overview](overview.md)
 * [Publish a docs site](published-documentation/publish-a-docs-site/README.md)
 * [Site structure and navigation](published-documentation/site-structure-and-navigation/README.md)
 * [Customization](published-documentation/customization/README.md)

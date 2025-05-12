@@ -1,31 +1,16 @@
 ---
-description: Edit pages, collections, content and more.
-noIndex: true
+description: Publish and share your content with internal or external audiences.
 icon: bullseye-arrow
 ---
 
 # Overview
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/editor-overview.png" alt=""><figcaption><p>The GitBook editor.</p></figcaption></figure></div>
+When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
-GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
+Below we’ll explain how to publish your content as a docs site, and invite teammates and users to collaborate on editing your content.
 
-```
-print hellow owlrd - hi
-```
+<figure><img src=".gitbook/assets/public-content.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
 
-hello
+### Learn more
 
-#### コラボレーション
-
-チームメンバーを招待して共同編集する方法を確認します。
-
-#### コラボレーション
-
-チームメンバーを招待して共同編集する方法を確認します。
-
-### Learn more about
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Editor</strong></td><td>Learn more about GitBook’s navigation, content structure, and more.</td><td></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td><td><a href="editor/">editor</a></td></tr><tr><td><strong>Blocks</strong></td><td>Learn about the different blocks you can insert into a GitBook page.</td><td></td><td><a href=".gitbook/assets/5 (1).png">5 (1).png</a></td><td><a href="blocks/">blocks</a></td></tr></tbody></table>
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Import existing content</strong></td><td>Import content from Markdown, Confluence, Notion and more.</td><td></td><td><a href=".gitbook/assets/7 (1).png">7 (1).png</a></td><td><a href="import.md">import.md</a></td></tr><tr><td><strong>Search your content</strong></td><td>Search the pages you write or ask GitBook AI questions about your content.</td><td></td><td><a href=".gitbook/assets/10 (1).png">10 (1).png</a></td><td><a href="broken-links/searching-your-content/">searching-your-content</a></td></tr><tr><td><strong>Version control</strong></td><td>View or restore pages from an earlier point in time.</td><td></td><td><a href=".gitbook/assets/8 (1).png">8 (1).png</a></td><td><a href="published-documentation/activity-history.md">activity-history.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Publish a docs site</strong></td><td>Publish your content to the web.</td><td><a href="published-documentation/publish-a-docs-site/">publish-a-docs-site</a></td><td><a href=".gitbook/assets/11.png">11.png</a></td></tr><tr><td><strong>Share your content</strong></td><td>Share your edits or invite others to collaborate.</td><td><a href="collaboration/share/">share</a></td><td><a href=".gitbook/assets/5 (1).png">5 (1).png</a></td></tr><tr><td><strong>Customization</strong></td><td>Customize the look and feel of your published content.</td><td><a href="published-documentation/customization/">customization</a></td><td><a href=".gitbook/assets/9 (1).png">9 (1).png</a></td></tr><tr><td><strong>Set a custom domain</strong></td><td>Set up a custom domain for your published content.</td><td><a href="published-documentation/custom-domain/">custom-domain</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr></tbody></table>
