@@ -15,6 +15,17 @@ The GitBook developer platform allows developers to extend its capabilities with
 
 
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+
+```
+
+
+
 {% tabs %}
 {% tab title="First Tab" %}
 hello world
