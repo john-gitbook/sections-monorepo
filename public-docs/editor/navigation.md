@@ -55,7 +55,7 @@ If you want to give more focus to the content of your page, you can temporarily 
 
 <figure><img src="../.gitbook/assets/editor-space-header.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
 
-The space overview contains information about the space you’re currently viewing. It lets you do things like [publish and share](../overview.md) your space, configure [GitHub or GitLab sync](../integrations/git-sync/), and more.
+The space overview contains information about the space you’re currently viewing. It lets you do things like [publish and share](../) your space, configure [GitHub or GitLab sync](../integrations/git-sync/), and more.
 
 {% hint style="info" %}
 The space overview & space header may look different depending on the mode you’re currently in. See [change requests](../collaboration/change-requests.md) for more info.

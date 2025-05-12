@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page 2](README.md)
-* [Overview](overview.md)
+* [Overview](README.md)
 
 ## Published Documentation
 
@@ -79,7 +78,7 @@
 
 ## Published Documentation
 
-* [Overview](overview.md)
+* [Overview](README.md)
 * [Publish a docs site](published-documentation/publish-a-docs-site/README.md)
 * [Site structure and navigation](published-documentation/site-structure-and-navigation/README.md)
 * [Customization](published-documentation/customization/README.md)
