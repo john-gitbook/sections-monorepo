@@ -11,11 +11,17 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
-The GitBook developer platform allows developers to extend its capabilities with a robust set of tools and resources.
+<figure><img src=".gitbook/assets/GitBook - Dark.svg" alt=""><figcaption><p>SVG insert image</p></figcaption></figure>
 
-[hello world](./#first-tab)
 
-[page link](getting-started/development.md)
+
+<figure><img src=".gitbook/assets/GitBook - Dark.png" alt=""><figcaption><p>Png inset image</p></figcaption></figure>
+
+
+
+
+
+
 
 
 
