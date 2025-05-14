@@ -1,5 +1,6 @@
 ---
 description: Learn how to Publish your apps and integrations publicly and privately
+hidden: true
 icon: upload
 ---
 
