@@ -19,7 +19,7 @@ icon: rectangle-terminal
 
 
 
-
+<figure><img src=".gitbook/assets/GitBook - Dark.png" alt=""><figcaption></figcaption></figure>
 
 
 
