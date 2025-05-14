@@ -15,11 +15,11 @@ icon: rectangle-terminal
 
 
 
-<figure><img src=".gitbook/assets/GitBook - Dark.png" alt=""><figcaption><p>Png inset image</p></figcaption></figure>
+<figure><img src=".gitbook/assets/GitBook-Dark.png" alt=""><figcaption><p>Png inset image</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/GitBook - Dark.svg" alt=""><figcaption><p>Publish your first site in just a few minutes using the docs site wizard.</p></figcaption></figure>
 
-
-<figure><img src=".gitbook/assets/GitBook - Dark.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/GitBook-Dark.png" alt=""><figcaption></figcaption></figure>
 
 
 
