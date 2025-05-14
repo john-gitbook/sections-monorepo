@@ -11,7 +11,11 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
-<figure><img src=".gitbook/assets/GitBook-Dark.svg" alt=""><figcaption><p>SVG insert image</p></figcaption></figure>
+
+
+<div align="center"><figure><img src=".gitbook/assets/GitBook-Dark.svg" alt=""><figcaption><p>SVG insert image</p></figcaption></figure></div>
+
+<figure><img src=".gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/GitBook-Dark.png" alt=""><figcaption><p>Png inset image</p></figcaption></figure>
 
