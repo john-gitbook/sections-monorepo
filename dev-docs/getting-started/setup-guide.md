@@ -1,5 +1,4 @@
 ---
-title: Dictionary: Base Company Data
 description: Explore detailed field definitions for Coresignal's Base Company data, including company profiles, industry classifications, organizational attributes and much more.
 ---
 
