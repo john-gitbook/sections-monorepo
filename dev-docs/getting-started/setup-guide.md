@@ -8,7 +8,7 @@ icon: star
 
 # Setup Guide
 
-Contains explanations and examples of all data fields available in the \*\*Base Company \*\*dataset.
+Contains explanations and examples of all data fields available in the **Base Company**  dataset.
 
 {% hint style="info" %}
 All company information mentioned in this data dictionary is fictional and is solely intended for illustrative purposes.
