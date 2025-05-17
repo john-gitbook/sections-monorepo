@@ -1,74 +1,228 @@
----
-description: Learn how to Publish your apps and integrations publicly and privately
-hidden: true
-icon: upload
----
+# Install Troubleshooting
 
-# Publishing
+.. default-role:: code
 
-When you're ready to publish your integration, you're able to publish it for use within GitBook.
+This page lists common issues encountered when installing FiftyOne and possible\
+solutions. If you encounter an issue that this page doesn't help you resolve,\
+feel free to\
+[open an issue on GitHub](https://github.com/voxel51/fiftyone/issues/new?labels=bug&template=installation_issue_template.md&title=%5BSETUP-BUG%5D)\
+or [contact us on Discord](https://community.voxel51.com).
 
-### Publishing to your organization
+{% hint style="info" %}\
+*_Note:__\
+Most installation issues can be fixed by upgrading some packages and then\
+rerunning the FiftyOne install. So, try this first before reading on:\
+{% endhint %}
 
-To publish your integration, you will need to use the [GitBook CLI](broken-reference). By running the `publish` command, it will publish your integration to GitBook using the options defined in your `gitbook-manifest.yaml` file.&#x20;
-
-It's required to have a `name`, `title`, `description`, `scopes`, and `organization` in your `gitbook-manifest.yaml` file to publish an integration.
-
-By default, it will publish your integration to the organization specified in your integration's `gitbook-manifest.yaml` file. Keep in mind, that only users within this organization will be able to install it.
-
-See the [Configurations section](../integrations/configurations.md) to learn more about the `gitbook-manifest.yaml` file.
-
-#### `name`
-
-A unique name for your integration. (e.g. slack)
-
-**`title`**
-
-The title of your integration. (e.g. Slack)
-
-**`description`**
-
-The description for your integration.
-
-**`organization`**
-
-The [`organizationId`](concepts.md) or [subdomain](https://docs.gitbook.com/publishing/custom-domain/choose) of the organization that owns the integration you're publishing.
-
-**`visibility`**
-
-The visibility for your integration. Defaults to `private`. When set to `private`, only members of the organization that owns the integration are able to see or install the integration into a space.&#x20;
-
-Set the visibility to `unlisted` in order to share your integration install link with anyone.
-
-Setting the visibility to `public` is only available by GitBook staff, and setting it to `public` will allow your integration to be [listed on our marketplace](https://www.gitbook.com/integrations). See [Submitting to GitBook's Integration Marketplace](publishing.md#submitting-to-gitbooks-integration-marketplace) below for more info.
-
-**`scopes`**
-
-A list of scopes your integration allows. The following scopes are accepted:
-
-```yaml
-  - space:content:read
-  - space:content:write
-  - space:metadata:read
-  - space:metadata:write
-  - space:views:read
+    \
+```shell\
+pip install --upgrade pip setuptools wheel build\
+pip install fiftyone\
 ```
 
-### Installing your integration
+## Python/pip incompatibilities
 
-After successfully publishing your integration, you will be able to find and install your integration via the link returned in your console.&#x20;
+##### "No matching distribution found"
 
-Keep in mind, that only users within your organization will be able to find or install your integration in their spaces.
+If you attempt to install FiftyOne with a version of Python or pip that is too\
+old, you may encounter errors like these:
 
-### Sharing your integration with others
+```text\
+ERROR: Could not find a version that satisfies the requirement fiftyone (from versions: none)\
+ERROR: No matching distribution found for fiftyone\
+```
 
-If you're interested in sharing or testing your integration with users outside, you'll need to update the `visibility` key in your integration's `gitbook-manifest.yaml` file.&#x20;
+```text\
+Could not find a version that satisfies the requirement fiftyone-brain (from versions: )\
+No matching distribution found for fiftyone-brain\
+```
 
-Setting `visibility: unlisted` will allow your integration to be installed in organizations outside of the one that has published it. Make sure you republish your integration using `gitbook publish` after updating this key locally.
+```text\
+fiftyone requires Python '>=3.9' but the running Python is 3.4.10\
+```
 
-### Submitting to GitBook's Integration Marketplace
+To resolve this, you will need to use Python 3.9 or newer, and pip 19.3 or\
+newer. See the :ref:`installation guide <installing-fiftyone>` for details. If\
+you have installed a suitable version of Python in a virtual environment and\
+still encounter this error, ensure that the virtual environment is activated.\
+See the\
+:doc:`virtual environment setup guide <virtualenv>` for more details.
 
-In order for your integration to be listed on our Marketplace, you will need to go through our submission process.&#x20;
+{% hint style="info" %}\
+__Note:_*\
+FiftyOne does not support 32-bit platforms.\
+{% endhint %}
 
-See [submitting your app for review](../marketplace/submit-your-app-for-review.md) for more info.
+##### "Package 'fiftyone' requires a different Python"
 
+This error occurs when attempting to install FiftyOne with an unsupported\
+Python version (either too old or too new). See the\
+:ref:`installation guide <install-prereqs>` for details on which versions of\
+Python are supported by FiftyOne.
+
+If you have multiple Python installations, you may be using `pip` from an\
+incompatible Python installation. Run `pip --version` to see which Python\
+version `pip` is using. If you see an unsupported or unexpected Python version\
+reported, there are several possible causes, including:
+
+- You may not have activated a virtual environment in your current shell. Refer\
+  to the :doc:`virtual environment setup guide <virtualenv>` for details.\
+- If you are intentionally using your system Python installation instead of a\
+  virtual environment, your system-wide `pip` may use an unsupported Python\
+  version. For instance, on some Linux systems, `pip` uses Python 2, and `pip3`\
+  uses Python 3. If this is the case, try installing FiftyOne with `pip3`\
+  instead of `pip`.\
+- You may not have a compatible Python version installed. See the\
+  :ref:`installation guide <install-prereqs>` for details.
+
+##### "No module named skbuild"
+
+On Linux, this error can occur when attempting to install OpenCV with an old\
+pip version. To fix this, upgrade pip. See the\
+:ref:`installation guide <installing-fiftyone>` for instructions, or the\
+[opencv-python FAQ](https://pypi.org/project/opencv-python-headless/) for\
+more details.
+
+## Videos do not load in the App
+
+You need to install [FFmpeg](https://ffmpeg.org) in order to work with video\
+datasets:
+
+.. tabs\
+```\
+.. group-tab:: Linux\
+```
+
+    \
+```shell\
+sudo apt install -y ffmpeg\
+```\
+.. group-tab:: macOS
+
+    \
+```python\
+brew install ffmpeg\
+```\
+.. group-tab:: Windows
+
+    You can download a Windows build from\
+    [here](https://ffmpeg.org/download.html#build-windows). Unzip it and be\
+    sure to add it to your path.
+
+Without FFmpeg installed, videos may appear in the App, but they will not be\
+rendered with the correct aspect ratio and thus label overlays will not be\
+positioned correctly.
+
+## IPython installation
+
+If you are using IPython and a virtual environment for FiftyOne, IPython must\
+be installed in the virtual environment, per the\
+:ref:`installation guide <installing-extras>`. If you attempt to use a\
+system-wide IPython installation in a virtual environment with FiftyOne, you\
+may encounter errors such as:
+
+```text
+
+```\
+.../IPython/core/interactiveshell.py:935: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+
+```text\
+File "\
+```\
+.../fiftyone/core/../_service_main.py", line 29, in <module>\
+        import psutil\
+    ModuleNotFoundError: No module named 'psutil'
+
+```text\
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused\
+```
+
+To resolve this, install IPython in your active virtual environment (see the\
+:ref:`virtual environment guide <virtualenv-guide>` for more information):
+
+```shell\
+pip install ipython\
+```
+
+## Import and database issues
+
+FiftyOne includes a `fiftyone-db` package wheel for your operating system and\
+hardware. If you have not\
+:ref:`configured your own database connection <configuring-mongodb-connection>`,\
+then FiftyOne's database service will attempt to start up on import using the\
+MongoDB distribution provided by `fiftyone-db`. If the database fails to start,\
+importing `fiftyone` will result in exceptions being raised.
+
+## Downgrading to old versions
+
+The :ref:`fiftyone migrate <cli-fiftyone-migrate>` command was introduced in\
+FiftyOne v0.7.3. If you would like to downgrade from a FiftyOne version\
+prior to v0.7.3 (to a yet older version), then you will first need to\
+:ref:`upgrade <upgrading-fiftyone>` to v0.7.3 or later and then\
+:ref:`downgrade <downgrading-fiftyone>`:
+
+```shell\
+# The version that you wish to downgrade to\
+VERSION=0.7.0\
+pip install fiftyone==0.7.3\
+fiftyone migrate --all -v $VERSION\
+pip install fiftyone==$VERSION\
+```
+
+To install a FiftyOne version prior to v0.7.0, you must add ``--index``:
+
+```shell\
+pip install --index https://pypi.voxel51.com fiftyone==<version>\
+```
+
+## Database exits
+
+On some UNIX systems, the default open file limit setting is too small for\
+FiftyOne's MongoDB connection. The database service will exit in this case.\
+Running `ulimit -n 64000` should resolve the issue. 64,000 is the recommended\
+open file limit.  MongoDB has full documentation on the issue\
+[here](https://docs.mongodb.com/manual/reference/ulimit/). 
+
+##### Troubleshooting Linux imports
+
+`fiftyone-db` officially supports Amazon Linux 2 and 2023, Debian 9+\
+(x86_64 only), Ubuntu 18.04+, and RHEL/CentOS 7+ Linux distributions. The\
+correct MongoDB build is downloaded and installed while building the package\
+wheel on your machine. 
+
+If a suitable MongoDB build is not available or otherwise does not\
+work in your environment, you may encounter a `FiftyOneConfigError`.
+
+If you have output similar to the below, you may just need to install\
+`libssl` packages.
+
+```text\
+Subprocess ['\
+```\
+.../site-packages/fiftyone/db/bin/mongod', ...] exited with error 127:\
+  .../site-packages/fiftyone/db/bin/mongod: error while loading shared libraries:\
+    libcrypto.so.1.1: cannot open shared object file: No such file or directory
+
+On Ubuntu, `libssl` packages can be install with the following command:
+
+```shell\
+sudo apt install libssl-dev\
+```
+
+If you still face issues with imports, you can follow\
+:ref:`these instructions <configuring-mongodb-connection>` to configure\
+FiftyOne to use a MongoDB instance that you have installed yourself.
+
+##### Troubleshooting Windows imports
+
+If your encounter a `psutil.NoSuchProcessExists` exists when importing\
+`fiftyone`, you are likely missing the C++ libraries MongoDB requires.
+
+.. code-block\
+```\
+psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=XXXX)\
+```\
+Downloading and installing the Microsoft Visual C++ Redistributable from this\
+[page](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)\
+should resolve the issue. Specifically, you will want to download the\
+`vc_redist.x64.exe` redistributable.
