@@ -1,70 +1,480 @@
----
-description: Learn how to develop apps and integrations for GitBook
-icon: square-terminal
----
+# FiftyOne
 
-# Development
+.. Social links ---------------------------------------------------------------
 
-Developing an integration in GitBook may include using ContentKit and GitBook's Runtime APIs. If you're building an integration that uses GitBook's REST API, you'll already be able to see these updates in realtime.
+.. raw:: html
 
-### Local Development
+  <div class="social-links">
+    <table id="social-links-table">
+      <th>
+        <a target="_blank" href="https://github.com/voxel51/fiftyone">
+          <img alt="GitHub repository" src="_static/images/icons/github-logo-256px.png">
+          &nbsp View on GitHub
+        </a>
+      </th>
+      <th>
+        <a target="_blank" href="https://community.voxel51.com/">
+          <img alt="Discord community" src="_static/images/icons/discord-logo-256px.png">
+          &nbsp Join us on Discord
+        </a>
+      </th>
+      <th>
+        <a target="_blank" href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb">
+          <img alt="Colab quickstart" src="_static/images/icons/colab-logo-256px.png">
+          &nbsp Try it in Colab
+        </a>
+      </th>
+    </table>
+  </div>
 
-After bootstrapping your app or integration with the [GitBook CLI](broken-reference), you're able to use a different command from the CLI to connect your app with a specific space in your GitBook instance for development purposes.
+.. End social links -----------------------------------------------------------
 
-#### **Step 1: Publish your app**
+*_The open-source tool for building high-quality datasets and computer vision models_*
 
-Before you're able to develop your app, you will first need to publish your app to GitBook's integration platform.&#x20;
+Nothing hinders the success of machine learning systems more than poor quality
+data. And without the right tools, improving a model can be time-consuming and
+inefficient.
 
-You can do this by running the following command in the root directory of your app:
+FiftyOne supercharges your machine learning workflows by enabling you to
+visualize datasets and interpret models faster and more effectively.
 
+.. raw:: html
+
+  <div style="margin-top: 20px; margin-bottom: 20px">
+    <video controls muted poster="https://voxel51.com/images/fiftyone-poster-v2.png" style="width: 100%;">
+      <source src="https://voxel51.com/images/fiftyone_long_sizzle_light_bg.mp4" type="video/mp4">
+    </video>
+  </div>
+
+Improving data quality and understanding your model's failure modes are the
+most impactful ways to boost the performance of your model.
+
+FiftyOne provides the building blocks for optimizing your dataset analysis
+pipeline. Use it to get hands-on with your data, including visualizing complex
+labels, evaluating your models, exploring scenarios of interest, identifying
+failure modes, finding annotation mistakes, and much more!
+
+.. custombutton::
+    :button_text: Install FiftyOne!
+    :button_link: getting_started/install.html
+
+FiftyOne integrates naturally with your favorite tools. Click on a logo to
+learn how:
+
+.. raw:: html
+
+    <div class="integrations-logos">
+
+.. customimagelink::
+    :image_link: recipes/adding_detections.html
+    :image_src: https://voxel51.com/images/integrations/pytorch-128.png
+    :image_title: PyTorch
+
+.. customimagelink::
+    :image_link: integrations/lightning_flash.html
+    :image_src: https://voxel51.com/images/integrations/pytorch-lightning-128.png
+    :image_title: PyTorch Lightning
+
+.. customimagelink::
+    :image_link: integrations/huggingface.html
+    :image_src: https://voxel51.com/images/integrations/hugging-face-128.png
+    :image_title: Hugging Face
+
+.. customimagelink::
+    :image_link: integrations/ultralytics.html
+    :image_src: https://voxel51.com/images/integrations/ultralytics-128.png
+    :image_title: Ultralytics
+
+.. customimagelink::
+    :image_link: integrations/super_gradients.html
+    :image_src: https://voxel51.com/images/integrations/super-gradients-128.png
+    :image_title: SuperGradients
+
+.. customimagelink::
+    :image_link: recipes/adding_detections.html
+    :image_src: https://voxel51.com/images/integrations/tensorflow-128.png
+    :image_title: TensorFlow
+
+.. customimagelink::
+    :image_link: tutorials/detectron2.html
+    :image_src: https://voxel51.com/images/integrations/detectron2-128.png
+    :image_title: Detectron2
+
+.. customimagelink::
+    :image_link: integrations/qdrant.html
+    :image_src: https://voxel51.com/images/integrations/qdrant-128.png
+    :image_title: Qdrant
+
+.. customimagelink::
+    :image_link: integrations/redis.html
+    :image_src: https://voxel51.com/images/integrations/redis-128.png
+    :image_title: Redis
+
+.. customimagelink::
+    :image_link: integrations/pinecone.html
+    :image_src: https://voxel51.com/images/integrations/pinecone-128.png
+    :image_title: Pinecone
+
+.. customimagelink::
+    :image_link: integrations/mongodb.html
+    :image_src: https://voxel51.com/images/integrations/mongodb-128.png
+    :image_title: MongoDB
+
+.. customimagelink::
+    :image_link: integrations/elasticsearch.html
+    :image_src: https://voxel51.com/images/integrations/elasticsearch-128.png
+    :image_title: Elasticsearch
+
+.. customimagelink::
+    :image_link: integrations/postgres.html
+    :image_src: https://voxel51.com/images/integrations/postgres-128.png
+    :image_title: PostgreSQL
+
+.. customimagelink::
+    :image_link: integrations/mosaic.html
+    :image_src: https://voxel51.com/images/integrations/mosaic-128.png
+    :image_title: Mosaic
+
+.. customimagelink::
+    :image_link: integrations/milvus.html
+    :image_src: https://voxel51.com/images/integrations/milvus-128.png
+    :image_title: Milvus
+
+.. customimagelink::
+    :image_link: integrations/lancedb.html
+    :image_src: https://voxel51.com/images/integrations/lancedb-128.png
+    :image_title: LanceDB
+
+.. customimagelink::
+    :image_link: integrations/activitynet.html
+    :image_src: https://voxel51.com/images/integrations/activitynet-128.png
+    :image_title: ActivityNet
+
+.. customimagelink::
+    :image_link: integrations/coco.html
+    :image_src: https://voxel51.com/images/integrations/coco-128.png
+    :image_title: COCO
+
+.. customimagelink::
+    :image_link: integrations/open_images.html
+    :image_src: https://voxel51.com/images/integrations/open-images-128.png
+    :image_title: Open Images
+
+.. customimagelink::
+    :image_link: environments/index.html#notebooks
+    :image_src: https://voxel51.com/images/integrations/jupyter-128.png
+    :image_title: Jupyter
+
+.. customimagelink::
+    :image_link: environments/index.html#notebooks
+    :image_src: https://voxel51.com/images/integrations/colab-128.png
+    :image_title: Google Colab
+
+.. customimagelink::
+    :image_link: user_guide/plots.html
+    :image_src: https://voxel51.com/images/integrations/plotly-128.png
+    :image_title: Plotly
+
+.. customimagelink::
+    :image_link: integrations/cvat.html
+    :image_src: https://voxel51.com/images/integrations/cvat-128.png
+    :image_title: CVAT
+
+.. customimagelink::
+    :image_link: integrations/labelstudio.html
+    :image_src: https://voxel51.com/images/integrations/labelstudio-128.png
+    :image_title: Label Studio
+
+.. customimagelink::
+    :image_link: integrations/v7.html
+    :image_src: https://voxel51.com/images/integrations/v7-128.png
+    :image_title: V7
+
+.. customimagelink::
+    :image_link: https://github.com/segments-ai/segments-voxel51-plugin
+    :image_src: https://voxel51.com/images/integrations/segments-128.png
+    :image_title: Segments
+
+.. customimagelink::
+    :image_link: integrations/labelbox.html
+    :image_src: https://voxel51.com/images/integrations/labelbox-128.png
+    :image_title: Labelbox
+
+.. customimagelink::
+    :image_link: api/fiftyone.utils.scale.html
+    :image_src: https://voxel51.com/images/integrations/scale-128.png
+    :image_title: Scale AI
+
+.. customimagelink::
+    :image_link: enterprise/installation.html#google-cloud-storage
+    :image_src: https://voxel51.com/images/integrations/google-cloud-128.png
+    :image_title: Google Cloud
+
+.. customimagelink::
+    :image_link: enterprise/installation.html#amazon-s3
+    :image_src: https://voxel51.com/images/integrations/aws-128.png
+    :image_title: Amazon Web Services
+
+.. customimagelink::
+    :image_link: enterprise/installation.html#microsoft-azure
+    :image_src: https://voxel51.com/images/integrations/azure-128.png
+    :image_title: Azure
+
+.. raw:: html
+
+    </div>
+
+> **Note:** FiftyOne is growing!
+[Sign up for the mailing list](https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk)
+  to learn about new features as they come out.
+
+.. _core-capabilities:
+
+##### Core Capabilities
+
+.. Callout items --------------------------------------------------------------
+
+.. raw:: html
+
+    <div class="tutorials-callout-container">
+        <div class="row">
+
+.. Add callout items below this line
+
+.. customcalloutitem::
+    :header: Curating datasets
+    :description: Surveys show that machine learning engineers spend over half of their time wrangling data, but it doesn't have to be that way. Use FiftyOne's powerful dataset import and manipulation capabilities to manage your data with ease.
+    :button_text: Learn how to load data into FiftyOne
+    :button_link: user_guide/dataset_creation/index.html
+    :image: _static/images/homepage_curate.gif
+
+.. customcalloutitem::
+    :header: Evaluating models
+    :description: Aggregate metrics alone don’t give you the full picture of your ML models. In practice, the limiting factor on your model’s performance is often data quality issues that you need to see to address. FiftyOne makes it easy to do just that.
+    :button_text: See how to evaluate models with FiftyOne
+    :button_link: tutorials/evaluate_detections.html
+    :image: _static/images/homepage_evaluate.gif
+
+.. customcalloutitem::
+    :header: Visualizing embeddings
+    :description: Are you using embeddings to analyze your data and models? Use FiftyOne's embeddings visualization capabilities to reveal hidden structure in you data, mine hard samples, pre-annotate data, recommend new samples for annotation, and more.
+    :button_text: Experience the power of embeddings
+    :button_link: tutorials/image_embeddings.html
+    :image: _static/images/homepage_embeddings.gif
+
+.. customcalloutitem::
+    :header: Working with geolocation
+    :description: Many datasets have location metadata, but visualizing location-based datasets has traditionally required closed source or cloud-based tools. FiftyOne provides native support for storing, visualizing, and querying datasets by location.
+    :button_text: Visualize your location data
+    :button_link: user_guide/plots.html#geolocation-plots
+    :image: _static/images/homepage_location.gif
+
+.. customcalloutitem::
+    :header: Finding annotation mistakes
+    :description: Annotations mistakes create an artificial ceiling on the performance of your model. However, finding these mistakes by hand is not feasible! Use FiftyOne to automatically identify possible label mistakes in your datasets.
+    :button_text: Check out the label mistakes tutorial
+    :button_link: tutorials/classification_mistakes.html
+    :image: _static/images/homepage_mistakes.gif
+
+.. customcalloutitem::
+    :header: Removing redundant images
+    :description: During model training, the best results will be seen when training on unique data. Use FiftyOne to automatically remove duplicate or near-duplicate images from your datasets and curate diverse training datasets from your raw data.
+    :button_text: Try the image uniqueness tutorial
+    :button_link: tutorials/uniqueness.html
+    :image: _static/images/homepage_redundant.gif
+
+.. End callouts ---------------------------------------------------------------
+
+.. raw:: html
+
+        </div>
+    </div>
+
+.. End of callout items -------------------------------------------------------
+
+##### Core Concepts
+
+.. _fiftyone-library:
+
+## FiftyOne Library
+
+FiftyOne's core library provides a structured yet dynamic representation to
+explore your datasets. You can efficiently query and manipulate your dataset by
+adding custom tags, model predictions and more.
+
+.. custombutton::
+    :button_text: Explore the library
+    :button_link: user_guide/basics.html
+
+
+```python
+:linenos:
+import fiftyone as fo
+dataset = fo.Dataset("my_dataset")
+sample = fo.Sample(filepath="/path/to/image.png")
+sample.tags.append("train")
+sample["custom_field"] = 51
+dataset.add_sample(sample)
+view = dataset.match_tags("train").sort_by("custom_field").limit(10)
+for sample in view:
+print(sample)
 ```
-gitbook publish
+
+> **Note:** FiftyOne is designed to be lightweight and flexible, making it easy to load
+your datasets. FiftyOne supports loading datasets in a variety of common
+formats out-of-the-box, and it also provides the extensibility to load
+datasets in custom formats.
+
+    Check out :doc:`loading datasets <user_guide/dataset_creation/index>` to see
+    how to load your data into FiftyOne.
+
+## FiftyOne App
+
+The FiftyOne App is a graphical user interface that makes it easy to explore
+and rapidly gain intuition into your datasets. You can visualize labels like
+bounding boxes and segmentations overlaid on the samples; sort, query and
+slice your dataset into any subset of interest; and more.
+
+.. custombutton::
+    :button_text: See more of the App
+    :button_link: user_guide/app.html
+
+![fiftyone-app](images/homepage_app.png)
+
+## FiftyOne Brain
+
+The FiftyOne Brain is a library of powerful machine learning-powered
+capabilities that provide insights into your datasets and recommend ways to
+modify your datasets that will lead to measurably better performance of your
+models.
+
+.. custombutton::
+    :button_text: Learn more about the Brain
+    :button_link: brain.html
+
+
+```python
+:linenos:
+import fiftyone.brain as fob
+fob.compute_uniqueness(dataset)
+rank_view = dataset.sort_by("uniqueness")
 ```
 
-By default (defined in the CLI-generated `gitbook-manifest.yaml`, your integration will be published privately, and owned by the organization specified in the manifest.
+## FiftyOne Plugins
 
-After publishing your integration, the CLI will give you a link to install your integration into 1 or more spaces in your organization.&#x20;
+FiftyOne provides a powerful plugin framework that allows for extending and
+customizing the functionality of the tool to suit your specific needs.
 
-You need to install your app into at least 1 space in order to continue developing it locally. Make sure to note the [`spaceId`](concepts.md) of the space you're installing it into for step 2.
+With plugins, you can add new functionality to the FiftyOne App, create
+integrations with other tools and APIs, render custom panels, and add custom
+buttons to menus.
 
-#### Step 2: Connect your app to a space in GitBook&#x20;
+With :ref:`FiftyOne Enterprise <enterprise-delegated-operations>`, you can even write
+plugins that allow users to execute long-running tasks from within the App that
+run on a connected compute cluster.
 
-While inside the root directory of your app, you can run:
+.. custombutton::
+    :button_text: Install some plugins!
+    :button_link: plugins/index.html
 
+![fiftyone-plugins](images/plugins/operators/examples/embeddings.gif)
+
+## Dataset Zoo
+
+The FiftyOne Dataset Zoo provides a powerful interface for downloading datasets
+and loading them into FiftyOne.
+
+It provides native access to dozens of popular benchmark datasets, and it als
+supports downloading arbitrary public or private datasets whose
+download/preparation methods are provided via GitHub repositories or URLs.
+
+.. custombutton::
+    :button_text: Check out the Dataset Zoo
+    :button_link: dataset_zoo/index.html
+
+
+```python
+:linenos:
+import fiftyone as fo
+import fiftyone.zoo as foz
+dataset = foz.load_zoo_dataset("coco-2017", split="validation")
+session = fo.launch_app(dataset)
 ```
-gitbook dev <spaceId>
+
+![dataset-zoo](images/dataset_zoo_coco_2017.png)
+
+## Model Zoo
+
+The FiftyOne Model Zoo provides a powerful interface for downloading models and
+applying them to your FiftyOne datasets.
+
+It provides native access to hundreds of pre-trained models, and it also
+supports downloading arbitrary public or private models whose definitions are
+provided via GitHub repositories or URLs.
+
+.. custombutton::
+    :button_text: Check out the Model Zoo
+    :button_link: model_zoo/index.html
+
+
+```python
+:linenos:
+import fiftyone as fo
+import fiftyone.zoo as foz
+dataset = foz.load_zoo_dataset(
+"coco-2017",
+split="validation",
+max_samples=50,
+shuffle=True,
+)
+model = foz.load_zoo_model(
+"clip-vit-base32-torch",
+text_prompt="A photo of a",
+classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],
+)
+dataset.apply_model(model, label_field="zero_shot_predictions")
+session = fo.launch_app(dataset)
 ```
 
-This will start a development server tied to the space specified in the command. You can find more information on Space ID's and where to find them in the [Concepts section](concepts.md).
+##### What's Next?
 
-{% hint style="info" %}
-Running this command will start a development server for use by the integration only. You do not need to navigate to the port the server is running on. \
-\
-Instead, all integration traffic to the specified space will automatically be served from your local server.
-{% endhint %}
+Where should you go from here? You could...
 
-Running this command will generate a `gitbook-dev.yaml` file that contains the `spaceId` needed to establish the connection while you continue to develop your app.
+- :ref:`Install FiftyOne <installing-fiftyone>`
+- Try one of the :doc:`tutorials <tutorials/index>` that demonstrate the unique
+  capabilities of FiftyOne
+- Explore :doc:`recipes <recipes/index>` for integrating FiftyOne into
+  your current ML workflows
+- Check out the :doc:`cheat sheets <cheat_sheets/index>` for topics you may
+  want to master quickly
+- Consult the :doc:`user guide <user_guide/index>` for detailed instructions on
+  how to accomplish various tasks with FiftyOne
 
-After successfully starting the development server, you can add your integration to a page in your development GitBook space.
+##### Need Support?
 
-#### Step 3: Testing your app during development
+If you run into any issues with FiftyOne or have any burning questions, feel
+free to [connect with us on Discord](https://community.voxel51.com) or reach out to
+us at support@voxel51.com.
 
-In a page within the space you connected your development server to, you should be able to insert your integration from the integrations panel, or from the quick insert menu (⌘ + /).&#x20;
+.. toctree::
+   :maxdepth: 1
+   :hidden:
 
-It's recommended that you [disable browser caching](https://stackoverflow.com/a/7000899) for the most optimal experience when developing your app.
-
-{% hint style="warning" %}
-If you don't see your integration in this list, you may not have published it correctly, or are viewing an incorrect space for your integration.
-{% endhint %}
-
-Any logs sent to the console or made through your integration's `RuntimeContext` will be surfaced in your browser's console.&#x20;
-
-{% hint style="warning" %}
-Any UI changes made to your integration will need a browser refresh in order to be visible.
-{% endhint %}
-
-### Debugging
-
-We've enabled developer logs in your browser's console, allowing you to debug your integration for any errors in your code.&#x20;
-
-> We're actively aiming to make the development and debugging experience better, and if you have any suggestions or feedback, feel free to start the discussion with us in our [GitBook community](https://github.com/GitbookIO/community).
+   Overview <self>
+   FiftyOne Enterprise 🚀 <enterprise/index>
+   Installation <getting_started/install>
+   Environments <environments/index>
+   Tutorials <tutorials/index>
+   Recipes <recipes/index>
+   Cheat Sheets <cheat_sheets/index>
+   User Guide <user_guide/index>
+   Dataset Zoo <dataset_zoo/index>
+   Model Zoo <model_zoo/index>
+   FiftyOne Brain <brain>
+   Integrations <integrations/index>
+   Plugins <plugins/index>
+   CLI <cli/index>
+   API Reference <api/fiftyone>
+   Release Notes <release-notes>
+   Deprecation Notices <deprecation>
+   FAQ <faq/index>
