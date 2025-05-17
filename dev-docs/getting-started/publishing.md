@@ -1,228 +1,377 @@
-# Install Troubleshooting
+# FiftyOne
 
-.. default-role:: code
+.. Social links ---------------------------------------------------------------
 
-This page lists common issues encountered when installing FiftyOne and possible\
-solutions. If you encounter an issue that this page doesn't help you resolve,\
-feel free to\
-[open an issue on GitHub](https://github.com/voxel51/fiftyone/issues/new?labels=bug&template=installation_issue_template.md&title=%5BSETUP-BUG%5D)\
-or [contact us on Discord](https://community.voxel51.com).
+.. End social links -----------------------------------------------------------
+
+*_The open-source tool for building high-quality datasets and computer vision models__
+
+Nothing hinders the success of machine learning systems more than poor quality\
+data. And without the right tools, improving a model can be time-consuming and\
+inefficient.
+
+FiftyOne supercharges your machine learning workflows by enabling you to\
+visualize datasets and interpret models faster and more effectively.
+
+<figure><img src="../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
+
+Improving data quality and understanding your model's failure modes are the\
+most impactful ways to boost the performance of your model.
+
+FiftyOne provides the building blocks for optimizing your dataset analysis\
+pipeline. Use it to get hands-on with your data, including visualizing complex\
+labels, evaluating your models, exploring scenarios of interest, identifying\
+failure modes, finding annotation mistakes, and much more!
+
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Install FiftyOne!</a>
+
+FiftyOne integrates naturally with your favorite tools. Click on a logo to\
+learn how:
+
+<div class="integrations-logos">
+
+\
+    :image_link: recipes/adding_detections.html\
+    :image_src: https://voxel51.com/images/integrations/pytorch-128.png\
+    :image_title: PyTorch
+
+\
+    :image_link: integrations/lightning_flash.html\
+    :image_src: https://voxel51.com/images/integrations/pytorch-lightning-128.png\
+    :image_title: PyTorch Lightning
+
+\
+    :image_link: integrations/huggingface.html\
+    :image_src: https://voxel51.com/images/integrations/hugging-face-128.png\
+    :image_title: Hugging Face
+
+\
+    :image_link: integrations/ultralytics.html\
+    :image_src: https://voxel51.com/images/integrations/ultralytics-128.png\
+    :image_title: Ultralytics
+
+\
+    :image_link: integrations/super_gradients.html\
+    :image_src: https://voxel51.com/images/integrations/super-gradients-128.png\
+    :image_title: SuperGradients
+
+\
+    :image_link: recipes/adding_detections.html\
+    :image_src: https://voxel51.com/images/integrations/tensorflow-128.png\
+    :image_title: TensorFlow
+
+\
+    :image_link: tutorials/detectron2.html\
+    :image_src: https://voxel51.com/images/integrations/detectron2-128.png\
+    :image_title: Detectron2
+
+\
+    :image_link: integrations/qdrant.html\
+    :image_src: https://voxel51.com/images/integrations/qdrant-128.png\
+    :image_title: Qdrant
+
+\
+    :image_link: integrations/redis.html\
+    :image_src: https://voxel51.com/images/integrations/redis-128.png\
+    :image_title: Redis
+
+\
+    :image_link: integrations/pinecone.html\
+    :image_src: https://voxel51.com/images/integrations/pinecone-128.png\
+    :image_title: Pinecone
+
+\
+    :image_link: integrations/mongodb.html\
+    :image_src: https://voxel51.com/images/integrations/mongodb-128.png\
+    :image_title: MongoDB
+
+\
+    :image_link: integrations/elasticsearch.html\
+    :image_src: https://voxel51.com/images/integrations/elasticsearch-128.png\
+    :image_title: Elasticsearch
+
+\
+    :image_link: integrations/postgres.html\
+    :image_src: https://voxel51.com/images/integrations/postgres-128.png\
+    :image_title: PostgreSQL
+
+\
+    :image_link: integrations/mosaic.html\
+    :image_src: https://voxel51.com/images/integrations/mosaic-128.png\
+    :image_title: Mosaic
+
+\
+    :image_link: integrations/milvus.html\
+    :image_src: https://voxel51.com/images/integrations/milvus-128.png\
+    :image_title: Milvus
+
+\
+    :image_link: integrations/lancedb.html\
+    :image_src: https://voxel51.com/images/integrations/lancedb-128.png\
+    :image_title: LanceDB
+
+\
+    :image_link: integrations/activitynet.html\
+    :image_src: https://voxel51.com/images/integrations/activitynet-128.png\
+    :image_title: ActivityNet
+
+\
+    :image_link: integrations/coco.html\
+    :image_src: https://voxel51.com/images/integrations/coco-128.png\
+    :image_title: COCO
+
+\
+    :image_link: integrations/open_images.html\
+    :image_src: https://voxel51.com/images/integrations/open-images-128.png\
+    :image_title: Open Images
+
+\
+    :image_link: environments/index.html#notebooks\
+    :image_src: https://voxel51.com/images/integrations/jupyter-128.png\
+    :image_title: Jupyter
+
+\
+    :image_link: environments/index.html#notebooks\
+    :image_src: https://voxel51.com/images/integrations/colab-128.png\
+    :image_title: Google Colab
+
+\
+    :image_link: user_guide/plots.html\
+    :image_src: https://voxel51.com/images/integrations/plotly-128.png\
+    :image_title: Plotly
+
+\
+    :image_link: integrations/cvat.html\
+    :image_src: https://voxel51.com/images/integrations/cvat-128.png\
+    :image_title: CVAT
+
+\
+    :image_link: integrations/labelstudio.html\
+    :image_src: https://voxel51.com/images/integrations/labelstudio-128.png\
+    :image_title: Label Studio
+
+\
+    :image_link: integrations/v7.html\
+    :image_src: https://voxel51.com/images/integrations/v7-128.png\
+    :image_title: V7
+
+\
+    :image_link: https://github.com/segments-ai/segments-voxel51-plugin\
+    :image_src: https://voxel51.com/images/integrations/segments-128.png\
+    :image_title: Segments
+
+\
+    :image_link: integrations/labelbox.html\
+    :image_src: https://voxel51.com/images/integrations/labelbox-128.png\
+    :image_title: Labelbox
+
+\
+    :image_link: api/fiftyone.utils.scale.html\
+    :image_src: https://voxel51.com/images/integrations/scale-128.png\
+    :image_title: Scale AI
+
+\
+    :image_link: enterprise/installation.html#google-cloud-storage\
+    :image_src: https://voxel51.com/images/integrations/google-cloud-128.png\
+    :image_title: Google Cloud
+
+\
+    :image_link: enterprise/installation.html#amazon-s3\
+    :image_src: https://voxel51.com/images/integrations/aws-128.png\
+    :image_title: Amazon Web Services
+
+\
+    :image_link: enterprise/installation.html#microsoft-azure\
+    :image_src: https://voxel51.com/images/integrations/azure-128.png\
+    :image_title: Azure
+
+ html
+
+    </div>
 
 {% hint style="info" %}\
-*_Note:__\
-Most installation issues can be fixed by upgrading some packages and then\
-rerunning the FiftyOne install. So, try this first before reading on:\
+__Note:__\
+FiftyOne is growing!\
+[Sign up for the mailing list](https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk)\
+to learn about new features as they come out.\
 {% endhint %}
 
-    \
-```shell\
-pip install --upgrade pip setuptools wheel build\
-pip install fiftyone\
+### Core Capabilities
+
+.. Callout items --------------------------------------------------------------
+
+    </div>
+
+.. End of callout items -------------------------------------------------------
+
+### Core Concepts
+
+## FiftyOne Library
+
+FiftyOne's core library provides a structured yet dynamic representation to\
+explore your datasets. You can efficiently query and manipulate your dataset by\
+adding custom tags, model predictions and more.
+
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Explore the library</a>
+
+```python\
+:linenos:\
+import fiftyone as fo\
+dataset = fo.Dataset("my_dataset")\
+sample = fo.Sample(filepath="/path/to/image.png")\
+sample.tags.append("train")\
+sample["custom_field"] = 51\
+dataset.add_sample(sample)\
+view = dataset.match_tags("train").sort_by("custom_field").limit(10)\
+for sample in view:\
+print(sample)\
 ```
-
-## Python/pip incompatibilities
-
-##### "No matching distribution found"
-
-If you attempt to install FiftyOne with a version of Python or pip that is too\
-old, you may encounter errors like these:
-
-```text\
-ERROR: Could not find a version that satisfies the requirement fiftyone (from versions: none)\
-ERROR: No matching distribution found for fiftyone\
-```
-
-```text\
-Could not find a version that satisfies the requirement fiftyone-brain (from versions: )\
-No matching distribution found for fiftyone-brain\
-```
-
-```text\
-fiftyone requires Python '>=3.9' but the running Python is 3.4.10\
-```
-
-To resolve this, you will need to use Python 3.9 or newer, and pip 19.3 or\
-newer. See the :ref:`installation guide <installing-fiftyone>` for details. If\
-you have installed a suitable version of Python in a virtual environment and\
-still encounter this error, ensure that the virtual environment is activated.\
-See the\
-:doc:`virtual environment setup guide <virtualenv>` for more details.
 
 {% hint style="info" %}\
 __Note:_*\
-FiftyOne does not support 32-bit platforms.\
+FiftyOne is designed to be lightweight and flexible, making it easy to load\
+your datasets. FiftyOne supports loading datasets in a variety of common\
+formats out-of-the-box, and it also provides the extensibility to load\
+datasets in custom formats.\
 {% endhint %}
 
-##### "Package 'fiftyone' requires a different Python"
+    Check out :doc:`loading datasets <user_guide/dataset_creation/index>` to see\
+    how to load your data into FiftyOne.
 
-This error occurs when attempting to install FiftyOne with an unsupported\
-Python version (either too old or too new). See the\
-:ref:`installation guide <install-prereqs>` for details on which versions of\
-Python are supported by FiftyOne.
+## FiftyOne App
 
-If you have multiple Python installations, you may be using `pip` from an\
-incompatible Python installation. Run `pip --version` to see which Python\
-version `pip` is using. If you see an unsupported or unexpected Python version\
-reported, there are several possible causes, including:
+The FiftyOne App is a graphical user interface that makes it easy to explore\
+and rapidly gain intuition into your datasets. You can visualize labels like\
+bounding boxes and segmentations overlaid on the samples; sort, query and\
+slice your dataset into any subset of interest; and more.
 
-- You may not have activated a virtual environment in your current shell. Refer\
-  to the :doc:`virtual environment setup guide <virtualenv>` for details.\
-- If you are intentionally using your system Python installation instead of a\
-  virtual environment, your system-wide `pip` may use an unsupported Python\
-  version. For instance, on some Linux systems, `pip` uses Python 2, and `pip3`\
-  uses Python 3. If this is the case, try installing FiftyOne with `pip3`\
-  instead of `pip`.\
-- You may not have a compatible Python version installed. See the\
-  :ref:`installation guide <install-prereqs>` for details.
+<a href="../integrations/contentkit/interactivity.md" class="button primary">See more of the App</a>
 
-##### "No module named skbuild"
+![fiftyone-app](images/homepage_app.png)
 
-On Linux, this error can occur when attempting to install OpenCV with an old\
-pip version. To fix this, upgrade pip. See the\
-:ref:`installation guide <installing-fiftyone>` for instructions, or the\
-[opencv-python FAQ](https://pypi.org/project/opencv-python-headless/) for\
-more details.
+## FiftyOne Brain
 
-## Videos do not load in the App
+The FiftyOne Brain is a library of powerful machine learning-powered\
+capabilities that provide insights into your datasets and recommend ways to\
+modify your datasets that will lead to measurably better performance of your\
+models.
 
-You need to install [FFmpeg](https://ffmpeg.org) in order to work with video\
-datasets:
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Learn more about the Brain</a>
 
-.. tabs\
-```\
-.. group-tab:: Linux\
-```
-
-    \
-```shell\
-sudo apt install -y ffmpeg\
-```\
-.. group-tab:: macOS
-
-    \
 ```python\
-brew install ffmpeg\
-```\
-.. group-tab:: Windows
-
-    You can download a Windows build from\
-    [here](https://ffmpeg.org/download.html#build-windows). Unzip it and be\
-    sure to add it to your path.
-
-Without FFmpeg installed, videos may appear in the App, but they will not be\
-rendered with the correct aspect ratio and thus label overlays will not be\
-positioned correctly.
-
-## IPython installation
-
-If you are using IPython and a virtual environment for FiftyOne, IPython must\
-be installed in the virtual environment, per the\
-:ref:`installation guide <installing-extras>`. If you attempt to use a\
-system-wide IPython installation in a virtual environment with FiftyOne, you\
-may encounter errors such as:
-
-```text
-
-```\
-.../IPython/core/interactiveshell.py:935: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
-
-```text\
-File "\
-```\
-.../fiftyone/core/../_service_main.py", line 29, in <module>\
-        import psutil\
-    ModuleNotFoundError: No module named 'psutil'
-
-```text\
-ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused\
+:linenos:\
+import fiftyone.brain as fob\
+fob.compute_uniqueness(dataset)\
+rank_view = dataset.sort_by("uniqueness")\
 ```
 
-To resolve this, install IPython in your active virtual environment (see the\
-:ref:`virtual environment guide <virtualenv-guide>` for more information):
+## FiftyOne Plugins
 
-```shell\
-pip install ipython\
+FiftyOne provides a powerful plugin framework that allows for extending and\
+customizing the functionality of the tool to suit your specific needs.
+
+With plugins, you can add new functionality to the FiftyOne App, create\
+integrations with other tools and APIs, render custom panels, and add custom\
+buttons to menus.
+
+With :ref:`FiftyOne Enterprise <enterprise-delegated-operations>`, you can even write\
+plugins that allow users to execute long-running tasks from within the App that\
+run on a connected compute cluster.
+
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Install some plugins!</a>
+
+![fiftyone-plugins](images/plugins/operators/examples/embeddings.gif)
+
+## Dataset Zoo
+
+The FiftyOne Dataset Zoo provides a powerful interface for downloading datasets\
+and loading them into FiftyOne.
+
+It provides native access to dozens of popular benchmark datasets, and it als\
+supports downloading arbitrary public or private datasets whose\
+download/preparation methods are provided via GitHub repositories or URLs.
+
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Check out the Dataset Zoo</a>
+
+```python\
+:linenos:\
+import fiftyone as fo\
+import fiftyone.zoo as foz\
+dataset = foz.load_zoo_dataset("coco-2017", split="validation")\
+session = fo.launch_app(dataset)\
 ```
 
-## Import and database issues
+![dataset-zoo](images/dataset_zoo_coco_2017.png)
 
-FiftyOne includes a `fiftyone-db` package wheel for your operating system and\
-hardware. If you have not\
-:ref:`configured your own database connection <configuring-mongodb-connection>`,\
-then FiftyOne's database service will attempt to start up on import using the\
-MongoDB distribution provided by `fiftyone-db`. If the database fails to start,\
-importing `fiftyone` will result in exceptions being raised.
+## Model Zoo
 
-## Downgrading to old versions
+The FiftyOne Model Zoo provides a powerful interface for downloading models and\
+applying them to your FiftyOne datasets.
 
-The :ref:`fiftyone migrate <cli-fiftyone-migrate>` command was introduced in\
-FiftyOne v0.7.3. If you would like to downgrade from a FiftyOne version\
-prior to v0.7.3 (to a yet older version), then you will first need to\
-:ref:`upgrade <upgrading-fiftyone>` to v0.7.3 or later and then\
-:ref:`downgrade <downgrading-fiftyone>`:
+It provides native access to hundreds of pre-trained models, and it also\
+supports downloading arbitrary public or private models whose definitions are\
+provided via GitHub repositories or URLs.
 
-```shell\
-# The version that you wish to downgrade to\
-VERSION=0.7.0\
-pip install fiftyone==0.7.3\
-fiftyone migrate --all -v $VERSION\
-pip install fiftyone==$VERSION\
+<a href="../integrations/contentkit/interactivity.md" class="button primary">Check out the Model Zoo</a>
+
+```python\
+:linenos:\
+import fiftyone as fo\
+import fiftyone.zoo as foz\
+dataset = foz.load_zoo_dataset(\
+"coco-2017",\
+split="validation",\
+max_samples=50,\
+shuffle=True,\
+)
+model = foz.load_zoo_model(\
+"clip-vit-base32-torch",\
+text_prompt="A photo of a",\
+classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],\
+)
+dataset.apply_model(model, label_field="zero_shot_predictions")\
+session = fo.launch_app(dataset)\
 ```
 
-To install a FiftyOne version prior to v0.7.0, you must add ``--index``:
+### What's Next?
 
-```shell\
-pip install --index https://pypi.voxel51.com fiftyone==<version>\
-```
+Where should you go from here? You could...
 
-## Database exits
+- :ref:`Install FiftyOne <installing-fiftyone>`\
+- Try one of the :doc:`tutorials <tutorials/index>` that demonstrate the unique\
+  capabilities of FiftyOne\
+- Explore :doc:`recipes <recipes/index>` for integrating FiftyOne into\
+  your current ML workflows\
+- Check out the :doc:`cheat sheets <cheat_sheets/index>` for topics you may\
+  want to master quickly\
+- Consult the :doc:`user guide <user_guide/index>` for detailed instructions on\
+  how to accomplish various tasks with FiftyOne
 
-On some UNIX systems, the default open file limit setting is too small for\
-FiftyOne's MongoDB connection. The database service will exit in this case.\
-Running `ulimit -n 64000` should resolve the issue. 64,000 is the recommended\
-open file limit.  MongoDB has full documentation on the issue\
-[here](https://docs.mongodb.com/manual/reference/ulimit/). 
+### Need Support?
 
-##### Troubleshooting Linux imports
+If you run into any issues with FiftyOne or have any burning questions, feel\
+free to [connect with us on Discord](https://community.voxel51.com) or reach out to\
+us at support@voxel51.com.
 
-`fiftyone-db` officially supports Amazon Linux 2 and 2023, Debian 9+\
-(x86_64 only), Ubuntu 18.04+, and RHEL/CentOS 7+ Linux distributions. The\
-correct MongoDB build is downloaded and installed while building the package\
-wheel on your machine. 
+\
+   :maxdepth: 1\
+   :hidden:
 
-If a suitable MongoDB build is not available or otherwise does not\
-work in your environment, you may encounter a `FiftyOneConfigError`.
-
-If you have output similar to the below, you may just need to install\
-`libssl` packages.
-
-```text\
-Subprocess ['\
-```\
-.../site-packages/fiftyone/db/bin/mongod', ...] exited with error 127:\
-  .../site-packages/fiftyone/db/bin/mongod: error while loading shared libraries:\
-    libcrypto.so.1.1: cannot open shared object file: No such file or directory
-
-On Ubuntu, `libssl` packages can be install with the following command:
-
-```shell\
-sudo apt install libssl-dev\
-```
-
-If you still face issues with imports, you can follow\
-:ref:`these instructions <configuring-mongodb-connection>` to configure\
-FiftyOne to use a MongoDB instance that you have installed yourself.
-
-##### Troubleshooting Windows imports
-
-If your encounter a `psutil.NoSuchProcessExists` exists when importing\
-`fiftyone`, you are likely missing the C++ libraries MongoDB requires.
-
-.. code-block\
-```\
-psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=XXXX)\
-```\
-Downloading and installing the Microsoft Visual C++ Redistributable from this\
-[page](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)\
-should resolve the issue. Specifically, you will want to download the\
-`vc_redist.x64.exe` redistributable.
+   Overview <self>\
+   FiftyOne Enterprise 🚀 <enterprise/index>\
+   Installation <getting_started/install>\
+   Environments <environments/index>\
+   Tutorials <tutorials/index>\
+   Recipes <recipes/index>\
+   Cheat Sheets <cheat_sheets/index>\
+   User Guide <user_guide/index>\
+   Dataset Zoo <dataset_zoo/index>\
+   Model Zoo <model_zoo/index>\
+   FiftyOne Brain <brain>\
+   Integrations <integrations/index>\
+   Plugins <plugins/index>\
+   CLI <cli/index>\
+   API Reference <api/fiftyone>\
+   Release Notes <release-notes>\
+   Deprecation Notices <deprecation>\
+   FAQ <faq/index>
