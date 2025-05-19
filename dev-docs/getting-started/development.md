@@ -6,3 +6,15 @@
 
 
 **The open-source tool for building high-quality datasets and computer vision models**
+Nothing hinders the success of machine learning systems more than poor quality
+data. And without the right tools, improving a model can be time-consuming and
+inefficient.
+
+FiftyOne supercharges your machine learning workflows by enabling you to
+visualize datasets and interpret models faster and more effectively.
+
+| <p><a href="https://github.com/voxel51/fiftyone"><img src="_static/images/icons/github-logo-256px.png" alt="GitHub repository"><br>  View on GitHub</a></p> | <p><a href="https://community.voxel51.com/"><img src="_static/images/icons/discord-logo-256px.png" alt="Discord community"><br>  Join us on Discord</a></p> | <p><a href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb"><img src="_static/images/icons/colab-logo-256px.png" alt="Colab quickstart"><br>  Try it in Colab</a></p> |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+Improving data quality and understanding your model's failure modes are the
+most impactful ways to boost the performance of your model.
