@@ -1,7 +1,28 @@
 # FiftyOne
 .. Social links ---------------------------------------------------------------
 
-
+<div class="social-links">
+<table id="social-links-table">
+<th>
+<a target="_blank" href="https://github.com/voxel51/fiftyone">
+<img alt="GitHub repository" src="_static/images/icons/github-logo-256px.png">
+&nbsp View on GitHub
+</a>
+</th>
+<th>
+<a target="_blank" href="https://community.voxel51.com/">
+<img alt="Discord community" src="_static/images/icons/discord-logo-256px.png">
+&nbsp Join us on Discord
+</a>
+</th>
+<th>
+<a target="_blank" href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb">
+<img alt="Colab quickstart" src="_static/images/icons/colab-logo-256px.png">
+&nbsp Try it in Colab
+</a>
+</th>
+</table>
+</div>
 .. End social links -----------------------------------------------------------
 
 **The open-source tool for building high-quality datasets and computer vision models**
@@ -13,7 +34,11 @@ inefficient.
 FiftyOne supercharges your machine learning workflows by enabling you to
 visualize datasets and interpret models faster and more effectively.
 
-
+<div style="margin-top: 20px; margin-bottom: 20px">
+<video controls muted poster="https://voxel51.com/images/fiftyone-poster-v2.png" style="width: 100%;">
+<source src="https://voxel51.com/images/fiftyone_long_sizzle_light_bg.mp4" type="video/mp4">
+</video>
+</div>
 Improving data quality and understanding your model's failure modes are the
 most impactful ways to boost the performance of your model.
 
@@ -22,12 +47,12 @@ pipeline. Use it to get hands-on with your data, including visualizing complex
 labels, evaluating your models, exploring scenarios of interest, identifying
 failure modes, finding annotation mistakes, and much more!
 
-<a href="getting_started/install.html" class="button primary">Install FiftyOne!</a>
+<a href="g" class="button primary">Install FiftyOne!</a>etting_started/install.html
 
 FiftyOne integrates naturally with your favorite tools. Click on a logo to
 learn how:
 
-
+<div class="integrations-logos">
 .. customimagelink::
     :image_link: recipes/adding_detections.html
     :image_src: https://voxel51.com/images/integrations/pytorch-128.png
@@ -183,13 +208,12 @@ learn how:
     :image_src: https://voxel51.com/images/integrations/azure-128.png
     :image_title: Azure
 
-
+</div>
 {% hint style="info" %}
 FiftyOne is growing!
+`Sign up for the mailing list <https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk>`_
+to learn about new features as they come out.
 {% endhint %}
-  `Sign up for the mailing list <https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk>`_
-  to learn about new features as they come out.
-
 .. _core-capabilities:
 
 Core Capabilities
@@ -197,7 +221,8 @@ _________________
 
 .. Callout items --------------------------------------------------------------
 
-
+<div class="tutorials-callout-container">
+<div class="row">
 .. Add callout items below this line
 
 .. customcalloutitem::
@@ -244,7 +269,8 @@ _________________
 
 .. End callouts ---------------------------------------------------------------
 
-
+</div>
+</div>
 .. End of callout items -------------------------------------------------------
 
 Core Concepts
@@ -257,46 +283,46 @@ FiftyOne's core library provides a structured yet dynamic representation to
 explore your datasets. You can efficiently query and manipulate your dataset by
 adding custom tags, model predictions and more.
 
-<a href="user_guide/basics.html" class="button primary">Explore the library</a>
+<a href="u" class="button primary">Explore the library</a>ser_guide/basics.html
 
 ```python
-:linenos:
+  :linenos:
 
-import fiftyone as fo
+  import fiftyone as fo
 
-dataset = fo.Dataset("my_dataset")
+  dataset = fo.Dataset("my_dataset")
 
-sample = fo.Sample(filepath="/path/to/image.png")
-sample.tags.append("train")
-sample["custom_field"] = 51
+  sample = fo.Sample(filepath="/path/to/image.png")
+  sample.tags.append("train")
+  sample["custom_field"] = 51
 
-dataset.add_sample(sample)
+  dataset.add_sample(sample)
 
-view = dataset.match_tags("train").sort_by("custom_field").limit(10)
+  view = dataset.match_tags("train").sort_by("custom_field").limit(10)
 
-for sample in view:
-    print(sample)
+  for sample in view:
+      print(sample)
 
 ```
 {% hint style="info" %}
 FiftyOne is designed to be lightweight and flexible, making it easy to load
+your datasets. FiftyOne supports loading datasets in a variety of common
+formats out-of-the-box, and it also provides the extensibility to load
+datasets in custom formats.
+Check out :doc:`loading datasets <user_guide/dataset_creation/index>` to see
+how to load your data into FiftyOne.
 {% endhint %}
-    your datasets. FiftyOne supports loading datasets in a variety of common
-    formats out-of-the-box, and it also provides the extensibility to load
-    datasets in custom formats.
-
-    Check out :doc:`loading datasets <user_guide/dataset_creation/index>` to see
-    how to load your data into FiftyOne.
-
 ## FiftyOne App
 The FiftyOne App is a graphical user interface that makes it easy to explore
 and rapidly gain intuition into your datasets. You can visualize labels like
 bounding boxes and segmentations overlaid on the samples; sort, query and
 slice your dataset into any subset of interest; and more.
 
-<a href="user_guide/app.html" class="button primary">See more of the App</a>
+<a href="u" class="button primary">See more of the App</a>ser_guide/app.html
 
-<figure><img src="images/homepage_app.png" alt="fiftyone-app"><figcaption></figcaption></figure>
+![Image](images/homepage_app.png)
+   :alt: fiftyone-app
+   :align: center
 
 ## FiftyOne Brain
 The FiftyOne Brain is a library of powerful machine learning-powered
@@ -304,15 +330,15 @@ capabilities that provide insights into your datasets and recommend ways to
 modify your datasets that will lead to measurably better performance of your
 models.
 
-<a href="brain.html" class="button primary">Learn more about the Brain</a>
+<a href="b" class="button primary">Learn more about the Brain</a>rain.html
 
 ```python
-:linenos:
+ :linenos:
 
-import fiftyone.brain as fob
+ import fiftyone.brain as fob
 
-fob.compute_uniqueness(dataset)
-rank_view = dataset.sort_by("uniqueness")
+ fob.compute_uniqueness(dataset)
+ rank_view = dataset.sort_by("uniqueness")
 
 ```
 ## FiftyOne Plugins
@@ -323,13 +349,15 @@ With plugins, you can add new functionality to the FiftyOne App, create
 integrations with other tools and APIs, render custom panels, and add custom
 buttons to menus.
 
-With [FiftyOne Enterprise ](enterprise-delegated-operations), you can even write
+With [FiftyOne Enterprise](enterprise-delegated-operations), you can even write
 plugins that allow users to execute long-running tasks from within the App that
 run on a connected compute cluster.
 
-<a href="plugins/index.html" class="button primary">Install some plugins!</a>
+<a href="p" class="button primary">Install some plugins!</a>lugins/index.html
 
-<figure><img src="images/plugins/operators/examples/embeddings.gif" alt="fiftyone-plugins"><figcaption></figcaption></figure>
+![Image](images/plugins/operators/examples/embeddings.gif)
+   :alt: fiftyone-plugins
+   :align: center
 
 ## Dataset Zoo
 The FiftyOne Dataset Zoo provides a powerful interface for downloading datasets
@@ -339,20 +367,22 @@ It provides native access to dozens of popular benchmark datasets, and it als
 supports downloading arbitrary public or private datasets whose
 download/preparation methods are provided via GitHub repositories or URLs.
 
-<a href="dataset_zoo/index.html" class="button primary">Check out the Dataset Zoo</a>
+<a href="d" class="button primary">Check out the Dataset Zoo</a>ataset_zoo/index.html
 
 ```python
-:linenos:
+ :linenos:
 
- import fiftyone as fo
- import fiftyone.zoo as foz
+  import fiftyone as fo
+  import fiftyone.zoo as foz
 
- dataset = foz.load_zoo_dataset("coco-2017", split="validation")
+  dataset = foz.load_zoo_dataset("coco-2017", split="validation")
 
- session = fo.launch_app(dataset)
+  session = fo.launch_app(dataset)
 
 ```
-<figure><img src="images/dataset_zoo_coco_2017.png" alt="dataset-zoo"><figcaption></figcaption></figure>
+![Image](images/dataset_zoo_coco_2017.png)
+   :alt: dataset-zoo
+   :align: center
 
 ## Model Zoo
 The FiftyOne Model Zoo provides a powerful interface for downloading models and
@@ -362,30 +392,30 @@ It provides native access to hundreds of pre-trained models, and it also
 supports downloading arbitrary public or private models whose definitions are
 provided via GitHub repositories or URLs.
 
-<a href="model_zoo/index.html" class="button primary">Check out the Model Zoo</a>
+<a href="m" class="button primary">Check out the Model Zoo</a>odel_zoo/index.html
 
 ```python
-:linenos:
+ :linenos:
 
- import fiftyone as fo
- import fiftyone.zoo as foz
+  import fiftyone as fo
+  import fiftyone.zoo as foz
 
- dataset = foz.load_zoo_dataset(
-     "coco-2017",
-     split="validation",
-     max_samples=50,
-     shuffle=True,
- )
+  dataset = foz.load_zoo_dataset(
+      "coco-2017",
+      split="validation",
+      max_samples=50,
+      shuffle=True,
+  )
 
- model = foz.load_zoo_model(
-     "clip-vit-base32-torch",
-     text_prompt="A photo of a",
-     classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],
- )
+  model = foz.load_zoo_model(
+      "clip-vit-base32-torch",
+      text_prompt="A photo of a",
+      classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],
+  )
 
- dataset.apply_model(model, label_field="zero_shot_predictions")
+  dataset.apply_model(model, label_field="zero_shot_predictions")
 
- session = fo.launch_app(dataset)
+  session = fo.launch_app(dataset)
 
 ```
 What's Next?
@@ -393,7 +423,7 @@ ____________
 
 Where should you go from here? You could...
 
-* [Install FiftyOne ](installing-fiftyone)
+* [Install FiftyOne](installing-fiftyone)
 * Try one of the :doc:`tutorials <tutorials/index>` that demonstrate the unique
   capabilities of FiftyOne
 * Explore :doc:`recipes <recipes/index>` for integrating FiftyOne into
