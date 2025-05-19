@@ -12,6 +12,10 @@ Nothing hinders the success of machine learning systems more than poor quality\
 data. And without the right tools, improving a model can be time-consuming and\
 inefficient.
 
+here is [a link](../changelogs/api.md)
+
+<figure><img src="../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
+
 ```python
     import fiftyone as fo
 ```
