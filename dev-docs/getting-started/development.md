@@ -12,4 +12,6 @@ Nothing hinders the success of machine learning systems more than poor quality\
 data. And without the right tools, improving a model can be time-consuming and\
 inefficient.
 
+{% embed url="https://www.youtube.com/watch?v=FycRwUchoEQ" %}
+
 <a href="../changelogs/api.md" class="button primary">New button</a>
