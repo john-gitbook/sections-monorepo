@@ -1,30 +1,6 @@
 # FiftyOne
 .. Social links ---------------------------------------------------------------
 
-.. raw:: html
-
-  <div class="social-links">
-    <table id="social-links-table">
-      <th>
-        <a target="_blank" href="https://github.com/voxel51/fiftyone">
-          <img alt="GitHub repository" src="_static/images/icons/github-logo-256px.png">
-          &nbsp View on GitHub
-        </a>
-      </th>
-      <th>
-        <a target="_blank" href="https://community.voxel51.com/">
-          <img alt="Discord community" src="_static/images/icons/discord-logo-256px.png">
-          &nbsp Join us on Discord
-        </a>
-      </th>
-      <th>
-        <a target="_blank" href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb">
-          <img alt="Colab quickstart" src="_static/images/icons/colab-logo-256px.png">
-          &nbsp Try it in Colab
-        </a>
-      </th>
-    </table>
-  </div>
 
 .. End social links -----------------------------------------------------------
 
@@ -37,9 +13,6 @@ inefficient.
 FiftyOne supercharges your machine learning workflows by enabling you to
 visualize datasets and interpret models faster and more effectively.
 
-.. raw:: html
-
-  {% embed url="https://voxel51.com/images/fiftyone_long_sizzle_light_bg.mp4" %}
 
 Improving data quality and understanding your model's failure modes are the
 most impactful ways to boost the performance of your model.
@@ -54,9 +27,6 @@ failure modes, finding annotation mistakes, and much more!
 FiftyOne integrates naturally with your favorite tools. Click on a logo to
 learn how:
 
-.. raw:: html
-
-    <div class="integrations-logos">
 
 .. customimagelink::
     :image_link: recipes/adding_detections.html
@@ -213,9 +183,6 @@ learn how:
     :image_src: https://voxel51.com/images/integrations/azure-128.png
     :image_title: Azure
 
-.. raw:: html
-
-    </div>
 
 {% hint style="info" %}
 FiftyOne is growing!
@@ -230,10 +197,6 @@ _________________
 
 .. Callout items --------------------------------------------------------------
 
-.. raw:: html
-
-    <div class="tutorials-callout-container">
-        <div class="row">
 
 .. Add callout items below this line
 
@@ -281,10 +244,6 @@ _________________
 
 .. End callouts ---------------------------------------------------------------
 
-.. raw:: html
-
-        </div>
-    </div>
 
 .. End of callout items -------------------------------------------------------
 
@@ -302,23 +261,23 @@ adding custom tags, model predictions and more.
 
 ```python
 :linenos:
+
+import fiftyone as fo
+
+dataset = fo.Dataset("my_dataset")
+
+sample = fo.Sample(filepath="/path/to/image.png")
+sample.tags.append("train")
+sample["custom_field"] = 51
+
+dataset.add_sample(sample)
+
+view = dataset.match_tags("train").sort_by("custom_field").limit(10)
+
+for sample in view:
+    print(sample)
+
 ```
-
-    import fiftyone as fo
-
-    dataset = fo.Dataset("my_dataset")
-
-    sample = fo.Sample(filepath="/path/to/image.png")
-    sample.tags.append("train")
-    sample["custom_field"] = 51
-
-    dataset.add_sample(sample)
-
-    view = dataset.match_tags("train").sort_by("custom_field").limit(10)
-
-    for sample in view:
-        print(sample)
-
 {% hint style="info" %}
 FiftyOne is designed to be lightweight and flexible, making it easy to load
 {% endhint %}
@@ -349,13 +308,13 @@ models.
 
 ```python
 :linenos:
+
+import fiftyone.brain as fob
+
+fob.compute_uniqueness(dataset)
+rank_view = dataset.sort_by("uniqueness")
+
 ```
-
-   import fiftyone.brain as fob
-
-   fob.compute_uniqueness(dataset)
-   rank_view = dataset.sort_by("uniqueness")
-
 ## FiftyOne Plugins
 FiftyOne provides a powerful plugin framework that allows for extending and
 customizing the functionality of the tool to suit your specific needs.
@@ -384,15 +343,15 @@ download/preparation methods are provided via GitHub repositories or URLs.
 
 ```python
 :linenos:
+
+ import fiftyone as fo
+ import fiftyone.zoo as foz
+
+ dataset = foz.load_zoo_dataset("coco-2017", split="validation")
+
+ session = fo.launch_app(dataset)
+
 ```
-
-    import fiftyone as fo
-    import fiftyone.zoo as foz
-
-    dataset = foz.load_zoo_dataset("coco-2017", split="validation")
-
-    session = fo.launch_app(dataset)
-
 <figure><img src="images/dataset_zoo_coco_2017.png" alt="dataset-zoo"><figcaption></figcaption></figure>
 
 ## Model Zoo
@@ -407,28 +366,28 @@ provided via GitHub repositories or URLs.
 
 ```python
 :linenos:
+
+ import fiftyone as fo
+ import fiftyone.zoo as foz
+
+ dataset = foz.load_zoo_dataset(
+     "coco-2017",
+     split="validation",
+     max_samples=50,
+     shuffle=True,
+ )
+
+ model = foz.load_zoo_model(
+     "clip-vit-base32-torch",
+     text_prompt="A photo of a",
+     classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],
+ )
+
+ dataset.apply_model(model, label_field="zero_shot_predictions")
+
+ session = fo.launch_app(dataset)
+
 ```
-
-    import fiftyone as fo
-    import fiftyone.zoo as foz
-
-    dataset = foz.load_zoo_dataset(
-        "coco-2017",
-        split="validation",
-        max_samples=50,
-        shuffle=True,
-    )
-
-    model = foz.load_zoo_model(
-        "clip-vit-base32-torch",
-        text_prompt="A photo of a",
-        classes=["person", "dog", "cat", "bird", "car", "tree", "chair"],
-    )
-
-    dataset.apply_model(model, label_field="zero_shot_predictions")
-
-    session = fo.launch_app(dataset)
-
 What's Next?
 ____________
 
