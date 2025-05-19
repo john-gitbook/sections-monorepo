@@ -12,6 +12,10 @@ Nothing hinders the success of machine learning systems more than poor quality\
 data. And without the right tools, improving a model can be time-consuming and\
 inefficient.
 
+```python
+    import fiftyone as fo
+```
+
 {% hint style="info" %}
 this is a note
 {% endhint %}
