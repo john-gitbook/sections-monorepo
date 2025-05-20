@@ -177,7 +177,7 @@ learn how:
     </div>
 
   FiftyOne is growing!
-  `Sign up for the mailing list <https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk>`_
+  [Sign up for the mailing list ](https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk)
   to learn about new features as they come out.
 
 ### Core Capabilities
@@ -376,7 +376,7 @@ Where should you go from here? You could...
 
 ### Need Support?
 If you run into any issues with FiftyOne or have any burning questions, feel
-free to `connect with us on Discord <https://community.voxel51.com>`_ or reach out to
+free to [connect with us on Discord ](https://community.voxel51.com) or reach out to
 us at support@voxel51.com.
 
    :maxdepth: 1
