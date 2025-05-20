@@ -17,6 +17,10 @@ inefficient.
 FiftyOne supercharges your machine learning workflows by enabling you to\
 visualize datasets and interpret models faster and more effectively.
 
+
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>title </td><td><a href="../.gitbook/assets/02_04_25_add_api_spec.svg">02_04_25_add_api_spec.svg</a></td></tr><tr><td></td><td></td></tr></tbody></table>
+
 <figure><img src="../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
 
 Improving data quality and understanding your model's failure modes are the\
@@ -26,6 +30,12 @@ FiftyOne provides the building blocks for optimizing your dataset analysis\
 pipeline. Use it to get hands-on with your data, including visualizing complex\
 labels, evaluating your models, exploring scenarios of interest, identifying\
 failure modes, finding annotation mistakes, and much more!
+
+
+
+
+
+
 
 <a href="../integrations/contentkit/interactivity.md" class="button primary">Install FiftyOne!</a>
 
