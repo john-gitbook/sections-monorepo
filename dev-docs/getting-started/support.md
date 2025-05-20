@@ -221,8 +221,7 @@ learn how:
     :button_link: tutorials/uniqueness.html
     :image: _static/images/homepage_redundant.gif
 
-        </div>
-    </div>
+        
 
 ### Core Concepts
 
