@@ -67,10 +67,10 @@ Look interesting?
     [Schedule a demo](https://voxel51.com/book-a-demo) to get
     started with FiftyOne Enterprise
 
-## Table of Contents
+    :maxdepth: 1
+    :hidden:
 
-- [Overview](overview)
-
+    Overview <overview>
     Installation <installation>
     API connection <api_connection>
     Cloud-backed media <cloud_media>
