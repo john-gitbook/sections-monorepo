@@ -10,7 +10,7 @@ including annotation, evaluation, model training, and deployment.
 [Learn more](https://voxel51.com/enterprise) about FiftyOne Enterprise and [contact us](https://voxel51.com/talk-to-sales) to try it! .. _fiftyone-vs-fiftyone-enterprise: ### Open Source vs Enterprise
 {% endhint %}Here's a high-level overview of the capabilities that FiftyOne Enterprise brings:
 
-    </table><table class="docutils align-center">
+</table><table class="docutils align-center">
     <thead>
     <tr class="row-odd"><th class="head stub"></th>
     <th class="head" style="text-align: center"><p>FiftyOne Enterprise</p></th>
@@ -69,7 +69,7 @@ including annotation, evaluation, model training, and deployment.
     <td style="text-align: center"><p>Apache 2.0</p></td>
     </tr>
     </tbody>
-    </table>
+</table>
 
 .. _enterprise-backwards-compatibility:
 
