@@ -1,6 +1,6 @@
 # FiftyOne
 
-    <table id="social-links-table">
+<table id="social-links-table">
       <th>
         <a target="_blank" href="https://github.com/voxel51/fiftyone">
           <img alt="GitHub repository" src="_static/images/icons/github-logo-256px.png">
@@ -19,7 +19,7 @@
           &nbsp Try it in Colab
         </a>
       </th>
-    </table>
+</table>
   
 
 **The open-source tool for building high-quality datasets and computer vision models**
