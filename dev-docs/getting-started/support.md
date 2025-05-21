@@ -3,7 +3,7 @@
 # FiftyOne Enterprise
 
   
-    <table id="social-links-table">
+<table id="social-links-table">
       <th>
         <a target="_blank" href="https://voxel51.com/enterprise">
           <img src="../_static/images/icons/browser-512px.png">
@@ -22,7 +22,7 @@
           &nbsp Try it now
         </a>
       </th>
-    </table>
+</table>
   
 
 [FiftyOne Enterprise](https://voxel51.com/enterprise/) enables multiple users
