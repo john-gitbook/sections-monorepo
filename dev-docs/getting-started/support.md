@@ -90,47 +90,16 @@ FiftyOne is growing!
 
 ### Core Capabilities
 
-.. customcalloutitem::
-    :header: Curating datasets
-    :description: Surveys show that machine learning engineers spend over half of their time wrangling data, but it doesn't have to be that way. Use FiftyOne's powerful dataset import and manipulation capabilities to manage your data with ease.
-    :button_text: Learn how to load data into FiftyOne
-    :button_link: user_guide/dataset_creation/index.html
-    :image: _static/images/homepage_curate.gif
+## Features
 
-.. customcalloutitem::
-    :header: Evaluating models
-    :description: Aggregate metrics alone don’t give you the full picture of your ML models. In practice, the limiting factor on your model’s performance is often data quality issues that you need to see to address. FiftyOne makes it easy to do just that.
-    :button_text: See how to evaluate models with FiftyOne
-    :button_link: tutorials/evaluate_detections.html
-    :image: _static/images/homepage_evaluate.gif
-
-.. customcalloutitem::
-    :header: Visualizing embeddings
-    :description: Are you using embeddings to analyze your data and models? Use FiftyOne's embeddings visualization capabilities to reveal hidden structure in you data, mine hard samples, pre-annotate data, recommend new samples for annotation, and more.
-    :button_text: Experience the power of embeddings
-    :button_link: tutorials/image_embeddings.html
-    :image: _static/images/homepage_embeddings.gif
-
-.. customcalloutitem::
-    :header: Working with geolocation
-    :description: Many datasets have location metadata, but visualizing location-based datasets has traditionally required closed source or cloud-based tools. FiftyOne provides native support for storing, visualizing, and querying datasets by location.
-    :button_text: Visualize your location data
-    :button_link: user_guide/plots.html#geolocation-plots
-    :image: _static/images/homepage_location.gif
-
-.. customcalloutitem::
-    :header: Finding annotation mistakes
-    :description: Annotations mistakes create an artificial ceiling on the performance of your model. However, finding these mistakes by hand is not feasible! Use FiftyOne to automatically identify possible label mistakes in your datasets.
-    :button_text: Check out the label mistakes tutorial
-    :button_link: tutorials/classification_mistakes.html
-    :image: _static/images/homepage_mistakes.gif
-
-.. customcalloutitem::
-    :header: Removing redundant images
-    :description: During model training, the best results will be seen when training on unique data. Use FiftyOne to automatically remove duplicate or near-duplicate images from your datasets and curate diverse training datasets from your raw data.
-    :button_text: Try the image uniqueness tutorial
-    :button_link: tutorials/uniqueness.html
-    :image: _static/images/homepage_redundant.gif
+<table data-view="cards"><thead><tr><th>Title</th><th>Description</th><th data-hidden data-card-cover data-type="files">Image</th><th data-hidden data-card-target data-type="content-ref">Link</th></tr></thead><tbody>
+<tr><td><strong>Curating datasets</strong></td><td>Surveys show that machine learning engineers spend over half of their time wrangling data, but it doesn't have to be that way. Use FiftyOne's powerful dataset import and manipulation capabilities to manage your data with ease.</td><td>_static/images/homepage_curate.gif</td><td><a href="user_guide/dataset_creation/index.html">Learn how to load data into FiftyOne</a></td></tr>
+<tr><td><strong>Evaluating models</strong></td><td>Aggregate metrics alone don’t give you the full picture of your ML models. In practice, the limiting factor on your model’s performance is often data quality issues that you need to see to address. FiftyOne makes it easy to do just that.</td><td>_static/images/homepage_evaluate.gif</td><td><a href="tutorials/evaluate_detections.html">See how to evaluate models with FiftyOne</a></td></tr>
+<tr><td><strong>Visualizing embeddings</strong></td><td>Are you using embeddings to analyze your data and models? Use FiftyOne's embeddings visualization capabilities to reveal hidden structure in you data, mine hard samples, pre-annotate data, recommend new samples for annotation, and more.</td><td>_static/images/homepage_embeddings.gif</td><td><a href="tutorials/image_embeddings.html">Experience the power of embeddings</a></td></tr>
+<tr><td><strong>Working with geolocation</strong></td><td>Many datasets have location metadata, but visualizing location-based datasets has traditionally required closed source or cloud-based tools. FiftyOne provides native support for storing, visualizing, and querying datasets by location.</td><td>_static/images/homepage_location.gif</td><td><a href="user_guide/plots.html#geolocation-plots">Visualize your location data</a></td></tr>
+<tr><td><strong>Finding annotation mistakes</strong></td><td>Annotations mistakes create an artificial ceiling on the performance of your model. However, finding these mistakes by hand is not feasible! Use FiftyOne to automatically identify possible label mistakes in your datasets.</td><td>_static/images/homepage_mistakes.gif</td><td><a href="tutorials/classification_mistakes.html">Check out the label mistakes tutorial</a></td></tr>
+<tr><td><strong>Removing redundant images</strong></td><td>During model training, the best results will be seen when training on unique data. Use FiftyOne to automatically remove duplicate or near-duplicate images from your datasets and curate diverse training datasets from your raw data.</td><td>_static/images/homepage_redundant.gif</td><td><a href="tutorials/uniqueness.html">Try the image uniqueness tutorial</a></td></tr>
+</tbody></table>
 
 .. raw:: html
 
