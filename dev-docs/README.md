@@ -1,8 +1,4 @@
 ---
-title: Base Company Data
-slug: professional-network-companies-dataset
-createdAt: Thu Apr 11 2024 11:20:06 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 30 2025 06:03:46 GMT+0000 (Coordinated Universal Time)
 description: >-
   Use GitBook’s API, SDK, and developer tools to build custom integrations,
   streamline workflows, and create tailored solutions for your docs.
@@ -77,3 +73,4 @@ Dive into our [Setup guide](getting-started/setup-guide.md) to begin exploring w
 ### Getting started
 
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Setup Guide</strong></td><td>Start building your first integration in just a few minutes.</td><td><a href=".gitbook/assets/Setup.svg">Setup.svg</a></td><td><a href="getting-started/setup-guide.md">setup-guide.md</a></td></tr><tr><td><strong>GitBook Concepts</strong></td><td>Learn about specific concepts when developing GitBook integrations.</td><td><a href=".gitbook/assets/Concepts.svg">Concepts.svg</a></td><td><a href="getting-started/concepts.md">concepts.md</a></td></tr></tbody></table>
+

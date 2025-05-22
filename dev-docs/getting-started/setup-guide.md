@@ -1,8 +1,14 @@
 ---
-description: Explore detailed field definitions for Coresignal's Base Company data, including company profiles, industry classifications, organizational attributes and much more.
+description: >-
+  Explore detailed field definitions for Coresignal's Base Company data,
+  including company profiles, industry classifications, organizational
+  attributes and much more.
+icon: star
 ---
 
-Contains explanations and examples of all data fields available in the **Base Company **dataset.
+# Setup Guide
+
+Contains explanations and examples of all data fields available in the \*\*Base Company \*\*dataset.
 
 {% hint style="info" %}
 All company information mentioned in this data dictionary is fictional and is solely intended for illustrative purposes.
@@ -25,64 +31,62 @@ All company information mentioned in this data dictionary is fictional and is so
 {% endtab %}
 
 {% tab title="Legacy tables" %}
-**This dataset contains legacy tables that are either no longer filled or have low fill rates. **
+\*\*This dataset contains legacy tables that are either no longer filled or have low fill rates. \*\*
 
 1. [Also viewed](https://docs.coresignal.com/source-documentation/professional-network-companies-data-dictionary#EZ_sX)
 {% endtab %}
-
 {% endtabs %}
 
 ***
 
-## Company information
+### Company information
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                                                   | Data type        | Example values        |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for a company profile record.&#xA;<br />Each record in the dataset has its ID value.&#xA;&#xA;**ID** in the company table becomes **company\_id** later in the other tables of the dataset | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                                                    | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                                                        | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                         | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile                             | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                                  | Data type        | Example values        |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | <p>Identification key for a company profile record.<br>Each record in the dataset has its ID value.<strong>ID</strong> in the company table becomes <strong>company_id</strong> later in the other tables of the dataset</p> | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                                   | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                       | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                        | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p>      | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                      | Description                                                                                                                                 | Data type |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| `url`                           | Company's profile on the professional network                                                                                               | String    |
-| `hash`                          | Profile URL processed by the MD5 algorithm                                                                                                  | String    |
-| `name`                          | Name                                                                                                                                        | String    |
-| `website`                       | Website                                                                                                                                     | String    |
-| `size`                          | Size category                                                                                                                               | String    |
-| `industry`                      | Associated industry                                                                                                                         | String    |
-| `description`                   | Description                                                                                                                                 | String    |
-| `followers`                     | Profile follower count                                                                                                                      | Integer   |
-| `founded`                       | Founding year                                                                                                                               | Integer   |
-| `headquarters_city`             | Headquarters location (city)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                          | String    |
-| `headquarters_country`          | Headquarters location (country)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                       | String    |
-| `headquarters_state`            | Headquarters location (state)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                         | String    |
-| `headquarters_street1`          | Headquarters location (street address)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                | String    |
-| `headquarters_street2`          | Headquarters location (street address)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                | String    |
-| `headquarters_zip`              | Headquarters location (zip code)&#xA;&#xA;**Note**: legacy field that is rarely filled                                                      | String    |
-| `logo_url`                      | Logo URL                                                                                                                                    | String    |
-| `last_response_code`            | Response code to the last scraping request                                                                                                  | Integer   |
-| `type`                          | Company type                                                                                                                                | String    |
-| `headquarters_new_address`      | Newly exposed company headquarters address                                                                                                  | String    |
-| `employees_count`               | Number of employees on the professional network who associated their experience with the company                                            | Integer   |
-| `headquarters_country_restored` | Country the company is based in (from our restored database)&#xA;&#xA;**Note**: legacy field that is rarely filled                          | String    |
-| `headquarters_country_parsed`   | Country the company is based in (as parsed by our in-house country parser)                                                                  | String    |
-| `company_shorthand_name`        | Dynamic part of the URL used to update the profile and identify companies                                                                   | String    |
-| `company_shorthand_name_hash`   | Shorthand name of the company processed by the MD5 algorithm                                                                                | String    |
-| `canonical_url`                 | Most recent profile URL                                                                                                                     | String    |
-| `canonical_hash`                | `Canonical_url` processed by the MD5 algorithm                                                                                              | String    |
-| `canonical_shorthand_name`      | Dynamic part of a `canonical_url`, used to identify companies&#xA;&#xA;(the part of the professional network URL that has the company name) | String    |
-| `canonical_shorthand_name_hash` | Canonical shorthand name processed by the MD5 algorithm                                                                                     | String    |
-| `last_updated_ux`               | Date and time when the record was last updated (Unix timestamp)                                                                             | Integer   |
-| `source_id`                     | In-house company ID (static) on the professional network                                                                                    | Integer   |
+| Data point                      | Description                                                                                                                                             | Data type |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| `url`                           | Company's profile on the professional network                                                                                                           | String    |
+| `hash`                          | Profile URL processed by the MD5 algorithm                                                                                                              | String    |
+| `name`                          | Name                                                                                                                                                    | String    |
+| `website`                       | Website                                                                                                                                                 | String    |
+| `size`                          | Size category                                                                                                                                           | String    |
+| `industry`                      | Associated industry                                                                                                                                     | String    |
+| `description`                   | Description                                                                                                                                             | String    |
+| `followers`                     | Profile follower count                                                                                                                                  | Integer   |
+| `founded`                       | Founding year                                                                                                                                           | Integer   |
+| `headquarters_city`             | Headquarters location (city)**Note**: legacy field that is rarely filled                                                                                | String    |
+| `headquarters_country`          | Headquarters location (country)**Note**: legacy field that is rarely filled                                                                             | String    |
+| `headquarters_state`            | Headquarters location (state)**Note**: legacy field that is rarely filled                                                                               | String    |
+| `headquarters_street1`          | Headquarters location (street address)**Note**: legacy field that is rarely filled                                                                      | String    |
+| `headquarters_street2`          | Headquarters location (street address)**Note**: legacy field that is rarely filled                                                                      | String    |
+| `headquarters_zip`              | Headquarters location (zip code)**Note**: legacy field that is rarely filled                                                                            | String    |
+| `logo_url`                      | Logo URL                                                                                                                                                | String    |
+| `last_response_code`            | Response code to the last scraping request                                                                                                              | Integer   |
+| `type`                          | Company type                                                                                                                                            | String    |
+| `headquarters_new_address`      | Newly exposed company headquarters address                                                                                                              | String    |
+| `employees_count`               | Number of employees on the professional network who associated their experience with the company                                                        | Integer   |
+| `headquarters_country_restored` | Country the company is based in (from our restored database)**Note**: legacy field that is rarely filled                                                | String    |
+| `headquarters_country_parsed`   | Country the company is based in (as parsed by our in-house country parser)                                                                              | String    |
+| `company_shorthand_name`        | Dynamic part of the URL used to update the profile and identify companies                                                                               | String    |
+| `company_shorthand_name_hash`   | Shorthand name of the company processed by the MD5 algorithm                                                                                            | String    |
+| `canonical_url`                 | Most recent profile URL                                                                                                                                 | String    |
+| `canonical_hash`                | `Canonical_url` processed by the MD5 algorithm                                                                                                          | String    |
+| `canonical_shorthand_name`      | <p>Dynamic part of a <code>canonical_url</code>, used to identify companies<br>(the part of the professional network URL that has the company name)</p> | String    |
+| `canonical_shorthand_name_hash` | Canonical shorthand name processed by the MD5 algorithm                                                                                                 | String    |
+| `last_updated_ux`               | Date and time when the record was last updated (Unix timestamp)                                                                                         | Integer   |
+| `source_id`                     | In-house company ID (static) on the professional network                                                                                                | Integer   |
 
 **The main company table data sample:**
 
@@ -126,28 +130,27 @@ All company information mentioned in this data dictionary is fictional and is so
 ```
 {% endcode %}
 
-## Affiliated 
+### Affiliated
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                      | Description                                                                                                    | Data type        |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------- |
-| `company_affiliated_collection` | Profiles of affiliated companies                                                                               | Array of objects |
-| `affiliated_company_url`        | Affiliate company profile URL                                                                                  | String           |
-| `affiliated_company_id`         | Identification key relating to the**company**table for the affiliate company&#xA;&#xA;**Note: **legacy field | Integer          |
+| Data point                      | Description                                                                                                                | Data type        |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| `company_affiliated_collection` | Profiles of affiliated companies                                                                                           | Array of objects |
+| `affiliated_company_url`        | Affiliate company profile URL                                                                                              | String           |
+| `affiliated_company_id`         | <p>Identification key relating to the<strong>company</strong>table for the affiliate company<br>**Note: **legacy field</p> | Integer          |
 
 **Affiliated table data sample:**
 
@@ -167,20 +170,19 @@ All company information mentioned in this data dictionary is fictional and is so
 ```
 {% endcode %}
 
-## Also viewed
+### Also viewed
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
@@ -192,7 +194,7 @@ A legacy table that is no longer filled.
 | -------------------------------- | --------------------------------------------------------------------------- | ---------------- |
 | `company_also_viewed_collection` | Company profiles that were viewed in tandem with the record company profile | Array of objects |
 | `viewed_company_url`             | Company profile URL                                                         | String           |
-| `viewed_company_id`              | Identification key relating tothe **company**table                        | Integer          |
+| `viewed_company_id`              | Identification key relating tothe **company**table                          | Integer          |
 
 **Also viewed table data sample:**
 
@@ -212,27 +214,26 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Financial website info
+### Financial website info
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                                  | Description                               | Data type        |
-| ------------------------------------------- | ----------------------------------------- | ---------------- |
-| `company_financial_website_info_collection` | Company  profile on the financial website | Array of objects |
-| `financial_website_url`                     | Profile URL on the financial website      | String           |
+| Data point                                  | Description                              | Data type        |
+| ------------------------------------------- | ---------------------------------------- | ---------------- |
+| `company_financial_website_info_collection` | Company profile on the financial website | Array of objects |
+| `financial_website_url`                     | Profile URL on the financial website     | String           |
 
 **Financial website info table data sample:**
 
@@ -251,20 +252,19 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Featured employees
+### Featured employees
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
@@ -275,7 +275,7 @@ A legacy table that is no longer filled.
 
 **Featured employees table data sample:**
 
-{% code title="Featured employees table&#x20;" %}
+{% code title="Featured employees table " %}
 ```json
 "company_featured_employees_collection": [
         {
@@ -290,32 +290,31 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Investors
+### Investors
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                              | Data point                                                             | Data type        |
-| --------------------------------------- | ---------------------------------------------------------------------- | ---------------- |
-| `company_featured_investors_collection` | Consists of&#xA;record metadata and*company\_investors\_list*objects | Array of objects |
-| `investor_id`                           | Identification key relating to the*company\_investors\_list*table    | Integer          |
-| `round_id`                              | Identification key relating to the*company\_funding\_rounds*table    | Integer          |
-| `company_investors_list`                | List of company investors                                              | Object           |
-| `name`                                  | Investor's name                                                        | String           |
-| `hash`                                  | Investor's name processed by the MD5 algorithm                         | String           |
-| `financial_website_url`                 | Investor's profile URL on the financial website                        | String           |
+| Data point                              | Data point                                                                            | Data type        |
+| --------------------------------------- | ------------------------------------------------------------------------------------- | ---------------- |
+| `company_featured_investors_collection` | <p>Consists of<br>record metadata and<em>company_investors_list</em>objects</p>       | Array of objects |
+| `investor_id`                           | Identification key relating to th&#x65;_&#x63;ompany\_investors\_lis&#x74;_&#x74;able | Integer          |
+| `round_id`                              | Identification key relating to th&#x65;_&#x63;ompany\_funding\_round&#x73;_&#x74;able | Integer          |
+| `company_investors_list`                | List of company investors                                                             | Object           |
+| `name`                                  | Investor's name                                                                       | String           |
+| `hash`                                  | Investor's name processed by the MD5 algorithm                                        | String           |
+| `financial_website_url`                 | Investor's profile URL on the financial website                                       | String           |
 
 **Featured investors table data sample:**
 
@@ -343,20 +342,19 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Funding rounds
+### Funding rounds
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
@@ -391,28 +389,27 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Locations
+### Locations
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                     | Description                                                                                                              | Data type        |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| `company_locations_collection` | Company locations                                                                                                        | Array of objects |
-| `location_address`             | Company address                                                                                                          | String           |
-| `is_primary`                   | Denotes if the location is the company's primary location <br />`0` - not a primary location<br />`1` - primary location | Boolean          |
+| Data point                     | Description                                                                                                                                      | Data type        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| `company_locations_collection` | Company locations                                                                                                                                | Array of objects |
+| `location_address`             | Company address                                                                                                                                  | String           |
+| `is_primary`                   | <p>Denotes if the location is the company's primary location<br><code>0</code> - not a primary location<br><code>1</code> - primary location</p> | Boolean          |
 
 **Locations table data sample:**
 
@@ -441,20 +438,19 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Similar companies
+### Similar companies
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
@@ -480,20 +476,19 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Specialties
+### Specialties
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
@@ -519,27 +514,27 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Stock info
+### Stock info
+
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                      | Filter name     | Data type        |
-| ------------------------------- | --------------- | ---------------- |
-| `company_stock_info_collection` | Stock details   | Array of objects |
-| `ticker`                        | Stock ticker    | String           |
-| `exchange`                      | Stock exchange  | String           |
+| Data point                      | Filter name    | Data type        |
+| ------------------------------- | -------------- | ---------------- |
+| `company_stock_info_collection` | Stock details  | Array of objects |
+| `ticker`                        | Stock ticker   | String           |
+| `exchange`                      | Stock exchange | String           |
 
 **Stock info table data sample:**
 
@@ -559,38 +554,37 @@ A legacy table that is no longer filled.
 ```
 {% endcode %}
 
-## Company updates
+### Company updates
 
 <details>
 
 <summary>Repeat fields</summary>
 
-| Data point     | Description                                                                                                                                                                       | Data type        | Example values        |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
-| `id`           | Identification key for the record                                                                                                                                                 | number (integer) | *62195*               |
-| `company_id`   | Company record ID assigned in the database                                                                                                                                        | number (integer) | *30707*               |
-| `created`      | The time and date when we **first** scraped the record                                                                                                                            | string           | *2019-12-07 22:07:18* |
-| `last_updated` | The time and date when we **last** scraped the record                                                                                                                             | string           | *2020-09-06 04:51:48* |
-| `deleted`      | One of two values - **1 **or **0**<br />`1` - the last time we scraped the company page, *the Page not found *was returned<br />`0` - we successfully scraped the company profile | boolean          | *deleted: 0*          |
-
+| Data point     | Description                                                                                                                                                                                                             | Data type        | Example values        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------- |
+| `id`           | Identification key for the record                                                                                                                                                                                       | number (integer) | _62195_               |
+| `company_id`   | Company record ID assigned in the database                                                                                                                                                                              | number (integer) | _30707_               |
+| `created`      | The time and date when we **first** scraped the record                                                                                                                                                                  | string           | _2019-12-07 22:07:18_ |
+| `last_updated` | The time and date when we **last** scraped the record                                                                                                                                                                   | string           | _2020-09-06 04:51:48_ |
+| `deleted`      | <p>One of two values - **1 **or <strong>0</strong><br><code>1</code> - the last time we scraped the company page, *the Page not found *was returned<br><code>0</code> - we successfully scraped the company profile</p> | boolean          | _deleted: 0_          |
 
 </details>
 
-| Data point                      | Description                                                       | Data type        |
-| ------------------------------- | ----------------------------------------------------------------- | ---------------- |
-| `company_updates_collection`    | Company's posts/updates on professional network                   | Array of objects |
-| `urn`                           | String-based identifier                                           | String           |
-| `followers`                     | Number of followers                                               | Integer          |
-| `date`                          | Publish date&#xA;(e.g., 1 month ago)                              | String           |
-| `description`                   | Published text&#xA;**Note:**may contain control characters       | String           |
-| `reactions_count`               | Number of reactions on the post                                   | Integer          |
-| `comments_count`                | Number of comments on the post                                    | Integer          |
-| `reshared_post_author`          | Reshared post author                                              | String           |
-| `reshared_post_author_url`      | Profile URL of the reshared post author                           | String           |
-| `reshared_post_author_headline` | Headline of the reshared post author                              | String           |
-| `reshared_post_description`     | Reshared post text                                                | String           |
-| `reshared_post_followers`       | The number of followers of the reshared post author               | Integer          |
-| `reshared_post_date`            | Date the reshared post was published&#xA;&#xA;(e.g., 1 month ago) | String           |
+| Data point                      | Description                                                        | Data type        |
+| ------------------------------- | ------------------------------------------------------------------ | ---------------- |
+| `company_updates_collection`    | Company's posts/updates on professional network                    | Array of objects |
+| `urn`                           | String-based identifier                                            | String           |
+| `followers`                     | Number of followers                                                | Integer          |
+| `date`                          | <p>Publish date<br>(e.g., 1 month ago)</p>                         | String           |
+| `description`                   | <p>Published text<br>**Note:**may contain control characters</p>   | String           |
+| `reactions_count`               | Number of reactions on the post                                    | Integer          |
+| `comments_count`                | Number of comments on the post                                     | Integer          |
+| `reshared_post_author`          | Reshared post author                                               | String           |
+| `reshared_post_author_url`      | Profile URL of the reshared post author                            | String           |
+| `reshared_post_author_headline` | Headline of the reshared post author                               | String           |
+| `reshared_post_description`     | Reshared post text                                                 | String           |
+| `reshared_post_followers`       | The number of followers of the reshared post author                | Integer          |
+| `reshared_post_date`            | <p>Date the reshared post was published<br>(e.g., 1 month ago)</p> | String           |
 
 **Company updates table data sample:**
 
@@ -619,6 +613,3 @@ A legacy table that is no longer filled.
     ],
 ```
 {% endcode %}
-
-
-
