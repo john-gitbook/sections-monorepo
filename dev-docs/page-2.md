@@ -4,7 +4,6 @@
 
 {% tabs %}
 {% tab title="iOS" %}
-{% code title="MyOnboardingViewController.swift" %}
 ```swift
 let context = ContextManager.instantContext(flowName: "upsell_onboarding", duration: 3)
 if context.shouldUpsell {
@@ -20,6 +19,5 @@ if context.shouldUpsell {
     context.log(.skipped)
 }
 ```
-{% endcode %}
 {% endtab %}
 {% endtabs %}
