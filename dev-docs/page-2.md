@@ -4,8 +4,8 @@
 
 {% tabs %}
 {% tab title="Test code" %}
-{% code title="" %}
-```
+{% code title="" overflow="wrap" %}
+```swift
 import Foundation
 import UIKit
 
