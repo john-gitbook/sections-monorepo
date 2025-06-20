@@ -21,6 +21,70 @@ static func instantContext(
 {% endtab %}
 {% endtabs %}
 
+## One
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+```swift
+@discardableResult
+static func instantContext(
+    flowName: String,
+    duration: Int,
+    customSignals: [CustomSignal] = []
+) -> Context
+```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+```
+// Some code
+```
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+## Two
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+```swift
+@discardableResult
+static func instantContext(
+    flowName: String,
+    duration: Int,
+    customSignals: [CustomSignal] = []
+) -> Context
+```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+```
+// Some code
+```
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+## Three
+
 {% tabs %}
 {% tab title="First Tab" %}
 
