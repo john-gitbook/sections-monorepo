@@ -10,89 +10,6 @@ Our SDK provides different methods for capturing context, each designed for spec
 
 ## Capturing Context
 
-{% tabs %}
-{% tab title="iOS" %}
-{% code title="ContextManager.swift" %}
-```swift
-static func fetchContext(
-    flowName: String,
-    duration: Int,
-    customSignals: [CustomSignal] = [],
-    callback: @escaping ((Context) -> Void)
-)
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Android" %}
-{% tabs %}
-{% tab title="Kotlin" %}
-{% code title="ContextSDK.kt" %}
-```kotlin
-fun fetchContext(
-    flowName: String,
-    durationS: Int = 3,
-    customSignals: CustomSignals = CustomSignals(),
-    callback: (RealWorldContext) -> Unit
-)
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Java" %}
-{% code title="ContextSDK.java" %}
-```java
-public void fetchContext(
-    String flowName,
-    int durationS,
-    CustomSignals customSignals,
-    Consumer<RealWorldContext> callback
-)
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-{% endtab %}
-
-{% tab title="Flutter" %}
-{% code title="context_sdk_platform_interface.dart" %}
-```dart
-Future<int> fetchContext(
-  String flowName,
-  int duration,
-  Map<String, dynamic>? customSignals,
-)
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Unity" %}
-{% code title="ContextSDKBinding.cs" %}
-```cs
-public static void FetchContext(
-    string flowName,
-    ContextDelegate callback,
-    CustomSignals? customSignals = null,
-    int duration = 3
-)
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="React Native" %}
-{% code title="index.tsx" %}
-```javascript
-export function fetchContext(options: {
-  flowName: string;
-  onContextReady: (context: Context) => void;
-  duration?: number;
-  customSignals?: CustomSignals;
-}): void
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-
 This method allows you to capture the user context asynchronously. This is the recommended method to be used in most scenarios.
 
 {% hint style="warning" %}
@@ -300,7 +217,7 @@ fetchContext({
 
 If your project does not favor closure-based implementations like shown above when logging outcomes, see [#retrieving-an-existing-context](page-3.md#retrieving-an-existing-context "mention") below for an alternative approach that better fits different architectures.
 
-## Retrieving an Existing Context
+## Retrieving
 
 Not all architectures use closures for inter-view-controller communication. In such cases, you can capture the context and present the offer in one place, and log the outcome separately. Use the `recentContext(flowName:)` method to retrieve a previously captured context for a given flow name.
 
