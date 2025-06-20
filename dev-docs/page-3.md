@@ -84,6 +84,85 @@ This ensures the upsell offer is never shown, which helps maintain a seamless us
 
 Use the `instantContext(flowName:)` method when context must be captured immediately, with no tolerance for delays:
 
+{% tabs %}
+{% tab title="iOS" %}
+{% code title="ContextManager.swift" %}
+```swift
+@discardableResult
+static func instantContext(
+    flowName: String,
+    duration: Int,
+    customSignals: [CustomSignal] = []
+) -> Context
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Android" %}
+{% tabs %}
+{% tab title="Kotlin" %}
+{% code title="ContextSDK.kt" %}
+```kotlin
+fun instantContext(
+    flowName: String,
+    durationS: Int = 3,
+    customSignals: CustomSignals = CustomSignals(),
+): RealWorldContext
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Java" %}
+{% code title="ContextSDK.java" %}
+```java
+public RealWorldContext instantContext(
+    String flowName,
+    int durationS,
+    CustomSignals customSignals
+)
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="Flutter" %}
+{% code title="context_sdk_platform_interface.dart" %}
+```dart
+Future<int> instantContext(
+  String flowName,
+  int duration,
+  Map<String, dynamic>? customSignals,
+)
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Unity" %}
+{% code title="ContextSDKBinding.cs" %}
+```csharp
+public static Context InstantContext(
+    string flowName,
+    CustomSignals? customSignals = null,
+    int duration = 3
+)
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="React Native" %}
+{% code title="index.tsx" %}
+```javascript
+export async function instantContext(options: {
+  flowName: string;
+  duration?: number;
+  customSignals?: CustomSignals;
+}): Promise<Context>
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
 This method is ideal for user-initiated triggers, such as:
 
 * Determining whether to display an upsell offer when the user presses a button to navigate to the next screen.
@@ -94,3 +173,25 @@ In those cases, waiting up to 3 seconds is not an option, as it would seem like 
 The down side of this method is that if the app hasn't been in the foreground for at least 3 seconds, the quality of the signals captured may be poor and thus unsuitable for ML training. Thus, if this method needs to be used, keep in mind that it might end up taking longer to capture quality data to train your models.
 
 #### Usage Example
+
+{% tabs %}
+{% tab title="iOS" %}
+{% code title="MyOnboardingViewController.swift" %}
+```swift
+let context = ContextManager.instantContext(flowName: "upsell_onboarding", duration: 3)
+if context.shouldUpsell {
+    let vc = MyPremiumOfferViewController()
+    vc.userDidPurchase = { product in
+        context.logRevenueOutcome(from: product)
+    }
+    vc.userDidDismiss = {
+        context.log(.negative)
+    }
+    present(vc, animated: true)
+} else {
+    context.log(.skipped)
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
