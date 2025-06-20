@@ -703,3 +703,25 @@ In those cases, waiting up to 3 seconds is not an option, as it would seem like 
 The down side of this method is that if the app hasn't been in the foreground for at least 3 seconds, the quality of the signals captured may be poor and thus unsuitable for ML training. Thus, if this method needs to be used, keep in mind that it might end up taking longer to capture quality data to train your models.
 
 #### Usage Example
+
+{% tabs %}
+{% tab title="iOS" %}
+{% code title="MyOnboardingViewController.swift" %}
+```swift
+let context = ContextManager.instantContext(flowName: "upsell_onboarding", duration: 3)
+if context.shouldUpsell {
+    let vc = MyPremiumOfferViewController()
+    vc.userDidPurchase = { product in
+        context.logRevenueOutcome(from: product)
+    }
+    vc.userDidDismiss = {
+        context.log(.negative)
+    }
+    present(vc, animated: true)
+} else {
+    context.log(.skipped)
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
