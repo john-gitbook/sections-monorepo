@@ -3,7 +3,8 @@
 <figure><img src=".gitbook/assets/02_04_25_add_api_spec.svg" alt="hello world!"><figcaption><p>this is a caption</p></figcaption></figure>
 
 {% tabs %}
-{% tab title="iOS" %}
+{% tab title="IOS" %}
+{% code title="swift-code" %}
 ```swift
 import Foundation
 import UIKit
@@ -180,15 +181,6 @@ func runExamples() {
         print("Error: \(error)")
     }
 }
-```
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
-{% tab title="First Tab" %}
-{% code title="" %}
-```
-// Some code
 ```
 {% endcode %}
 {% endtab %}
