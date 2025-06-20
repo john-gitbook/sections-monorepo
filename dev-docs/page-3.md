@@ -8,10 +8,6 @@ Optimizing conversions begins with tracking them. In ContextDecision, this is do
 
 Our SDK provides different methods for capturing context, each designed for specific use cases. This document outlines these methods and explains when to use them.
 
-{% hint style="info" %}
-If you’re new here, refer to the instructions at [Broken link](broken-reference "mention") for guidance on generating your license key and installing the SDK.
-{% endhint %}
-
 ## Capturing Context
 
 {% tabs %}
