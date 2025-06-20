@@ -4,8 +4,13 @@
 
 {% tabs %}
 {% tab title="First Tab" %}
-```
-// Some code
+```swift
+@discardableResult
+static func instantContext(
+    flowName: String,
+    duration: Int,
+    customSignals: [CustomSignal] = []
+) -> Context
 ```
 {% endtab %}
 
