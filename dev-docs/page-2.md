@@ -5,6 +5,9 @@
 {% tabs %}
 {% tab title="iOS" %}
 ```swift
+let context = ContextManager.instantContext(flowName: "upsell_onboarding", duration: 3)
+if context.shouldUpsell {
+
 ```
 {% endtab %}
 {% endtabs %}
