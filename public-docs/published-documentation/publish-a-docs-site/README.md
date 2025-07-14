@@ -1,4 +1,5 @@
 ---
+if: visitor.claims.isLoggedIn === true && visitor.claims.hasTeam2Role === true
 icon: globe
 ---
 
