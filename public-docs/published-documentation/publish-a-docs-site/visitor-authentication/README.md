@@ -10,7 +10,7 @@ This feature is available as part of the Ultimate site plan and Enterprise plan.
 
 Visitor authentication allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content.
 
-<figure><img src="../../../../.gitbook/assets/visitor-authentication (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/visitor-authentication (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Use cases
 

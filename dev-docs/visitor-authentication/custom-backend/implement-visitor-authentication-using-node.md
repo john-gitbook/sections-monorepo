@@ -10,11 +10,11 @@ The rest of this guide follows this [GitHub repository](https://github.com/Gitbo
 
 ### Step 1: enable visitor authentication
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Once enabled, you'll have access to a private signing key for this space. Each space has a unique signing key. You should keep this key secret - make sure not to commit it into your source control repository. We recommend referencing it through a production secrets system in your deployed backend.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: sign a JWT token and grant access to a visitor
 
@@ -61,7 +61,7 @@ Finally, within **link and domain settings** in the visibility menu, you can con
 
 When someone directly accesses your space without the necessary token, GitBook uses the fallback URL to redirect the visitor to a custom URL so that you can authenticate them.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 When redirecting to the fallback URL, GitBook is passing a `location` query parameter, it can be used to redirect to the original location of the user:
 

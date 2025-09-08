@@ -8,7 +8,7 @@ description: Collaborate with your team on a group of spaces within a GitBook co
 
 To share a collection, click the **Share** button in the top-right corner of a collection. This will open the share modal.
 
-<figure><img src="../../../.gitbook/assets/collaboration-share-collection.png" alt=""><figcaption><p>Share a collection</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-share-collection.png" alt=""><figcaption><p>Share a collection</p></figcaption></figure>
 
 Inside the share modal, you’ll see different sharing options along the top.
 
@@ -22,7 +22,7 @@ You can see everyone who access to your collection, and their level of access, i
 
 ### Invite members
 
-<figure><img src="../../../.gitbook/assets/collaboration-share-collection-modal.png" alt=""><figcaption><p>Invite members</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-share-collection-modal.png" alt=""><figcaption><p>Invite members</p></figcaption></figure>
 
 #### Invite a person or team from your organization
 
@@ -50,4 +50,4 @@ If you don’t want to use email to invite someone to your content, or want to i
 
 When you share this link, anyone who clicks on it will be able to sign up, join your organization as a [guest](../../account-management/member-management/roles.md#guest-role), and get access to just this single collection and its content.
 
-You can revoke the link at any time by opening the **Actions menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the link and choosing **Revoke**.
+You can revoke the link at any time by opening the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the link and choosing **Revoke**.

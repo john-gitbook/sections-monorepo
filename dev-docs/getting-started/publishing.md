@@ -19,9 +19,9 @@ visualize datasets and interpret models faster and more effectively.
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>title </td><td><a href="../../.gitbook/assets/02_04_25_add_api_spec.svg">02_04_25_add_api_spec.svg</a></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>title </td><td><a href="../.gitbook/assets/02_04_25_add_api_spec.svg">02_04_25_add_api_spec.svg</a></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
 
 Improving data quality and understanding your model's failure modes are the\
 most impactful ways to boost the performance of your model.

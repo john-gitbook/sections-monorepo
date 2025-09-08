@@ -2,7 +2,7 @@
 
 When adding members to your organization, you can give them a **default role**. This role will apply to any content that inherits its permissions from the organization.
 
-<figure><img src="../../../.gitbook/assets/invite-members (1).png" alt=""><figcaption><p>Invite members to your GitBook organization.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/invite-members (1).png" alt=""><figcaption><p>Invite members to your GitBook organization.</p></figcaption></figure>
 
 {% hint style="info" %}
 Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out our documentation on [**permissions and inheritance**](permissions-and-inheritance.md) for a full overview of how permissions cascade throughout content in GitBook.

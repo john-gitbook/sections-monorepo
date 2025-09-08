@@ -48,7 +48,7 @@ As well as a summarized answer, below you’ll also see an expandable section th
 
 If GitBook AI is enabled for internal content, you’ll be able to do the same thing when logged into the GitBook app: open the quick find command palette, type a question and receive a semantic answer.
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure></div>
 
 #### Integrating GitBook AI with your product
 

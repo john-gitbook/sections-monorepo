@@ -12,7 +12,7 @@ The inline palette let’s you quickly add extra content to your text block with
 The forward slash will be replaced by the content you choose to insert.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/editor-inline.png" alt=""><figcaption><p>The inline palette lets you quickly add content to any block.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-inline.png" alt=""><figcaption><p>The inline palette lets you quickly add content to any block.</p></figcaption></figure>
 
 ### Annotations
 

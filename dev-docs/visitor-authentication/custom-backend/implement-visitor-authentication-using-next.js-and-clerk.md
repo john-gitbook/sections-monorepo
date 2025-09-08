@@ -32,7 +32,7 @@ Keep in mind, this feature is only available for Pro and Enterprise plans.
 
 In the space you would like to use, head to the Share Modal in the upper right corner, and choose "Publish with visitor authentication" in the Share to an audience section.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-15 at 14.10.09.png" alt=""><figcaption><p>Enable Visitor Authentication</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-15 at 14.10.09.png" alt=""><figcaption><p>Enable Visitor Authentication</p></figcaption></figure>
 
 After enabling this option, you'll see a Private Key available for you to use. We'll need this later in our configuration, so leave this page open to grab this key later.
 
@@ -57,7 +57,7 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=**********
 CLERK_SECRET_KEY=**********
 ```
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-15 at 13.57.05.png" alt=""><figcaption><p>Clerk API key dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-15 at 13.57.05.png" alt=""><figcaption><p>Clerk API key dashboard</p></figcaption></figure>
 
 We'll need these in order to run the project. In your local project, you'll find an example `.env.example` file that we'll use for our environment variables.&#x20;
 
@@ -112,11 +112,11 @@ Now that we have our configuration completed, we can run and test the Visitor Au
 
 In the root of your project, run `npm run dev` in the terminal. Then, navigate to the url your app is running on (by default, it should be `http://localhost:3000`)
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-15 at 14.30.02.png" alt=""><figcaption><p>Visitor Authentication demo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-15 at 14.30.02.png" alt=""><figcaption><p>Visitor Authentication demo</p></figcaption></figure>
 
 Here, you can sign up for an account.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-15 at 14.30.09.png" alt=""><figcaption><p>Visitor Authentication demo sign in page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-15 at 14.30.09.png" alt=""><figcaption><p>Visitor Authentication demo sign in page</p></figcaption></figure>
 
 After we sign in successfully, we'll then be able to navigate to our published site without any problems.&#x20;
 

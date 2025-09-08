@@ -59,12 +59,12 @@ greeting.("Anna")
 {% endtabs %}
 
 {% hint style="info" %}
-You can make code blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the block and choosing **Full width**.
+You can make code blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the block and choosing **Full width**.
 {% endhint %}
 
 ### Code block options <a href="#options" id="options"></a>
 
-When you click on the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the code block, or the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> in the block itself, you’ll see a number of options you can set.
+When you click on the **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the code block, or the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> in the block itself, you’ll see a number of options you can set.
 
 #### Set syntax… <a href="#set-syntax" id="set-syntax"></a>
 
@@ -104,7 +104,7 @@ As well as the options above, you can also change the language the code block di
 
 Hover over a code block and a number of icons will appear. Click the middle icon to copy the contents of the code block to your clipboard in one click.
 
-<figure><img src="../../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Click here to copy the contents of a code block to your clipboard, ready for you to paste elsewhere.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Click here to copy the contents of a code block to your clipboard, ready for you to paste elsewhere.</p></figcaption></figure>
 
 ### Representation in Markdown
 

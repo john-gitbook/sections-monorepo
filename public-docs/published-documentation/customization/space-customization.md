@@ -10,7 +10,7 @@ Customizing your site lets you control the branding, presentation and extra feat
 Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent while allowing you to control the appearance of your published content.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/published-content-customization.png" alt=""><figcaption><p>Customize options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-customization.png" alt=""><figcaption><p>Customize options</p></figcaption></figure>
 
 {% hint style="info" %}
 [Advanced customization](space-customization.md#what-counts-as-advanced-customization) settings are only available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing) or scroll down to find out what’s included in Advanced customization.
@@ -69,7 +69,7 @@ Enable this if you would like visitors to your published content to be able to m
 **Default mode**\
 Choose whether visitors to your published content will see it in light or dark mode initially. If **Show mode toggle** is enabled, they’ll be able to switch to the other option if they prefer. If **Show mode toggle** is disabled, they’ll only be able to see your content in the mode you choose here.
 
-_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../../../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../../editor/navigation.md#sidebar)_._
+_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../../editor/navigation.md#sidebar)_._
 
 </details>
 
@@ -103,7 +103,7 @@ You can choose what type of appearance you would like your link to have, and can
 
 When enabled, simply add a title and a URL for each link. We support two levels of header navigation, meaning that you can have sub-links that appear in a dropdown menu.
 
-<img src="../../../.gitbook/assets/Screenshot 2024-10-22 at 23.28.57 (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/Screenshot 2024-10-22 at 23.28.57 (1).png" alt="" data-size="original">
 
 </details>
 

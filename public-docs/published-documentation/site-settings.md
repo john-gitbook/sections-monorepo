@@ -11,7 +11,7 @@ Certain settings are only available as part of the Premium and Ultimate sites pl
 
 Site settings allow you to customize and change certain aspects for your published site.
 
-<figure><img src="../../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption><p>Site settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption><p>Site settings</p></figcaption></figure>
 
 ### Publishing
 

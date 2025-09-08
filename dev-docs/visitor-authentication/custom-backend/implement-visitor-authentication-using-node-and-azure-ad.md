@@ -11,7 +11,7 @@ In this guide, we will show you how to set up Visitor Authentication using Node 
 First, sign in to Entra platform. In the left sidebar, navigate to Identity > Applications > App registrations.\
 
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 3.58.44 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 3.58.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 And click on New registration button in the screen that opens up. Name it appropriately.
 
@@ -23,13 +23,13 @@ Click Register.
 
 You should see a screen like the following
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "Quickstart" under "Overview". Select Web Application on the screen that opens up. And select "Node.js web" as the platform.
 
 You should see the following screen:
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 4.22.46 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 4.22.46 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "Make this change for me" and then click "Make updates" in the side panel that shows up.
 
@@ -39,11 +39,11 @@ Click "Download the code sample". This will download a zip file, extract it and 
 
 Go back to the Overview page
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "Add a certificate or secret". You should see the following screen
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 5.25.41 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 5.25.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "New client secret". Enter a suitable description in the side panel that shows up and click add. Copy the value of the secret just created.\
 \
@@ -63,7 +63,7 @@ Now, we need to use GitBook. Go to the space you want to publish behind visitor 
 
 Make note of the Private key and the Space URL. We will need them.
 
-<figure><img src="../../../.gitbook/assets/va-modal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/va-modal.png" alt=""><figcaption></figcaption></figure>
 
 Enter `http://localhost:3000/auth/signin` as the Fallback URL. **Note that this is different from the one shown in the image above.**
 

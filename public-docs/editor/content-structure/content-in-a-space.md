@@ -12,7 +12,7 @@ You can create as many pages as you need in a space. They’re all visible on th
 
 ### Hide a page from the table of contents
 
-You can hide a page or group of pages from your site's table of contents by clicking the page’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and toggling **Hide page**.
+You can hide a page or group of pages from your site's table of contents by clicking the page’s **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and toggling **Hide page**.
 
 Hidden pages will still be indexable by search and GitBook AI, but will not appear in the table of contents in your published site. Hidden pages will still be accessible through direct links.
 
@@ -41,7 +41,7 @@ You can nest pages by dragging and dropping a page below an other in the table o
 
 When you change the title of a page, the page’s slug (the part at the very end of the URL, e.g. `/hello-world`) will also change — unless you’ve manually set the page’s slug previously.
 
-You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Rename**.
+You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Rename**.
 
 #### Page groups
 
@@ -49,7 +49,7 @@ Page groups make it easy to bring pages together into sections that cover relate
 
 Page groups can only live at the **top level** of the [table of contents](../navigation.md#table-of-contents). You cannot nest page groups inside page groups.
 
-To change the title and slug of a page group, click the **Action menu** icon <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> next to the group title in the table of contents and choose **Rename**.
+To change the title and slug of a page group, click the **Action menu** icon <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> next to the group title in the table of contents and choose **Rename**.
 
 #### External links
 
@@ -57,7 +57,7 @@ External links are simply links to external sites and resources. Adding a link d
 
 ### Create a new page
 
-<figure><img src="../../../.gitbook/assets/editor-new-page.png" alt=""><figcaption><p>You can create a new page or page group from table of contents.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-new-page.png" alt=""><figcaption><p>You can create a new page or page group from table of contents.</p></figcaption></figure>
 
 When in [live edit](../../editing-content/live-edits.md) mode or in a [change request](../../collaboration/change-requests.md), you can create a new page by clicking **Add new page** > **New document page** at the bottom of your table of contents.
 
@@ -81,7 +81,7 @@ To add better visibility for readers when skimming your table of contents, you c
 
 To add an icon or emoji, click the "**Add icon**" button when hovering the page title, or the emoji button to the left of the title.
 
-<figure><img src="../../../.gitbook/assets/add-page-emoji-icon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/add-page-emoji-icon.png" alt=""><figcaption></figcaption></figure>
 
 #### Customize the icon style
 

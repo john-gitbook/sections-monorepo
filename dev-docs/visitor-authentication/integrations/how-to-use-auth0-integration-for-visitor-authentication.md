@@ -11,11 +11,11 @@ description: >-
 First, sign in to Auth0 platform and create a new application (or use an existing one) by clicking the Applications button in the left sidebar. If creating a new application, name it appropriately and choose "Regular Web Application" as the option. Click Create. You may need to be admin to follow along this guide.\
 
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 A quickstart panel will show up. Select Node.js (Express) option and then select "I want to integrate my app."  You will see a screen prompting you to configure Auth0. It should look like the image below
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on Save Settings And Continue.
 
@@ -27,7 +27,7 @@ We will need these to configure our Auth0 Visitor Authentication Integration.
 Please ensure at least one connection is enabled for your Auth0 application.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2024-05-28 at 5.00.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-28 at 5.00.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Installing the Auth0 Visitor Authentication Integration
 

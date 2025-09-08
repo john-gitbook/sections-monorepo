@@ -14,7 +14,7 @@ However you publish your content, you’ll still retain control over who can _ed
 
 To publish your docs publicly on the web head to the docs site you want to publish, click **Publish** button, and choose the **Public** option.
 
-<figure><img src="../../../.gitbook/assets/public-publishing.png" alt=""><figcaption><p>Publish your docs publicly</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/public-publishing.png" alt=""><figcaption><p>Publish your docs publicly</p></figcaption></figure>
 
 ### **Publish without search engine indexing**
 

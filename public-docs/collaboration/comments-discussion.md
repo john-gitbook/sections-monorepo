@@ -9,9 +9,9 @@ Comments allow you to have as much (or as little) conversation as you like aroun
 
 ### Add a comment to your content <a href="#comment-within-your-content" id="comment-within-your-content"></a>
 
-You can comment on any block within your content. Hover over a block and click the content icon that appears on the right of the block to open the **Comments** side panel with an empty comment. You can open this panel again by clicking on the **Comments** button <picture><source srcset="../../.gitbook/assets/comments-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/comments-light.png" alt="" data-size="line"></picture> in the [space header](../editor/navigation.md#space-header).
+You can comment on any block within your content. Hover over a block and click the content icon that appears on the right of the block to open the **Comments** side panel with an empty comment. You can open this panel again by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/comments-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/comments-light.png" alt="" data-size="line"></picture> in the [space header](../editor/navigation.md#space-header).
 
-<figure><img src="../../.gitbook/assets/collaboration-comments.png" alt=""><figcaption><p>Add a comment in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/collaboration-comments.png" alt=""><figcaption><p>Add a comment in GitBook.</p></figcaption></figure>
 
 ### Comment threads
 

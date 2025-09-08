@@ -8,7 +8,7 @@ GitBook is split into different sections to make it easier to organize and manag
 
 ### The sidebar
 
-<figure><img src="../../.gitbook/assets/editor-sidebar.png" alt=""><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-sidebar.png" alt=""><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure>
 
 The sidebar allows you to see and overview of your GitBook organization at a glance. The sidebar contains:
 
@@ -37,7 +37,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 
 ### Table of contents
 
-<figure><img src="../../.gitbook/assets/editor-toc.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-toc.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
 
 The table of contents is a list of [pages, links, and groups](content-structure/content-in-a-space.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
 
@@ -47,13 +47,13 @@ From the table of contents you can:
 * create [page groups](navigation.md#groups)
 * add [external links](navigation.md#external-links)
 * [import external docs](../import.md) like websites or Markdown files
-* access [the Actions menu](navigation.md#the-actions-menu) <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> for individual pages.
+* access [the Actions menu](navigation.md#the-actions-menu) <img src="../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> for individual pages.
 
-If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <img src="../../.gitbook/assets/Hide button.png" alt="The &#x27;hide&#x27; icon" data-size="line"> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <img src="../../.gitbook/assets/Show button.png" alt="The &#x27;show&#x27; icon" data-size="line">.
+If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <img src="../.gitbook/assets/Hide button.png" alt="The &#x27;hide&#x27; icon" data-size="line"> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <img src="../.gitbook/assets/Show button.png" alt="The &#x27;show&#x27; icon" data-size="line">.
 
 ### Space overview & space header
 
-<figure><img src="../../.gitbook/assets/editor-space-header.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-space-header.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
 
 The space overview contains information about the space you’re currently viewing. It lets you do things like [publish and share](../) your space, configure [GitHub or GitLab sync](../integrations/git-sync/), and more.
 
@@ -73,7 +73,7 @@ The space overview appears at the top of GitBook when viewing a space. It includ
   The [GitHub and GitLab Sync](../integrations/git-sync/) configuration for your space.
 * **The Share menu**\
   Allows you to publish and share your space. You can also invite others to [collaborate](https://github.com/john-gitbook/public-docs/blob/main/content-editor/editor/broken-reference/README.md) through this menu.
-* **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">\
+* **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line">\
   Offers a list of actions for your space. Similar to [page actions](navigation.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 
 #### Space header
@@ -106,14 +106,14 @@ At the top of each page you can set a **title**, add an optional **emoji**, and 
 Your page description can be a maximum of 200 characters long, and will act as the preview text for your page in search engines.
 
 {% hint style="info" %}
-You can change the URL slug for a page by choosing **Page Actions** <img src="../../.gitbook/assets/Actions menu.png" alt="Actions menu.png" data-size="line"> > **Rename**. Find out more about [Page Actions](navigation.md#page-options) below.
+You can change the URL slug for a page by choosing **Page Actions** <img src="../.gitbook/assets/Actions menu.png" alt="Actions menu.png" data-size="line"> > **Rename**. Find out more about [Page Actions](navigation.md#page-options) below.
 {% endhint %}
 
 ### The Actions menu
 
-The page’s Actions menu <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> allows you to do things like duplicate, rename or delete your page.
+The page’s Actions menu <img src="../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> allows you to do things like duplicate, rename or delete your page.
 
-You can open the Actions menu using the <img src="../../.gitbook/assets/Actions menu.png" alt="three vertical dots" data-size="line"> icon that appears when hovering over your page in the sidebar, or from the icon next to the page title.
+You can open the Actions menu using the <img src="../.gitbook/assets/Actions menu.png" alt="three vertical dots" data-size="line"> icon that appears when hovering over your page in the sidebar, or from the icon next to the page title.
 
 {% hint style="info" %}
 The type of actions available will depend on whether you’re in live editing mode, a change request, or in a space with [locked edits](../editing-content/live-edits.md).
@@ -121,11 +121,11 @@ The type of actions available will depend on whether you’re in live editing mo
 
 ### Page options
 
-<figure><img src="../../.gitbook/assets/editor-page-options.png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-page-options.png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
 
 With [page options](../published-documentation/customization/page-layouts.md), you to customize your documentation layout and navigation. You can only access page options if you’re in an editing mode.
 
-You can open the **Page options** side panel by opening the page’s **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Options**, or by hovering over the main title of the page and clicking **Page options** when it appears.
+You can open the **Page options** side panel by opening the page’s **Action menu** <img src="../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Options**, or by hovering over the main title of the page and clicking **Page options** when it appears.
 
 {% hint style="info" %}
 Certain changes, such as disabling the table of content, only apply to published documentation and may not be visible in the editor.
@@ -133,7 +133,7 @@ Certain changes, such as disabling the table of content, only apply to published
 
 ### Page outline
 
-<figure><img src="../../.gitbook/assets/editor-page-outline.png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-page-outline.png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure>
 
 The **page outline** sits on the right-hand side of the editor, and makes it easy to jump directly to the section of the page you’re looking for.
 
