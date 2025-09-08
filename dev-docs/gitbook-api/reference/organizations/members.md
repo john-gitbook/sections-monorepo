@@ -4,7 +4,7 @@ description: A member in GitBook is the entity of a user associated with an orga
 
 # Members
 
-<figure><img src="../../../.gitbook/assets/Members.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Members.png" alt=""><figcaption></figcaption></figure>
 
 {% openapi src="https://api.gitbook.com/openapi.json" path="/orgs/{organizationId}/members" method="get" expanded="true" %}
 [https://api.gitbook.com/openapi.json](https://api.gitbook.com/openapi.json)

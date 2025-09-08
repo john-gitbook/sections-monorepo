@@ -10,7 +10,7 @@ description: >-
 
 Navigate to integrations within the GitBook app, select Visitor Authentication as the category, and install the AWS Cognito integration.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -36,7 +36,7 @@ Open up the Cognito integration's configuration screen for the space you install
 
 It should look like the following image:
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.41.57 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-12-13 at 3.41.57 PM.png" alt=""><figcaption></figcaption></figure>
 
 For Client ID, Cognito Domain, and Client Secret, paste in the values you got from Cognito.
 

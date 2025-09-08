@@ -6,7 +6,7 @@ description: >-
 
 # Teams
 
-<figure><img src="../../../.gitbook/assets/Teams.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Teams.png" alt=""><figcaption></figcaption></figure>
 
 {% openapi src="https://api.gitbook.com/openapi.json" path="/orgs/{organizationId}/teams" method="get" expanded="true" %}
 [https://api.gitbook.com/openapi.json](https://api.gitbook.com/openapi.json)

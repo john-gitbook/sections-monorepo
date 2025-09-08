@@ -4,7 +4,7 @@ icon: github
 
 # GitHub Copilot
 
-<figure><img src="../.gitbook/assets/gitbook-copilot-preview1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gitbook-copilot-preview1.png" alt=""><figcaption></figcaption></figure>
 
 ### Overview
 

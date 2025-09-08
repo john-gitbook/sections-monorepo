@@ -17,7 +17,7 @@ This is due to a security measure put in place by Microsoft.
 First, sign in to Entra platform. In the left sidebar, navigate to Identity > Applications > App registrations. You may need admin permissions to do this.\
 
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 3.58.44 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 3.58.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 And click on New registration button in the screen that opens up. Name it appropriately.
 
@@ -27,17 +27,17 @@ Click Register.
 
 You should see a screen like the following
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
 Go back to the Overview page. Make a note of the Application (client) ID and Directory (tenant) ID.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 4.18.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "Add a certificate or secret". You should see the following screen
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-11-02 at 5.25.41 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-02 at 5.25.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on "New client secret". Enter a suitable description in the side panel that shows up and click add. Copy the **value** of the secret (not Secret ID) just created. This would be the Client Secret.\
 
@@ -65,7 +65,7 @@ Click Save.
 
 Copy the URL displayed in the modal and enter it as a Redirect URI in Entra (as shown in the below screenshot). Hit Save. Note that you may need to select Web as a platform before it lets you enter a Redirect URI.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-01-14 at 6.51.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-01-14 at 6.51.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Visitor Authentication, and choose Azure as the backend. and click Update audience. Go to the site's screen and click Publish.\
 \

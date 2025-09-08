@@ -9,7 +9,7 @@ icon: link-slash
 This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/published-content-broken-links.png" alt=""><figcaption><p>Broken links panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-broken-links.png" alt=""><figcaption><p>Broken links panel</p></figcaption></figure>
 
 You can add a few different [types of links](../editing-content/inline.md#links) to your pages in GitBook. If someone has broken a [relative link](../editing-content/inline.md#relative-links) while making a change request by updating it or changing its location, you’ll see a notification letting you know there’s something to fix.
 
@@ -33,7 +33,7 @@ If GitBook finds a broken link, you’ll see a notification in this section with
 
 As you view your broken links, you can also set the scope and filter of broken links inside of the sidebar:
 
-<figure><img src="../.gitbook/assets/published-content-broken-links-cr.png" alt=""><figcaption><p>Filter your broken links, or set the scope of the scan.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-broken-links-cr.png" alt=""><figcaption><p>Filter your broken links, or set the scope of the scan.</p></figcaption></figure>
 
 ### Scope
 

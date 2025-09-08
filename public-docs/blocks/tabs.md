@@ -14,7 +14,7 @@ They’re great for adding similar or related information without making your pa
 
 ### Add or delete tabs
 
-To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> then select **Delete**.
+To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> then select **Delete**.
 
 ### Example
 

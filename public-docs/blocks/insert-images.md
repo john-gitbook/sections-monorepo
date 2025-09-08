@@ -17,7 +17,7 @@ Image blocks can display a single image or a gallery on your page, like this:
 <div align="center"><img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxib29rc3xlbnwwfHx8fDE2Mjg3NTIwNzY&#x26;ixlib=rb-1.2.1&#x26;q=85" alt="By default, an image block will appear at full-width."></div>
 
 {% hint style="info" %}
-You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the block and choosing **Full width**.
+You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> next to the block and choosing **Full width**.
 {% endhint %}
 
 ### How to add images
@@ -35,17 +35,17 @@ GitBook allows you to upload images up to 100MB per file.
 
 #### How to create an image gallery
 
-Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> and choose **Add images…** to open the **Select images** side panel again.
+Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> and choose **Add images…** to open the **Select images** side panel again.
 
-To delete an image from a gallery, open the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> on the image you want to delete and press the **Delete ⌫** key.
+To delete an image from a gallery, open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> on the image you want to delete and press the **Delete ⌫** key.
 
 ### Adding images for light & dark mode <a href="#light-and-dark-mode" id="light-and-dark-mode"></a>
 
 You can set different images for the light and dark mode versions of your published site. GitBook will automatically display the correct image depending on the mode your visitor is in.
 
-To add an image for dark mode, hover over your image, open the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and click **Replace image** <picture><source srcset="../.gitbook/assets/Replace image dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Replace image light.png" alt="" data-size="line"></picture>. In the drop-down menu, choose **Add image for Dark mode**. Once you’ve set this, you can replace either image from this same menu.
+To add an image for dark mode, hover over your image, open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and click **Replace image** <picture><source srcset="../../.gitbook/assets/Replace image dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Replace image light.png" alt="" data-size="line"></picture>. In the drop-down menu, choose **Add image for Dark mode**. Once you’ve set this, you can replace either image from this same menu.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Once you’ve set an image for both light and dark mode, you can replace either from this menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Once you’ve set an image for both light and dark mode, you can replace either from this menu.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Note:** GitBook doesn’t currently support light and dark mode images for certain cases, including [page covers](../published-documentation/customization/page-layouts.md#page-covers) or image covers on [cards](cards.md).
@@ -102,9 +102,9 @@ and text after the image
 
 ### Resizing
 
-To resize your image, hover over it and open the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line">. Click the **Size** button to change the size of your image from the available options.
+To resize your image, hover over it and open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">. Click the **Size** button to change the size of your image from the available options.
 
-<figure><img src="../.gitbook/assets/image-resizing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-resizing.png" alt=""><figcaption></figcaption></figure>
 
 * **Small** – 25% of the image size
 * **Medium** – 50% of the image size
@@ -132,7 +132,7 @@ Valid variants for specifying the image dimensions are:\
 
 By default, image blocks will show your image at its full size, aligned centrally.
 
-To change the alignment of an image, open the block’s **Options menu** <img src="../.gitbook/assets/Options menu.png" alt="" data-size="line"> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
+To change the alignment of an image, open the block’s **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
 
 ### Representation in Markdown
 

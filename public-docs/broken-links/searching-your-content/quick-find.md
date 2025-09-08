@@ -16,7 +16,7 @@ All [member roles](../../account-management/member-management/roles.md) can use 
 
 **​**You can open the quick find palette by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
 
-<figure><img src="../../.gitbook/assets/quick-find.png" alt=""><figcaption><p>The quick find palette</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quick-find.png" alt=""><figcaption><p>The quick find palette</p></figcaption></figure>
 
 ### Search results <a href="#display-of-results" id="display-of-results"></a>
 
@@ -36,7 +36,7 @@ We do not currently support the ability to prioritize certain content in quick f
 **Note:** Multiple space search is _only_ available when viewing a published [GitBook space](../../editor/content-structure/what-is-a-space.md) that lives inside of a [published collection](../../collaboration/share/share-a-collection.md). It is not available across individual published spaces in different collections.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-15 at 11.35.11.png" alt=""><figcaption><p>Search all content in a space</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-15 at 11.35.11.png" alt=""><figcaption><p>Search all content in a space</p></figcaption></figure>
 
 ### Content Indexing <a href="#indexation" id="indexation"></a>
 

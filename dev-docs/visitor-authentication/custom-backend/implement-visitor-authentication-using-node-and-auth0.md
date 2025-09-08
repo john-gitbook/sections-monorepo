@@ -11,11 +11,11 @@ In this guide, we will show you how to set up Visitor Authentication using Auth0
 First, sign in to Auth0 platform and create a new application (or use an existing one) by clicking the Applications button in the left sidebar. If creating a new application, name it appropriately and choose "Regular Web Application" as the option. We will be using Regular Web Application for the sake of this guide. Click Create.\
 
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 A quickstart panel will show up. Select Node.js (Express) option and then select "I want to integrate my app."  You will see a screen prompting you to configure Auth0. It should look like the image below
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click on Save Settings And Continue.
 
@@ -50,7 +50,7 @@ You will also find a `config` object on the Auth0 page you were on.
 If you're not seeing the Configure Router page shown below and are still seeing the Configure Auth0 prompt, you might have to click on Save Settings and Continue again to get to this page.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 5.26.32 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-25 at 5.26.32 PM.png" alt=""><figcaption></figcaption></figure>
 
 Copy the `config` object from this page and replace the `config` object in your code editor with this.
 
@@ -78,7 +78,7 @@ Now, we need to use GitBook. Go to the space you want to publish behind visitor 
 
 Make note of the Private key and the Space URL. We will need them.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Enter `http://localhost:3000` as the Fallback URL. Click Save.
 
@@ -122,5 +122,5 @@ Your Visitor Authentication setup is now complete! If you visit your published s
 
 You can configure how you want users to login (say, with Google/GitHub or with email/password, or with other options like SAML) in the Auth0 Authentication dashboard.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -4,9 +4,9 @@ coverY: 0
 
 # Page options & covers
 
-You can customize the look and feel of individual pages within a space. You can open the **Page options** <picture><source srcset="../../.gitbook/assets/Sort dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Sort light.png" alt="" data-size="line"></picture> menu or change a page’s cover by hovering over the page title. You’ll see the buttons appear just above the page title.
+You can customize the look and feel of individual pages within a space. You can open the **Page options** <picture><source srcset="../../../.gitbook/assets/Sort dark.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/Sort light.png" alt="" data-size="line"></picture> menu or change a page’s cover by hovering over the page title. You’ll see the buttons appear just above the page title.
 
-<figure><img src="../../.gitbook/assets/editor-page-options.png" alt=""><figcaption><p>Page options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor-page-options.png" alt=""><figcaption><p>Page options</p></figcaption></figure>
 
 ### Page options
 
@@ -32,15 +32,15 @@ Remember that the settings you choose here will affect **published content only*
 
 ### Page covers
 
-You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../.gitbook/assets/Files dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Files light.png" alt="" data-size="line"></picture> option, a default cover will be added immediately. From there, you can:
+You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../../.gitbook/assets/Files dark.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/Files light.png" alt="" data-size="line"></picture> option, a default cover will be added immediately. From there, you can:
 
 *   **Change the cover image**
 
     Hover over the page cover and click **Change cover**, then select or upload an image. Based on how we currently display page covers, 1990x480 pixels is the ideal size.
 *   **Reposition the cover image**
 
-    Hover over the page cover and open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">. Click **Reposition**, then drag the image as you wish and click **Save**.
+    Hover over the page cover and open the **Actions menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="" data-size="line">. Click **Reposition**, then drag the image as you wish and click **Save**.
 * **Remove the cover image**\
-  Hover over the page cover and open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">, then click **Remove**.
+  Hover over the page cover and open the **Actions menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="" data-size="line">, then click **Remove**.
 * **Full width and hero width**\
-  You can change the style of your page cover to span the full width of your screen or just the width of your content. Hover over the page cover and open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">, then choose your preferred option from the menu.
+  You can change the style of your page cover to span the full width of your screen or just the width of your content. Hover over the page cover and open the **Actions menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="" data-size="line">, then choose your preferred option from the menu.

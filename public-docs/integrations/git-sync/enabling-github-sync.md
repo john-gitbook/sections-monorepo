@@ -12,7 +12,7 @@ The GitHub app that powers our GitHub integration is currently not available to 
 
 In the space you want to sync with your GitHub repo, head to the space menu in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
 
-<figure><img src="../../.gitbook/assets/github.png" alt=""><figcaption><p>Configure GitHub Sync.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/github.png" alt=""><figcaption><p>Configure GitHub Sync.</p></figcaption></figure>
 
 ### 2. Authenticate with GitHub
 
@@ -28,7 +28,7 @@ Read more on our [troubleshooting page](troubleshooting.md#potential-duplicated-
 
 ### 3. Install the GitBook app to your GitHub account
 
-<figure><img src="../../.gitbook/assets/github (1).png" alt=""><figcaption><p>Install the GitHub app to your repository.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/github (1).png" alt=""><figcaption><p>Install the GitHub app to your repository.</p></figcaption></figure>
 
 If you’ve not already done so, you’ll see a prompt to add the [GitBook app](https://github.com/apps/gitbook-com) to your GitHub account. Follow the instructions in the GitHub popover and either give GitBook specific repository permissions, or allow access to all repositories, depending on your needs.
 

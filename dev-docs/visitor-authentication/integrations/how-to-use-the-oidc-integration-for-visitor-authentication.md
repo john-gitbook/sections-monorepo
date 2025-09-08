@@ -18,7 +18,7 @@ Since this guide is a generic guide meant for all identity providers, some detai
 
 Navigate to integrations within the GitBook app, select Visitor Authentication as the category, and install the OIDC integration. Install the OIDC integration on your chosen docs site.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We may need it to set up the Identity Provider.&#x20;
 
@@ -33,7 +33,7 @@ There are some things that you need to set up on your Identity Provider in order
 You need to create a new app inside your Identity Provider. Its type should be "Web Application." In Google, you create these under "API and Services", "Credentials", and then under "OAuth 2.0 Client IDs."\
 
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt=""><figcaption></figcaption></figure>
 
 Click on Create Credentials, select OAuth Client ID, select Web Application as the type, name it appropriately, and under Authorized Redirect URIs, enter the Callback URL you got from GitBook.
 
@@ -45,7 +45,7 @@ Open up the OIDC integration's configuration screen for the space you installed 
 
 It should look like the following image
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.38.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2024-12-13 at 3.38.30 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 

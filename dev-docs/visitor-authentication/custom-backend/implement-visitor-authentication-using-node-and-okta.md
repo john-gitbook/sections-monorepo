@@ -10,11 +10,11 @@ In this guide, we will show you how to set up Visitor Authentication using Okta 
 
 First, sign in to Okta platform (the admin version) and create a new app integration (or use an existing one) by clicking the Applications button in the left sidebar.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-30 at 1.32.55 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-30 at 1.32.55 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click Create App Integration and select OIDC - OpenID Connect as the Sign-In method. And then select Web Application as the application type.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-30 at 1.39.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-30 at 1.39.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -44,7 +44,7 @@ const oidc = new ExpressOIDC({
 
 For `issuer` field, look at the drop down menu in the top right of the Okta dashboard. Copy the URL right below your email address.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-30 at 4.52.14 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-30 at 4.52.14 PM.png" alt=""><figcaption></figcaption></figure>
 
 Paste the value in the `issuer` field of the `oidc` object in `server.js` in your code editor. Add `https://` to the beginning of the URL and`/oauth2/default` to the end of the URL. Your `issuer` field should look like the following:
 
@@ -56,7 +56,7 @@ Note that your URL will be different from the ones written and shown above.
 
 For the `client_id` field, copy the value from the application's page in Okta dashboard
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-30 at 4.58.41 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-10-30 at 4.58.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 And paste it in the `client_id` field of the `oidc` object in `server.js` in your code editor.  Your `client_id` field should look like the following:
 
@@ -92,7 +92,7 @@ Now, we need to use GitBook. Go to the space you want to publish behind visitor 
 
 Make note of the Private key and the Space URL. We will need them.
 
-<figure><img src="../../.gitbook/assets/va-modal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/va-modal.png" alt=""><figcaption></figcaption></figure>
 
 Enter `http://localhost:8080/login` as the Fallback URL. **Note that this is different from the one shown in the image above.**
 

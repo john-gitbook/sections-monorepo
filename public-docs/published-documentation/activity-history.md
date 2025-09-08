@@ -17,7 +17,7 @@ In the Version history of a space, you can see a list of all the actions that ch
 
 ### Viewing historical versions of content
 
-To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/Revision history dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Revision history light.png" alt="" data-size="line"></picture> button from the space’s **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> in the top-right corner.
+To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../../.gitbook/assets/Revision history dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Revision history light.png" alt="" data-size="line"></picture> button from the space’s **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> in the top-right corner.
 
 {% hint style="info" %}
 **Permissions:** Only users with **admin**, **creator**, **reviewer** and **editor** permissions can view the version history for a space.
@@ -25,7 +25,7 @@ To view past versions of your content and see the changes that were made, click 
 
 Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../collaboration/change-requests.md).
 
-<figure><img src="../.gitbook/assets/editor-versions.png" alt=""><figcaption><p>The <strong>Version history</strong> side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-versions.png" alt=""><figcaption><p>The <strong>Version history</strong> side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
 
 ### Show changes
 
@@ -39,7 +39,7 @@ With show changes enabled, content that has changed will be highlighted by an ic
 
 Rolling back allows you to revert a space’s content to the way it was at a previous point in time. This is helpful if you’ve accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the space.
 
-To roll back to a previous version of your space, hover over the version in the side panel, click the **Actions button** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and select **Rollback**.
+To roll back to a previous version of your space, hover over the version in the side panel, click the **Actions button** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and select **Rollback**.
 
 {% hint style="info" %}
 **Permissions:** Only users with **admin**, **creator** and **reviewer** permissions can roll back to a previous version.

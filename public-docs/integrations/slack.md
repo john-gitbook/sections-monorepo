@@ -4,7 +4,7 @@ description: >-
   knowledge base, right from the source
 hidden: true
 icon: slack
-cover: ../.gitbook/assets/Slack (1).png
+cover: ../../.gitbook/assets/Slack (1).png
 coverY: 0
 layout:
   cover:

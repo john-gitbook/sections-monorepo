@@ -16,11 +16,11 @@ Reusable content is currently scoped to a single space. We are working on an imp
 
 ### **How to create reusable content**
 
-To create reusable content, [select one or more blocks](../blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Action menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and choose **Turn into reusable content**. You can also give your block a name to make it easier to find and reuse later.
+To create reusable content, [select one or more blocks](../blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and choose **Turn into reusable content**. You can also give your block a name to make it easier to find and reuse later.
 
 Alternatively, you can select one or more blocks and then hit **Cmd+C** to open a prompt asking if you want to create reusable content.
 
-<figure><img src="../.gitbook/assets/create-reusable-block.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/create-reusable-block.png" alt=""><figcaption></figcaption></figure>
 
 ### **Inserting reusable content**
 
@@ -38,17 +38,17 @@ If you're making changes inside a change request, the content will be synced eve
 
 ### **Detach reusable content**
 
-You can detach reusable content by opening the **Action menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and selecting **Detach**. Detaching will convert the content back to regular blocks.
+You can detach reusable content by opening the **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and selecting **Detach**. Detaching will convert the content back to regular blocks.
 
 Once detached, any changes you make to the block(s) will not be reflected across the other instances, and changes you make in those instances will not be reflected in the detached block(s). Other instances of the reusable content remain synced together.
 
 ### Delete reusable content
 
-You can delete reusable content from the page's table of contents. Select the **Action menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the content you’d like to delete, and select **Delete**.
+You can delete reusable content from the page's table of contents. Select the **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the content you’d like to delete, and select **Delete**.
 
 Deleting reusable content will **delete it from all pages it is used in**. This action cannot be undone.
 
-<figure><img src="../.gitbook/assets/rename-reusable-block.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rename-reusable-block.png" alt=""><figcaption></figcaption></figure>
 
 ## Reusable content and syncing with GitHub & GitLab
 

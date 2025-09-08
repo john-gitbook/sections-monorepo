@@ -8,13 +8,13 @@ You’ll find the options for setting a custom domain for an organization within
 
 1.  In the **General** section, scroll to the **Publishing** section and under **Custom Domain**, click **Connect a domain**
 
-    <figure><img src="../../.gitbook/assets/organization-domain.png" alt=""><figcaption><p>Set a domain for your entire organization in settings.</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/organization-domain.png" alt=""><figcaption><p>Set a domain for your entire organization in settings.</p></figcaption></figure>
 2.  This will open a window where you can enter the custom domain, then click **Next: Configure DNS**
 
-    <div data-full-width="true"><figure><img src="../../.gitbook/assets/org-enter-subdomain.png" alt=""><figcaption><p>Connect a custom domain</p></figcaption></figure></div>
+    <div data-full-width="true"><figure><img src="../../../.gitbook/assets/org-enter-subdomain.png" alt=""><figcaption><p>Connect a custom domain</p></figcaption></figure></div>
 3.  The final step requires you to copy the name and value to your clipboard so that you can create a CNAME DNS record. To copy the information click on the icon on the right-hand side of each field. Once copied, you can move on to [configuring the DNS](configure-dns.md).
 
-    <div data-full-width="true"><figure><img src="../../.gitbook/assets/configure-dns.png" alt=""><figcaption><p>The name and value for the CNAME record</p></figcaption></figure></div>
+    <div data-full-width="true"><figure><img src="../../../.gitbook/assets/configure-dns.png" alt=""><figcaption><p>The name and value for the CNAME record</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The value for the CNAME record will be in the format:\
@@ -31,11 +31,11 @@ The method for configuring a site domain typically mirrors the approach for sett
 
 1. Navigate to the site for which you want to set the custom domain. Click **Settings** then choose **Set up a custom domain**
 
-<figure><img src="../../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption></figcaption></figure>
 
 2. This will open a window where you can enter the custom domain, then click **Next: Configure DNS**
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 3. The final step requires you to copy the name and value to your clipboard so that you can create a CNAME DNS record. To copy the information click on the icon on the right-hand side of each field. Once copied, you can move on to [configuring the DNS](configure-dns.md).
 

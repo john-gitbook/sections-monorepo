@@ -28,7 +28,7 @@ Use the following URL format, where `space` corresponds to your space’s URL:
 
 `<https://app.gitbook.com/s/space/~/changes/<num>/`
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/autolink.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/autolink.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Customize the commit message template
 

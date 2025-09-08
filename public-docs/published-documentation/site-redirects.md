@@ -5,7 +5,7 @@ icon: diamond-turn-right
 
 # Site redirects
 
-<figure><img src="../.gitbook/assets/Redirects.png" alt=""><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Redirects.png" alt=""><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
@@ -13,7 +13,7 @@ In addition to [automatic redirects created by GitBook](site-redirects.md#about-
 
 ## Managing redirects on your site
 
-To get started, view your site’s dashboard in GitBook and click **Settings** <picture><source srcset="../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> in the top-right corner. Scroll down to the **Redirects** section.
+To get started, view your site’s dashboard in GitBook and click **Settings** <picture><source srcset="../../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> in the top-right corner. Scroll down to the **Redirects** section.
 
 ### Creating redirects
 
@@ -21,15 +21,15 @@ Click **Add redirect** to begin. Fill in the source path — i.e. the URL slug t
 
 If you want to add another redirect to the same page, you can toggle the **Add another redirect** option on before you hit **Add**. When you add your redirect, the modal will remain open with the destination content set to the previous selection so you can add another URL slug immediately.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-11-26 at 19.58.22.png" alt=""><figcaption><p>Clicking <strong>Add redirect</strong> opens a modal with two fields — <strong>Source path</strong> and <strong>Destination content</strong>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-26 at 19.58.22.png" alt=""><figcaption><p>Clicking <strong>Add redirect</strong> opens a modal with two fields — <strong>Source path</strong> and <strong>Destination content</strong>.</p></figcaption></figure>
 
 ### Editing redirects
 
-To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/edit-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/edit-light.png" alt="" data-size="line"></picture> icon next to it in the list. Update the redirect and hit **Save**.
+To edit a redirect, press the **Edit** <picture><source srcset="../../.gitbook/assets/edit-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit-light.png" alt="" data-size="line"></picture> icon next to it in the list. Update the redirect and hit **Save**.
 
 To delete a redirect, press the **Delete redirect** button and confirm.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-11-26 at 20.20.04.png" alt=""><figcaption><p>Clicking the <strong>Edit</strong> icon next to a redirect opens a modal that lets you edit or delete the redirect.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-26 at 20.20.04.png" alt=""><figcaption><p>Clicking the <strong>Edit</strong> icon next to a redirect opens a modal that lets you edit or delete the redirect.</p></figcaption></figure>
 
 ## About automatic redirects
 

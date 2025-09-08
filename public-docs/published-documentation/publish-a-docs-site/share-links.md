@@ -16,7 +16,7 @@ You can share you content privately with customers or partners without needing t
 
 To publish your docs privately, head to the [docs site’s ](../site-settings.md)settings, click **Audience settings** button, and choose the **Share links** option.
 
-<figure><img src="../../.gitbook/assets/share-links (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/share-links (2).png" alt=""><figcaption></figcaption></figure>
 
 Next, click on **Create link** to create a share link. You can review and name your share links, customize your domain and copy the link.
 

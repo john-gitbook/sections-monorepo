@@ -18,7 +18,7 @@ Collections provide a way to group related spaces together. In the context of i1
 
 Here’s an example of such a setup:
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/Screenshot 2023-05-23 at 10.45.16.png" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/Screenshot 2023-05-23 at 10.45.16.png" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
 
 In the example above, the space called _English_ is the main space that all the translations will be based on.
 

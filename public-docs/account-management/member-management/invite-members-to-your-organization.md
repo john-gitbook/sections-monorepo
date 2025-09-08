@@ -19,7 +19,7 @@ Invite links are tied to specific [roles](roles.md) – and you can create (and 
 
 You can directly invite members in the members’ section of your organization settings. Enter their email(s), select their default role, and click **continue**. Each member will receive an email that will allow them to sign up to GitBook and instantly join your organization.
 
-<figure><img src="../../.gitbook/assets/invite-links.png" alt=""><figcaption><p>Invite links to a space</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/invite-links.png" alt=""><figcaption><p>Invite links to a space</p></figcaption></figure>
 
 #### Email domain
 

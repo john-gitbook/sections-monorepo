@@ -10,7 +10,7 @@ description: >-
 This plan is being slowly rolled out to GitBook users. If you don’t have access to publish your site using this plan, hang tight as we continue to roll this plan out to more users.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
 
 The Sponsored site plan lets you access all of GitBook’s best docs site features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income.
 

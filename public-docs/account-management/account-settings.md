@@ -13,7 +13,7 @@ You can manage your login details, third-party login options, GitBook subdomain,
 All members can access and manage their personal account settings.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/personal-settings.png" alt=""><figcaption><p>Personal Settings page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/personal-settings.png" alt=""><figcaption><p>Personal Settings page.</p></figcaption></figure>
 
 ### How to access your personal account settings
 

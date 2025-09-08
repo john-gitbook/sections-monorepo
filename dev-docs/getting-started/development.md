@@ -14,7 +14,7 @@ inefficient.
 
 here is [a link](../changelogs/api.md)
 
-<figure><img src="../../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
 
 ```python
     import fiftyone as fo

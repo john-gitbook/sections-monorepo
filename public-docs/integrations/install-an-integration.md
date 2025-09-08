@@ -17,7 +17,7 @@ If you install an integration in a single space, it will only work in that speci
 
 Before enabling an integration into a space or site, you'll need to install it in your organization. Start by clicking **Integrations** in the sidebar on the left.
 
-<figure><img src="../.gitbook/assets/integrations-home (1).png" alt=""><figcaption><p>Integrations tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/integrations-home (1).png" alt=""><figcaption><p>Integrations tab</p></figcaption></figure>
 
 #### 2. Select the integration and install
 
@@ -25,7 +25,7 @@ Next, click on the integration you want to install on the space (e.g Plausible).
 
 This will open up the integration’s installation screen. Click **Install** to connect it to your organization.
 
-<figure><img src="../.gitbook/assets/integrations-install.png" alt=""><figcaption><p>Integration installation page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/integrations-install.png" alt=""><figcaption><p>Integration installation page</p></figcaption></figure>
 
 From here, the integration will be available to enable in any space or site in your organization.
 
@@ -35,7 +35,7 @@ The installed installed will now be available in your organization, but you need
 
 Firstly, open the integration’s main screen by selecting it on the **Integrations** panel in the app and opening the **Spaces tab**. From here, you can choose which space(s) to enable the integration for.
 
-<figure><img src="../.gitbook/assets/integrations-enable.png" alt=""><figcaption><p>Enable an integration for a space</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/integrations-enable.png" alt=""><figcaption><p>Enable an integration for a space</p></figcaption></figure>
 
 {% hint style="info" %}
 Certain integrations may require extra configuration. If so, head to the **Organization settings** tab to complete your integration’s configuration.

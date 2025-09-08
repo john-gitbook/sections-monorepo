@@ -26,7 +26,7 @@ Alternatively, we suggest setting 43200 seconds (12 hours) or 86400 seconds (24 
 
 Here’s an example of how a correct configuration looks in Cloudflare’s control panel:
 
-![A properly configured custom domain in Cloudflare’s control panel](<../../.gitbook/assets/Screenshot 2022-04-11 at 16.53.56.png>)
+![A properly configured custom domain in Cloudflare’s control panel](<../../../.gitbook/assets/Screenshot 2022-04-11 at 16.53.56.png>)
 
 {% hint style="danger" %}
 **Note:** a CNAME record cannot co-exist with another record for the same name. If you already have an A record, AAAA record, TXT record, or any other type of record for your chosen subdomain, you would need to remove those, before adding the CNAME record.
