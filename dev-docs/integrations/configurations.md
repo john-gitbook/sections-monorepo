@@ -55,13 +55,13 @@ organization: gitbook
 
 ### Visibility<mark style="color:red;">\*</mark>
 
-The visibility for your integration. Defaults to `private`. When set to `private`, only members of the organization that owns the integration are able to see or install the integration into a space.&#x20;
+The visibility for your integration. Defaults to `private`. When set to `private`, only members of the organization that owns the integration are able to see or install the integration into a space.
 
 Set the visibility to `unlisted` in order to share your integration install link with anyone.
 
-Setting the visibility to `public` is only available by GitBook staff, and setting it to `public` will allow your integration to be [listed on our marketplace](https://www.gitbook.com/integrations).&#x20;
+Setting the visibility to `public` is only available by GitBook staff, and setting it to `public` will allow your integration to be [listed on our marketplace](https://www.gitbook.com/integrations).
 
-See the [Publishing section](../getting-started/publishing.md) to learn more.&#x20;
+See the [Publishing section](broken-reference) to learn more.
 
 **Example:**
 
@@ -85,8 +85,6 @@ The scopes your integration has permissions for.
 
 {% hint style="danger" %}
 You may see the scope `site:script:inject` throughout GitBook owned integrations—This scope is only available for internal GitBook use.
-
-
 
 Building integrations that inject JavaScript into a space or page are not possible to build at this time.
 {% endhint %}
@@ -176,7 +174,7 @@ externalLinks:
 
 ### Configurations
 
-The configurations key allows you to specify specific steps and configurations for your integration through it's [`environment`](reference/environment.md).&#x20;
+The configurations key allows you to specify specific steps and configurations for your integration through it's [`environment`](reference/environment.md).
 
 You're able to set up default configurations under the `configurations.account` key, and space-specific configurations through the `configurations.space` key.
 
@@ -282,7 +280,7 @@ configurations:
 
 ### Secrets
 
-A list of secrets or environment variables that your integration might need in order to function. By default, environment variables are not loaded into GitBook's Manifest file.&#x20;
+A list of secrets or environment variables that your integration might need in order to function. By default, environment variables are not loaded into GitBook's Manifest file.
 
 We recommend using a package like [`dotenv-cli`](https://www.npmjs.com/package/dotenv-cli) to include environment variables in your integrations configuration through an `.env` file when using the `cli`.
 

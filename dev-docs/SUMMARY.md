@@ -6,9 +6,6 @@
 * [Sample](Sample-for-GitBook.md)
 * [Setup Guide](getting-started/setup-guide.md)
 * [Concepts](getting-started/concepts.md)
-* [Development](getting-started/development.md)
-* [Publishing](getting-started/publishing.md)
-* [Support](getting-started/support.md)
 * [Guides](getting-started/guides/README.md)
   * [Use GitHub Actions to translate GitBook pages](getting-started/guides/use-github-actions-to-translate-gitbook-pages.md)
   * [Create a custom unfurl action for your integration](getting-started/guides/create-a-custom-unfurl-action-for-your-integration.md)
@@ -93,13 +90,3 @@
 
 * [Overview](marketplace/overview.md)
 * [Submit your app for review](marketplace/submit-your-app-for-review.md)
-
-## Changelogs
-
-* [API](changelogs/api.md)
-
-***
-
-* [Page 1](page-1.md)
-* [Page 2](page-2.md)
-* [Page 3](page-3.md)

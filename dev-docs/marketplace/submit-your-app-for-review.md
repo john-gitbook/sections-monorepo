@@ -29,7 +29,7 @@ After you've built your integration - you'll need to publish it to GitBook's Int
 
 Before submitting your app, you'll need to make sure you set your app's `visibility` to `public` in the `gitbook-manifest.yaml` file. This is required so we can test and see your application outside of your organization.
 
-See the [Publishing section](../getting-started/publishing.md) to learn more.
+See the [Publishing section](broken-reference) to learn more.
 
 ### Test your integration
 

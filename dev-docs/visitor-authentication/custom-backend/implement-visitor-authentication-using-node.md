@@ -4,7 +4,7 @@
 
 In order to use Visitor Authentication, you'll need to configure a few tools first—Including setting up a server to handle the sign-in flow your users will go through.
 
-This guide explains how you can accomplish the above using [Node.js](https://nodejs.org/en/).&#x20;
+This guide explains how you can accomplish the above using [Node.js](https://nodejs.org/en/).
 
 The rest of this guide follows this [GitHub repository](https://github.com/GitbookIO/example-visitor-authentication), and will explain the setup and code through the main functionalities of the demo app.
 
@@ -14,7 +14,7 @@ The rest of this guide follows this [GitHub repository](https://github.com/Gitbo
 
 Once enabled, you'll have access to a private signing key for this space. Each space has a unique signing key. You should keep this key secret - make sure not to commit it into your source control repository. We recommend referencing it through a production secrets system in your deployed backend.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: sign a JWT token and grant access to a visitor
 

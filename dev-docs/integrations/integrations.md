@@ -17,7 +17,7 @@ Developing custom blocks for GitBook is built using [TypeScript](https://www.typ
 [quickstart.md](../cli/quickstart.md)
 {% endcontent-ref %}
 
-After bootstrapping your project, head to the [Development section](../getting-started/development.md) to learn about developing your app in GitBook.
+After bootstrapping your project, head to the [Development section](broken-reference) to learn about developing your app in GitBook.
 
 ### Runtime
 

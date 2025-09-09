@@ -48,4 +48,4 @@ A required file in a GitBook integration that contains information for publishin
 
 ### `.gitbook-dev.yaml`
 
-A required file in a GitBook integration containing information about developing your app. See the [Development section](development.md) for more info.
+A required file in a GitBook integration containing information about developing your app. See the [Development section](broken-reference) for more info.

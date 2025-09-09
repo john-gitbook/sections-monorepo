@@ -264,12 +264,7 @@ A visual delimiter between 2 elements of a containing stack layout.
 {% endtab %}
 {% endtabs %}
 
-| Props      | Type                                                                                                                                                                                                                       | Description                                                                                              |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `children` | `Array<Block> \| Array<Inline>`                                                                                                                                                                                            | Content to display in the block.                                                                         |
-| `title`    | `string`                                                                                                                                                                                                                   | Title for the card.                                                                                      |
-| `hint`     | `string`                                                                                                                                                                                                                   | Hint for the card.                                                                                       |
-| `icon`     | <pre class="language-typescript"><code class="lang-typescript">'close' |
+<table><thead><tr><th>Props</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>children</code></td><td><code>Array&#x3C;Block> | Array&#x3C;Inline></code></td><td>Content to display in the block.</td></tr><tr><td><code>title</code></td><td><code>string</code></td><td>Title for the card.</td></tr><tr><td><code>hint</code></td><td><code>string</code></td><td>Hint for the card.</td></tr><tr><td><code>icon</code></td><td><pre class="language-typescript"><code class="lang-typescript">'close' |
 'edit' |
 'github' |
 'maximize' |
@@ -282,9 +277,7 @@ A visual delimiter between 2 elements of a containing stack layout.
 'link' |
 'link-external' |
 Image
-</code></pre> | Icon or Image displayed with the card.                                                                   |
-| `onPress`  | `Action`                                                                                                                                                                                                                   | <p>Action dispatched when pressed.<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
-| `buttons`  | `Array<Button>`                                                                                                                                                                                                            | Button(s) displayed in the top right corner of the card.                                                 |
+</code></pre></td><td>Icon or Image displayed with the card.</td></tr><tr><td><code>onPress</code></td><td><code>Action</code></td><td>Action dispatched when pressed.<br><br>See <a href="actions.md">Actions</a> for more information.</td></tr><tr><td><code>buttons</code></td><td><code>Array&#x3C;Button></code></td><td>Button(s) displayed in the top right corner of the card.</td></tr></tbody></table>
 
 <mark style="color:red;">\*required</mark>
 
@@ -520,13 +513,7 @@ With a confirm modal:
 {% endtab %}
 {% endtabs %}
 
-| Props                                               | Type                                                                                                                                                            | Description                                                                                                           |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `label`<mark style="color:red;">\*</mark>           | `string`                                                                                                                                                        | Text displayed in the button                                                                                          |
-| `onPress`<mark style="color:red;">\*</mark>         | `Action`                                                                                                                                                        | <p>Action to trigger when the button is pressed<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
-| `style`                                             | `'primary' \| 'secondary' \| 'danger'`                                                                                                                          | Visual style for the button                                                                                           |
-| `tooltip`                                           | `string`                                                                                                                                                        | Text displayed in an hovering tooltip                                                                                 |
-| `icon`                                              | <pre><code>'close' |
+<table><thead><tr><th>Props</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>label</code><mark style="color:red;">*</mark></td><td><code>string</code></td><td>Text displayed in the button</td></tr><tr><td><code>onPress</code><mark style="color:red;">*</mark></td><td><code>Action</code></td><td>Action to trigger when the button is pressed<br><br>See <a href="actions.md">Actions</a> for more information.</td></tr><tr><td><code>style</code></td><td><code>'primary' | 'secondary' | 'danger'</code></td><td>Visual style for the button</td></tr><tr><td><code>tooltip</code></td><td><code>string</code></td><td>Text displayed in an hovering tooltip</td></tr><tr><td><code>icon</code></td><td><pre><code>'close' |
 'edit' |
 'github' |
 'maximize' |
@@ -538,12 +525,7 @@ With a confirm modal:
 'warning' |
 'link' |
 'link-external' 
-</code></pre> | Visual icon to display on the start of the button                                                                     |
-| `confirm`                                           | `object`                                                                                                                                                        | Modal object to display to ask the user to confirm the action before execution                                        |
-| `confirm.title`<mark style="color:red;">\*</mark>   | `string`                                                                                                                                                        | Title for the confirmation modal                                                                                      |
-| `confirm.text`<mark style="color:red;">\*</mark>    | `string`                                                                                                                                                        | Content of the confirmation modal                                                                                     |
-| `confirm.confirm`<mark style="color:red;">\*</mark> | `string`                                                                                                                                                        | Label for the confirmation button                                                                                     |
-| `confirm.style`<mark style="color:red;">\*</mark>   | `'primary' \| 'danger'`                                                                                                                                         | Style of the confirmation button                                                                                      |
+</code></pre></td><td>Visual icon to display on the start of the button</td></tr><tr><td><code>confirm</code></td><td><code>object</code></td><td>Modal object to display to ask the user to confirm the action before execution</td></tr><tr><td><code>confirm.title</code><mark style="color:red;">*</mark></td><td><code>string</code></td><td>Title for the confirmation modal</td></tr><tr><td><code>confirm.text</code><mark style="color:red;">*</mark></td><td><code>string</code></td><td>Content of the confirmation modal</td></tr><tr><td><code>confirm.confirm</code><mark style="color:red;">*</mark></td><td><code>string</code></td><td>Label for the confirmation button</td></tr><tr><td><code>confirm.style</code><mark style="color:red;">*</mark></td><td><code>'primary' | 'danger'</code></td><td>Style of the confirmation button</td></tr></tbody></table>
 
 <mark style="color:red;">\*required</mark>
 

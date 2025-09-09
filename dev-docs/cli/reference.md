@@ -22,13 +22,13 @@ Create and initialize a new integration locally. The program will prompt for inf
 
 Create a live connection with a space within your GitBook organization. Updates made locally while the connection is running will automatically be received in the chosen space.&#x20;
 
-See the [development section](../getting-started/development.md) to learn more.
+See the [development section](broken-reference) to learn more.
 
 ### `gitbook publish`
 
 Publish the integration defined in the `gitbook-manifest.yaml` file. See the [GitBook Manifest reference](../integrations/configurations.md) documentation to learn more.
 
-See the [publishing section](../getting-started/publishing.md) to learn more about publishing your integration to GitBook.
+See the [publishing section](broken-reference) to learn more about publishing your integration to GitBook.
 
 ### `gitbook unpublish <integration-name>`
 
