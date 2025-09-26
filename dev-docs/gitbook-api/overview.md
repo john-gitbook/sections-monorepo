@@ -17,6 +17,12 @@ This section describes how to use the GitBook API and its resources. If you have
 
 [Discover the platform](https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/getting-started/readme#discover-the-platform "mention")
 
+[Example](https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/gitbook-api/pagination#example "mention")
+
+{% content-ref url="https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/getting-started" %}
+[Getting Started](https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/getting-started)
+{% endcontent-ref %}
+
 ### API Endpoint
 
 The GitBook API can be accessed using the `api.gitbook.com` hostname:
