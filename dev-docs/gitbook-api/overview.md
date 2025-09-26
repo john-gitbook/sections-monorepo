@@ -11,6 +11,12 @@ The GitBook API allows you to read and write information across the spaces and p
 
 This section describes how to use the GitBook API and its resources. If you have any questions or issues, please contact the [GitBook Support](mailto:support@gitbook.com).
 
+[#discover-the-platform](../#discover-the-platform "mention")
+
+[#company-information](../getting-started/setup-guide.md#company-information "mention")
+
+[Discover the platform](https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/getting-started/readme#discover-the-platform "mention")
+
 ### API Endpoint
 
 The GitBook API can be accessed using the `api.gitbook.com` hostname:
