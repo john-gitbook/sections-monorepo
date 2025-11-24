@@ -11,6 +11,8 @@ coverY: 0
 
 Some changes
 
+Hello <code class="expression">visitor.claims.user_email</code>
+
 {% include ".gitbook/includes/reusable-paragraph.md" %}
 
 {% include "https://app.gitbook.com/s/DmprpEOqauZ42zPVKuae/~/reusable/rxOrQPGTjOe7tLid9hTL/" %}
